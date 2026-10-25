@@ -1,0 +1,931 @@
+{
+  "schema": 1,
+  "kind": "functional-worker-check",
+  "addonVersion": "0.1.0",
+  "hostVersion": "0.3.3",
+  "seed": 111000,
+  "difficulty": "ABYSS",
+  "players": 4,
+  "manifestSha256": "34d38e887eae24789df48f6fe3afb7c8e106cab7bc10aa5c6ef183539b3d63dc",
+  "actualWorkers": true,
+  "prepClockHeld": true,
+  "formalTenGameCohort": false,
+  "notPairedWithPreviousCandidate": true,
+  "bossRounds": [
+    {
+      "round": 14,
+      "hidden": false,
+      "cleared": true,
+      "entered": true,
+      "remainingHp": 0,
+      "teamLp": 54
+    },
+    {
+      "round": 15,
+      "hidden": true,
+      "cleared": true,
+      "entered": true,
+      "remainingHp": 0,
+      "teamLp": 41
+    }
+  ],
+  "readyFunds": [
+    {
+      "round": 1,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 1,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 1,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 1,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 2,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 2,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 2,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 2,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 3,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 3,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 3,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 3,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 4,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 4,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 4,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 4,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 5,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 5,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 5,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 5,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 6,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 6,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 6,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 6,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 7,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 7,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 7,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 7,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 8,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 8,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 8,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 8,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 9,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 9,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 9,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 9,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 10,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 10,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 10,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 10,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 11,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 11,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 11,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 11,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 12,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 12,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 12,
+      "route": "laterano",
+      "funds": 1
+    },
+    {
+      "round": 12,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 13,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 13,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 13,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 13,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 14,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 14,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 14,
+      "route": "kjerag",
+      "funds": 0
+    },
+    {
+      "round": 14,
+      "route": "laterano",
+      "funds": 2
+    },
+    {
+      "round": 15,
+      "route": "siracusa",
+      "funds": 0
+    },
+    {
+      "round": 15,
+      "route": "laterano",
+      "funds": 0
+    },
+    {
+      "round": 15,
+      "route": "sargon",
+      "funds": 0
+    },
+    {
+      "round": 15,
+      "route": "kjerag",
+      "funds": 0
+    }
+  ],
+  "sargonCashTailActions": 0,
+  "endPrepFunds": [
+    {
+      "round": 1,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 1
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 2
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "before": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ],
+      "after": [
+        {
+          "route": "laterano",
+          "funds": 0
+        },
+        {
+          "route": "kjerag",
+          "funds": 0
+        },
+        {
+          "route": "sargon",
+          "funds": 0
+        },
+        {
+          "route": "siracusa",
+          "funds": 0
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "matchErrors": 0,
+    "simErrors": 0,
+    "metaErrors": 0,
+    "schedulerErrors": 0,
+    "auditViolations": 0
+  },
+  "complete": true,
+  "note": "This run exercised the full worker pipeline. The Sargon main loop already spent all funds; the cash tail is covered separately by controlled native regression tests. Virtual prep time was held while awaiting workers, so this is not a latency benchmark or a win-rate estimate."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "stronghold-protocol-state-machine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "description": "A lightweight four-route teammate AI addon for Stronghold Protocol",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "audit": "node scripts/audit-release.mjs",
+    "install:addon": "node scripts/install.mjs",
+    "uninstall:addon": "node scripts/uninstall.mjs",
+    "verify:host": "node scripts/verify-host.mjs"
+  }
+}

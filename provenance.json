@@ -1,0 +1,1973 @@
+{
+  "license": "GPL-3.0-or-later",
+  "upstreamHost": {
+    "repository": "sganggs/Stronghold-Protocol",
+    "ref": "v0.3.1",
+    "commit": "b3deebdae4a92642c007d217a1a4573e5d3612c5"
+  },
+  "files": [
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-controller103.mjs",
+      "sourceSha256": "2abaca663e62f9d15fbcfd71f3e267224564e57015c68ab5969b2b5e1bfd3787",
+      "sha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/sargon-controller100.mjs",
+      "sourceSha256": "a257f94f54de891994bd6169c1948cbbfdaeebc110aa4bcebfc38d5fe1fe54d7",
+      "sha256": "0f0711d220da8f63816909650f7cb212735e0a9d3b37ca93ed8047573564c922",
+      "modified": true,
+      "modification": "2026-10-25: native legal hand-capacity and end-of-prep cash repair"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/runtime.js",
+      "source": "local-policy-adapter",
+      "sourcePath": "server/match/arturia72/runtime.js",
+      "sourceSha256": "bf806c159a166194ac51b704aaa7e1ba7434b4932a6105170a9fad22e13bee17",
+      "sha256": "5cf61f8438288531559bd88626ca8c8db84b4db46694e8a410645f53168df17a",
+      "modified": true,
+      "derivedFrom": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/runtime.js",
+      "source": "local-policy-adapter",
+      "sourcePath": "server/match/lavinia72/runtime.js",
+      "sourceSha256": "d81237ab985cfead38b5f3ba4849b13c4287e594c75b47cc4ef0da41c0f6a140",
+      "sha256": "106b6b557eff8c59b812b7eeca91ace1eea36e93d1622a49141c87ef18ed7e80",
+      "modified": true,
+      "derivedFrom": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e"
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/cashFinish102.js",
+      "source": "local-policy",
+      "sourcePath": "server/match/cashFinish102.js",
+      "sourceSha256": "f9f21187de95b57fbcfa215a4ed2a32cc10fe5051496fb93b107af8016344512",
+      "sha256": "bf3a71141c68785c57e938942f98b298c57664227440d8e22b1dbfecad1be4d0",
+      "modified": true,
+      "modification": "2026-10-25: native legal hand-capacity and end-of-prep cash repair"
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/eliteBoss72.js",
+      "source": "local-policy",
+      "sourcePath": "server/match/eliteBoss72.js",
+      "sourceSha256": "e2985456dd9ca809a1a7bf09eeb4a79a5430e5fa132498b94b8c9292038cd135",
+      "sha256": "522c43de42cc8501f5f0fceb7cdb862276997ca22520b22ba84ff99d6d19a081",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-room103.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-room103.mjs",
+      "sourceSha256": "587e1d41c5100b1197f48b27620d1e390e16956fc6278517bc240b0ec908069e",
+      "sha256": "587e1d41c5100b1197f48b27620d1e390e16956fc6278517bc240b0ec908069e",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-placement100.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-placement100.mjs",
+      "sourceSha256": "58b8716b4015c7f0af9569962bdf09822fb0485e7731c9eb0626e7f21132d0a2",
+      "sha256": "ff43a38c0504b679b8d798d7ba7490ad79ab6ac4c19ef2d9926fe329a55a1a69",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/layerForecast.js",
+      "source": "local-policy",
+      "sourcePath": "server/match/layerForecast.js",
+      "sourceSha256": "36d0eb4e92e852e112f02bfaa754d9b6d3da8bb0af8bcb140adcaa2425c56f54",
+      "sha256": "5ae1da53fc0257d751b692178373da9011dc10090511c65fd7bc38b90dfebb9b",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-roster47.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-roster47.mjs",
+      "sourceSha256": "7b687257480c8575973ed99c296a0011d108f4adf3b1208c04550d0c4efc124a",
+      "sha256": "29cd96b2c11e54421d612f4a999eb7acb07a40244b48d0ade06c4b41b5862fa7",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-opening47.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-opening47.mjs",
+      "sourceSha256": "b731565c06f33952b7373c6a3e9aef6648d21d6a679dea6cf32f4a7bee3802fd",
+      "sha256": "b731565c06f33952b7373c6a3e9aef6648d21d6a679dea6cf32f4a7bee3802fd",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-reserve47.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-reserve47.mjs",
+      "sourceSha256": "6f521709ff6663c34b2749c8864fe1bd2c12db56b9c08263b61674174085f30d",
+      "sha256": "6f521709ff6663c34b2749c8864fe1bd2c12db56b9c08263b61674174085f30d",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-bounty47.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-bounty47.mjs",
+      "sourceSha256": "8602004513bd7f2e53bf177cc3ca5d934fc2b12e45138b6f590c683d390c4eef",
+      "sha256": "81dcb4ae5b971d1b78d6fd42a557502cc0d028112fd3eabf6dc6fa4a59d2863a",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-boss57.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-boss57.mjs",
+      "sourceSha256": "231a3994117e138fec1209967787cfceb5a1e4870564e83808d834064064e9bf",
+      "sha256": "7a59d74bb07993c9f22862b43630c0d3d42ca708fb81d7a1c9dcd1342cedadb8",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-projection56.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-projection56.mjs",
+      "sourceSha256": "65e24252952b095c134a608e3e821ca563a6755f634e0cf4f68c53b47459717a",
+      "sha256": "65e24252952b095c134a608e3e821ca563a6755f634e0cf4f68c53b47459717a",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-search52.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-search52.mjs",
+      "sourceSha256": "298a6e2d5a2a094de569d5a1451ef0f856f1fde6272891d698f656ba2f00c84b",
+      "sha256": "d51579dfa51faa2b4ef91e3a00d1114e8a80eb956f9e02e1dbc327534fbe96bc",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-preview48.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-preview48.mjs",
+      "sourceSha256": "586c063f439b6d411ecded4407b419336629f8e5380cc491c4d719119071e34c",
+      "sha256": "e6e784c46e3e70ec1478210c24269e7430ec93051568b49a696bad63191608b3",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/roster-restoration100.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/roster-restoration100.mjs",
+      "sourceSha256": "ecf612d1814f90ffa28042736923f2c107f7ad9d4342a14acd4cbc45f0995b73",
+      "sha256": "9ec35d34eda2e793233e0ff2c936c95cf1b4c30a755366d155a7281aad8dda34",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-formation57.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-formation57.mjs",
+      "sourceSha256": "f50cef3e3d981dc2e45b41aaeb277745a4b932e3e9679a0a16957f6072b1ee51",
+      "sha256": "b9ec34263f5f84210323fa4585658414b4368c73067d286c301feead8d8ebf00",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/sargon-synergy73.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/sargon-synergy73.mjs",
+      "sourceSha256": "f1fb12a0070ef8284c43599f0d9277c3fdd5607822cfe7ecb67c96909e94d40b",
+      "sha256": "a5bc88375c0f3fdd2c49e91af86f61dbd6d7f98b7ef31254b1b49422a477efb3",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/sargon-mechanics58.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/sargon-mechanics58.mjs",
+      "sourceSha256": "342c0ed333933704c7056dff7844faa456485977d3c183707293aa32c69375c5",
+      "sha256": "e4d44e59c9f6dafd8bbad61a136730be95c16276132da93389d114977b90f251",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botDevelopment.js",
+      "sourceSha256": "7c0d4c9cdb602e6709cc9aadf02d906a4e4e969d1d7cd72a19e880f2fc0d9084",
+      "sha256": "44a46f8fe241876574bb8ff4781ca5cd860b41c9f2c74029e0cfdbfdcb40b318",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botDevelopment.js",
+      "sourceSha256": "a6966d5d62a34e320a3830bf21fca4ecea7ca4085e40ae6bfe2036953c326493",
+      "sha256": "b548c5c8e9f392e9ce80584435dfd63574caa65f0b538704342d2d4c3084021e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/kjerag-prep48.mjs",
+      "source": "local-policy",
+      "sourcePath": "tools/kjerag-prep48.mjs",
+      "sourceSha256": "26cf3e9ad420a41cc33760b3d80ecad6a7233790bf802963850890f886dcd896",
+      "sha256": "688dce2be136557a80fe1dc94cc10bf8bd12ef0fe67a7c1cded15530c8231a8e",
+      "modified": true
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLargeBodyCoverage.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaLargeBodyCoverage.js",
+      "sourceSha256": "bfa240889d25e2be39a750b09b1cc2c5cf774fd1b620a61817b786c3f51e3ca0",
+      "sha256": "f06b9e51e1b8f27ee8ebe7fce8057f40b57fae101197f81350b9c59f32be1da8",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaLargeBodyCoverage.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "sourceSha256": "df8439b84daf1002a4f80a3ceacb96e71574a84de8cd5cbf2efd18f15a93eed8",
+      "sha256": "0a9bdd74924d1116ebf02e29f2821d70a1feff5ba5fa662f63668c9b965a8373",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaLucienRight.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategy.js",
+      "sourceSha256": "787efc9b4ac3767b9d9cf0e264960ad3522322b525d56231e032c01aca07163e",
+      "sha256": "2572b457dc979489cae9fa3db28d405a78945f7319741033e6ba000e4110542b",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botCoreStrategies.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botCoreStrategies.js",
+      "sourceSha256": "7d5443f14ea0b84a9625a70db5ec0ed61e4a70ffe8ad22dac6c5d339d7b5390e",
+      "sha256": "8747282ebf91b28eb04a8bf93864dc4c2fb073632e724ea88e93b4d69f5a7946",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botCoreStrategies.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botEconomy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botEconomy.js",
+      "sourceSha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53",
+      "sha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botEconomy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botPositioning.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botPositioning.js",
+      "sourceSha256": "f9c6056d599413ce5c86cf2e5c676b448aaf35546d114b57e908cfac9777c4fc",
+      "sha256": "b900209b6363fbd63e23b7244ca856fb7f1e450ce5a4b87fac3d33173bf28fbd",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botPositioning.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTactics.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoTactics.js",
+      "sourceSha256": "a01c0426965c24a345c77b10b70d2b82a409a8efe4cddb4e792bcfe641140d2b",
+      "sha256": "c869bd4b45acaea17c668911107752880aaa862cb959990cfb330e8a421d3cf3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoTactics.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botBossRehearsal.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botBossRehearsal.js",
+      "sourceSha256": "685c10319bca078b3690f28afea9d6d7f5ab282a97c5e966635303bfbd955e4a",
+      "sha256": "d2c8a0e9028ae5c79732eaf4854a59c9a5eacbacc5e2460fb2303bdc1b3f0e62",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botBossRehearsal.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botFireControl.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botFireControl.js",
+      "sourceSha256": "b51947b95aec1d0386371670fef072f7df1d02f29ff44997ffe167159998d490",
+      "sha256": "559489f29efb024e0ab087eba43b8bcea59402e013200442aedb5ce05bca215e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botFireControl.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botForecast.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botForecast.js",
+      "sourceSha256": "55429cddf0be997d8405e19edb5af3b180bc4c3ba2dc635299d7eb6f3060c1b2",
+      "sha256": "c764c4880815ea3ae6b6a9d3bbb12e9e47014fc25ed38cdcc1e12ffc499b2dec",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botForecast.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "sourceSha256": "c8667bdbdaa3f4cd7e0ec1e71fc1560b30fd778959e1ce0ff1653d6aa56ecdd8",
+      "sha256": "f5b678ede1419a7129643ffa8ce85e393ff5e324a2686130ed0a9adf142cfc90",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaDraftSafety.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "sourceSha256": "df8439b84daf1002a4f80a3ceacb96e71574a84de8cd5cbf2efd18f15a93eed8",
+      "sha256": "0a9bdd74924d1116ebf02e29f2821d70a1feff5ba5fa662f63668c9b965a8373",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaLucienRight.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategy.js",
+      "sourceSha256": "c16233c8edbf60c2eb0dd17a32e8b05be5fe07ec63283c713f7454a46784e9fb",
+      "sha256": "d2b0127c7675ec4ace416a23d3999d0a93f4c985e631538a419a66235d464482",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botCoreStrategies.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botCoreStrategies.js",
+      "sourceSha256": "0af960cbdf231b30913704c6d61f7d56aba6f639e70d1ccffd5ac3d7c06e5897",
+      "sha256": "abf6c23f582abe6af6c25342ecd65c5e03ec07b299e23aa3469af739e30e1b1b",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botCoreStrategies.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botEconomy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botEconomy.js",
+      "sourceSha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53",
+      "sha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botEconomy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botPositioning.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botPositioning.js",
+      "sourceSha256": "f9c6056d599413ce5c86cf2e5c676b448aaf35546d114b57e908cfac9777c4fc",
+      "sha256": "b900209b6363fbd63e23b7244ca856fb7f1e450ce5a4b87fac3d33173bf28fbd",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botPositioning.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTactics.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoTactics.js",
+      "sourceSha256": "a01c0426965c24a345c77b10b70d2b82a409a8efe4cddb4e792bcfe641140d2b",
+      "sha256": "c869bd4b45acaea17c668911107752880aaa862cb959990cfb330e8a421d3cf3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoTactics.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botBossRehearsal.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botBossRehearsal.js",
+      "sourceSha256": "685c10319bca078b3690f28afea9d6d7f5ab282a97c5e966635303bfbd955e4a",
+      "sha256": "d2c8a0e9028ae5c79732eaf4854a59c9a5eacbacc5e2460fb2303bdc1b3f0e62",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botBossRehearsal.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botFireControl.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botFireControl.js",
+      "sourceSha256": "b51947b95aec1d0386371670fef072f7df1d02f29ff44997ffe167159998d490",
+      "sha256": "559489f29efb024e0ab087eba43b8bcea59402e013200442aedb5ce05bca215e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botFireControl.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botForecast.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botForecast.js",
+      "sourceSha256": "6c58765e28666bbccaa227be364823b4bff9a3dd6d3b1b419c1ec71256b40f7a",
+      "sha256": "46e8e4474af02a5561631ec8dd48c18f034edd58e04227f313d8089454dad749",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botForecast.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "sourceSha256": "c8667bdbdaa3f4cd7e0ec1e71fc1560b30fd778959e1ce0ff1653d6aa56ecdd8",
+      "sha256": "f5b678ede1419a7129643ffa8ce85e393ff5e324a2686130ed0a9adf142cfc90",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaDraftSafety.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaKeyValue.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaKeyValue.js",
+      "sourceSha256": "9e4844d851d8152cf84eb49794c4aeb2c3288fca097e4724d42bb66d9071c535",
+      "sha256": "fb4c5f9abaf00eeb14fd11ab99fed018874da5137fd9db8604bab8699cb97dc3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaKeyValue.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusa.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusa.js",
+      "sourceSha256": "ea75b3b5d3f8be86a5d418d7c60a7fb9289fc669edf552cb1057828cf0763aea",
+      "sha256": "db77e873a986ecd5a46b5a103e692edc50d970e0dac3f80990e465e1bb2ef415",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusa.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaBoss.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaBoss.js",
+      "sourceSha256": "48ac3ec1dc66e5c95f1708ddbb9ae0ea448521092f5057750f244a5429f35b05",
+      "sha256": "def5efd57a7fc680b615d2dc33f95749e8d1f9411e285d2f656516e875b0559c",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaBoss.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "sourceSha256": "d6d84710c3a49bec479420d9a0d2bc476e64eeeb9266c23b0fe3557412f28ef8",
+      "sha256": "b4ce4b392ed37c543752c22248deb005f27939f7d1c3ae24fcaf3b0ffc6456c2",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaFocusedDraft.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "sourceSha256": "aaa5c39d5e0e7aef9bf1ba78a803b8f55a0d731ef4d7d0df42bf6db93bfeba5f",
+      "sha256": "d8538cc290b5e56610f946d5314e1c8ae53b9410ef3f50b7a0db86a5af4fafd9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaMobileArcane.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "sourceSha256": "d49776c8da6ce5d6c47516adec333b72ec80510c23d534efea66eb16d6a5191d",
+      "sha256": "9a52322193c0a2a535ad7c05ac828c976ff2f31a8d1fdd045ecabadc37b107d7",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaAromaFixed.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/laterano.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/laterano.js",
+      "sourceSha256": "3837f92e1ea57c07529164b7a9295867e0c765d13ff5ac810013b1e880e49f27",
+      "sha256": "8a8c8f1af737d383d49a1346bf81590f197982a4c0bfedd2da2f340cbbe9bcb7",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/laterano.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoObserved.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoObserved.js",
+      "sourceSha256": "15ab084fb12742331434ad05238ab60b3c30fb9598ecdc709d9152db7384deee",
+      "sha256": "e6bbb42b7bc23f90e9800aacfc0b2c2eec1489f97d3fa6e6ef195a6e1c14cfb6",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoObserved.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFocused.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFocused.js",
+      "sourceSha256": "b6c3a9b6bfc8d7fe464660f9145a67253a194193f560dedd93454bc13aad507c",
+      "sha256": "eacb9b037d3707e246238e1074faaea6a254fccdb7b9f47db8ed4a7a7519cbd3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFocused.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoForecast.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoForecast.js",
+      "sourceSha256": "651b7e17b5919fedf9ef2a686c9375636131a5933e65a246453ea5c0f5fa89dc",
+      "sha256": "c04e78eefd0bb088b27af1df9d9296dbd1da35c65bc0f0ca01bd5b956805498f",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoForecast.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoExperiments.js",
+      "sourceSha256": "f16c5330ab39f44df74c45a95a123395d32b591adb8443124e6c6155251a9db6",
+      "sha256": "ea9e591769978d0484b933a5e437fae2d5a2972c5eea9d14689824a19bd49abf",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoExperiments.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEngagement.js",
+      "sourceSha256": "959c1bb43aaf689bd3b2cf220ac93d0dff3a9a6b8a3db28c4150a061ca43e038",
+      "sha256": "3d1880a20121c69f0aa9fd24e2231532ccbaee1330bc07706a7e74f3e52947da",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEngagement.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSami.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoSami.js",
+      "sourceSha256": "670b468919031528cf3846f5a7f003a40724e5f1a35ac279694fa51d0be5e3ad",
+      "sha256": "dce056e85acc2e7cf441a8f3fa65163355bf187820c20660ea7437e7a467487c",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSami.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnitePath.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopUnitePath.js",
+      "sourceSha256": "8921558876b1646ec452f1be86cdc1dd53d717bea8f03c00b03efbf314b498f8",
+      "sha256": "4428348b409bf8c3f56fc3995fdc8fbcb3074e9db5289893b1564376e7daccd3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopUnitePath.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusa.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusa.js",
+      "sourceSha256": "ea75b3b5d3f8be86a5d418d7c60a7fb9289fc669edf552cb1057828cf0763aea",
+      "sha256": "db77e873a986ecd5a46b5a103e692edc50d970e0dac3f80990e465e1bb2ef415",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusa.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaBoss.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaBoss.js",
+      "sourceSha256": "48ac3ec1dc66e5c95f1708ddbb9ae0ea448521092f5057750f244a5429f35b05",
+      "sha256": "def5efd57a7fc680b615d2dc33f95749e8d1f9411e285d2f656516e875b0559c",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaBoss.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "sourceSha256": "d6d84710c3a49bec479420d9a0d2bc476e64eeeb9266c23b0fe3557412f28ef8",
+      "sha256": "b4ce4b392ed37c543752c22248deb005f27939f7d1c3ae24fcaf3b0ffc6456c2",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaFocusedDraft.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "sourceSha256": "aaa5c39d5e0e7aef9bf1ba78a803b8f55a0d731ef4d7d0df42bf6db93bfeba5f",
+      "sha256": "d8538cc290b5e56610f946d5314e1c8ae53b9410ef3f50b7a0db86a5af4fafd9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaMobileArcane.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "sourceSha256": "d49776c8da6ce5d6c47516adec333b72ec80510c23d534efea66eb16d6a5191d",
+      "sha256": "9a52322193c0a2a535ad7c05ac828c976ff2f31a8d1fdd045ecabadc37b107d7",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/siracusaAromaFixed.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/laterano.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/laterano.js",
+      "sourceSha256": "3837f92e1ea57c07529164b7a9295867e0c765d13ff5ac810013b1e880e49f27",
+      "sha256": "8a8c8f1af737d383d49a1346bf81590f197982a4c0bfedd2da2f340cbbe9bcb7",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/laterano.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoObserved.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoObserved.js",
+      "sourceSha256": "15ab084fb12742331434ad05238ab60b3c30fb9598ecdc709d9152db7384deee",
+      "sha256": "e6bbb42b7bc23f90e9800aacfc0b2c2eec1489f97d3fa6e6ef195a6e1c14cfb6",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoObserved.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFocused.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoFocused.js",
+      "sourceSha256": "b6c3a9b6bfc8d7fe464660f9145a67253a194193f560dedd93454bc13aad507c",
+      "sha256": "eacb9b037d3707e246238e1074faaea6a254fccdb7b9f47db8ed4a7a7519cbd3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFocused.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoForecast.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoForecast.js",
+      "sourceSha256": "651b7e17b5919fedf9ef2a686c9375636131a5933e65a246453ea5c0f5fa89dc",
+      "sha256": "c04e78eefd0bb088b27af1df9d9296dbd1da35c65bc0f0ca01bd5b956805498f",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoForecast.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoExperiments.js",
+      "sourceSha256": "873d985bb554337d5b2ba058e07ffca37ee683dad7aa0b9da86ac7ac6d06f119",
+      "sha256": "cfe1d001e039e9cbe3389c980e02e11667fa8e761420f0800d92efc08ef5d4e3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoExperiments.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoEngagement.js",
+      "sourceSha256": "959c1bb43aaf689bd3b2cf220ac93d0dff3a9a6b8a3db28c4150a061ca43e038",
+      "sha256": "3d1880a20121c69f0aa9fd24e2231532ccbaee1330bc07706a7e74f3e52947da",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEngagement.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSami.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoSami.js",
+      "sourceSha256": "670b468919031528cf3846f5a7f003a40724e5f1a35ac279694fa51d0be5e3ad",
+      "sha256": "dce056e85acc2e7cf441a8f3fa65163355bf187820c20660ea7437e7a467487c",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSami.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botRaidPositioning.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botRaidPositioning.js",
+      "sourceSha256": "6aadd81a227ba86652567a3c536458825250c9ff9030bdd5e127b76c57756a1e",
+      "sha256": "a3ffc51f66bf0cf0856815e99d4cf5fdcdda00f3ca94b6c316fb6f47745d80cd",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botRaidPositioning.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botSavings.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botSavings.js",
+      "sourceSha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0",
+      "sha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botSavings.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botInvestorEconomy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botInvestorEconomy.js",
+      "sourceSha256": "428cf4a0dd48333b43283372878fb2dacc0235fa127a14db19eaa5b2a51bddbe",
+      "sha256": "ec1c728e1c32b4ed07629f6983dea29af458283b22a508e9afb10bd2014a71d9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botInvestorEconomy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botLateranoDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botLateranoDevelopment.js",
+      "sourceSha256": "8f09fdd3950ec9bc2dec405bbe94e2f5294f1864ed9d4ce0cc09454cf6df71ac",
+      "sha256": "ed0f6515780daeb14e7f9449c10455b267001989592d3f48a89735607922b1ad",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botLateranoDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRegressionFactors.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopRegressionFactors.js",
+      "sourceSha256": "ee58df57d9822ff4180f46ad41d076a60cb49b22c6947b224b20ecb12f79f662",
+      "sha256": "3a1e7b1dc641648d742a52ee9149f1a234cfa1978a8a7da4ab7e2af52bf725b2",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopRegressionFactors.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopAtomicWindow.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopAtomicWindow.js",
+      "sourceSha256": "24dbee38e0073330736dd04f783f4706a97363cf9897d0436d90ff9eedaa23e8",
+      "sha256": "2ec4315739971ccf8f566e696fe8b37ea24a1968628fa00a9d34e0a11594c86f",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopAtomicWindow.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopLateEconomy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopLateEconomy.js",
+      "sourceSha256": "fe20f29af1fec0af9acf94964b1db6903d79cb961f27f285dd1813669dc39d96",
+      "sha256": "a50bb82f9fc8a594aeab0378ab6abe7fea226c1fb9cf384a64e1dadddb3c8910",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopLateEconomy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopReserveRepair.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopReserveRepair.js",
+      "sourceSha256": "3045f245ac9380d45545eb31da0ebe10be3a1cd71c51e18ab4f9317687582412",
+      "sha256": "3045f245ac9380d45545eb31da0ebe10be3a1cd71c51e18ab4f9317687582412",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopReserveRepair.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopTeamWindow.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopTeamWindow.js",
+      "sourceSha256": "3a3f8133db2210ecebc4e4393901d96829febe1bfe9260779344f5f86f0ac5cd",
+      "sha256": "fa51be2592aedbde716f47c755d4a04f4b553eddb0cdba3396a7cd4bf5c6fdd9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopTeamWindow.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopQuintusLocal.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopQuintusLocal.js",
+      "sourceSha256": "cfb7e078da3ead37dfe364eacf1ff6274839eae3d9df814e26e2e0f28255cf61",
+      "sha256": "35452c7764fe3769f2c612d296c16b244dd7b8bac4a60189c862633ffd78cd38",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopQuintusLocal.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossExchange.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopBossExchange.js",
+      "sourceSha256": "7a6aa35839597eed19830d6b239156c73c61f045c38bc9b55085934565b2042c",
+      "sha256": "c83a6190a8998c7eca1ca782488b8c1c2e4790de3c1ea6d087009ba937d2ee71",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopBossExchange.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopNormalExchange.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopNormalExchange.js",
+      "sourceSha256": "8270caa3437c043ddbf9c024cf82eb77a6026511b0c924a3f3a13f1b40c74f55",
+      "sha256": "7fbff838525bc68dfe61b38f5f133d33af59a90863e6b77fba8f877700b48d80",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopNormalExchange.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFailureFactors.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopFailureFactors.js",
+      "sourceSha256": "2deb165c22e613ec76a100af7f59cc9af2d04623d1efc78da8b52928da702438",
+      "sha256": "b1bf2866205d8d950fdc32c90bb6e22d35ca4207cfe4e581ede2daccf45edaa1",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopFailureFactors.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRecruitRecovery.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopRecruitRecovery.js",
+      "sourceSha256": "4538efba6b4cba893b58b4496bb60d032cd0df795e9f3f4e77acac2e4f2ffbd3",
+      "sha256": "986ee422b1ccb909a6d9e3afea18f1a83e342920fb483caa9032245fa3c84a7d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopRecruitRecovery.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnusedFactors.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopUnusedFactors.js",
+      "sourceSha256": "40203cb559e2a843789b45aee5fb5c7bb33ee9aeb45045ba5a7fbb078fdc2bd1",
+      "sha256": "c173bdf1b43eac64603fe8b51d895f2325b0c1f315cae6e8df6af0090e0a3559",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopUnusedFactors.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetention.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoRetention.js",
+      "sourceSha256": "3c151f1f0b3364a9eb562ec74f39c30cbec26502ccde75749472d20daa922aca",
+      "sha256": "39c0c511473768dcd2c9493db8f7266681f0ced9dbb53142d12304f7930cec40",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoRetention.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoOpening.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoOpening.js",
+      "sourceSha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8",
+      "sha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoOpening.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMap02.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMap02.js",
+      "sourceSha256": "22ddcdf16e4972c0a4064561de9cdfcefb962984e20f85435949e4fe3a973f09",
+      "sha256": "9a053d047ca3df90706d688e1b12a8455e7dbeb19afe65caa7d383b5b873f26e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMap02.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMapLines.js",
+      "sourceSha256": "516c7d65ed74f73d8461ace4ade28459d906466c191a77002fdadaeb7da3d990",
+      "sha256": "e4768d7a8a82dedbe15d558fb7b91ce078e1052d4bf37827dca758e32c62c348",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMapLines.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "sourceSha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded",
+      "sha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoGiftGate.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoSkillful.js",
+      "sourceSha256": "6ffc9bd4ac48511d121af342408b38c3d02508c2354f24317c5d8df07423f3a6",
+      "sha256": "17ec04a1a09c1b8d3e3a869b08c78bb9fa0943a95c0a485f0b4d7e9ca649e328",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSkillful.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinale.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFinale.js",
+      "sourceSha256": "bc69813ff54ef286f0a28be0bbe8425a2ed83b1ef52a31e6e980145d1c6a96f4",
+      "sha256": "ed43b58c5c97f5d601c00160ecc2b9822f56492cfeb8980e490c5c197db4cdd4",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFinale.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTeam.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoTeam.js",
+      "sourceSha256": "3239387ef2d8ab9e678cf57f77345da5aeae6e68198c5521c538ff6338e1d341",
+      "sha256": "ba571ba8de59c2d917fa85e5e2023827b6ef484c9cb982937820acc05f3ddec3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoTeam.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoPromotion.js",
+      "sourceSha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80",
+      "sha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoPromotion.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "sourceSha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905",
+      "sha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoArchettoBlade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoSixReady.js",
+      "sourceSha256": "ff108f77ef890bab2b11edb7ae849065848f9b6b82114b803c1ee0e680e69dcd",
+      "sha256": "4346bcadfe0a136edc5b9c482e85b74f12b99684c4a266452696d0804704024d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSixReady.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "sourceSha256": "f89c151495170250fea7a112c2ef42c806add44697840825ebf8454dd0378c26",
+      "sha256": "fd64a322ab421e62a4766998e19ee174b1a99047dfe8d816d46514d74327336a",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMedicChain.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "sourceSha256": "e4082e4e41c53fc7918f34bc417dad5793c991268881a6ed92291679a9a4ff2b",
+      "sha256": "35a406d1557eb3d769d8efe87c9cebcb40ad926a3566e71a2590054809aac2d4",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSingleSkill.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFastFour.js",
+      "sourceSha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404",
+      "sha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFastFour.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "sourceSha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95",
+      "sha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEliteCap.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "sourceSha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017",
+      "sha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFourDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoProtection.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoProtection.js",
+      "sourceSha256": "04a4fc54c7e87122b0076edcc4e5bdea4d0df334cd5f735f4518131ade4612c7",
+      "sha256": "8185d96635d15b9d138c594db331144ed2246ea8e671df757d8b487a81066357",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoProtection.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "sourceSha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7",
+      "sha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoReducedSwift.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "sourceSha256": "b0424e3a339fe216ca7c5d5e51f2a04f41a4c58523b330cbc12a90d80a93315e",
+      "sha256": "299dd5c171e755b86bec54987db0ac4ea3d497b68fec068a156e025c592e45b5",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoLocalProtection.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "sourceSha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192",
+      "sha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFourLimit.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoApproach.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoApproach.js",
+      "sourceSha256": "d3ed8ca0f1a8f911d377b0fac7854b258deefd625ab6b455891b739b4faae61d",
+      "sha256": "a50b2b92d53c511db381faa34185be6c45d87b4daa35314169dea182b2e899b5",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoApproach.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "sourceSha256": "3c7eb2183020501679eeda095cb028fe3ee51b9101ae5ac7fed6e5516abd2335",
+      "sha256": "aab2da082a6938a4b0e1decdccc01cf8d4643f34960741959c4a4bb77d4c1431",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoContactTeam.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "sourceSha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22",
+      "sha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoUpgradeReserve.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "sourceSha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657",
+      "sha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoNativePairs.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "sourceSha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce",
+      "sha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoR14EliteHold.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "sourceSha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9",
+      "sha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoR14PairHold.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "sourceSha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c",
+      "sha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoVisionTrade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "sourceSha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7",
+      "sha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSupportSingles.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLionSpread.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoLionSpread.js",
+      "sourceSha256": "86bf36b1bc6185cc4afeb3a3818c1ca03429594661325c3023a18cd06e41ac0d",
+      "sha256": "8931a1232b45f583e3018189d509211a862f86f8f6ed46c471c725432d66b2fd",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoLionSpread.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMobileBoss.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMobileBoss.js",
+      "sourceSha256": "e9072094bdb0fe8f8a972c952288fd4607185db4e8c55c929c8b6ab84a0b4d69",
+      "sha256": "634d19860971fd46dc8f487ca14e652384b0f82b9c8e2c50474673303cc264ec",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMobileBoss.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoControlBoss.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoControlBoss.js",
+      "sourceSha256": "f1ee279090be134ff479b389f906e0d93ebaddac49e3e2a0a5f6e0923caf35fa",
+      "sha256": "8db36e9aeeeb0044eeb006caf61ca7d38b6953ccc57ab5e83cce9cb524ab3439",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoControlBoss.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMergeOrder.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMergeOrder.js",
+      "sourceSha256": "84131ef835267de6415b5a55a47d6d4502eef0826e6110353b13bb5b20323f76",
+      "sha256": "cfa46aedb59573c775ab576339e4e45cece9503e832fbc1e605daa39c593c5e6",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMergeOrder.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyLiquidity.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoKeyLiquidity.js",
+      "sourceSha256": "9e34ed7723015ef7073ca47e437a7166960ab15cb5ee15407e84877bf6409222",
+      "sha256": "54a8e757eb97fe20a9ee042c3e72f2f2cd1468054a76bca47d1014c1e7fcf389",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoKeyLiquidity.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyValue.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoKeyValue.js",
+      "sourceSha256": "2b01824af89bce00ef7ad473dfa09e64c33fb5aa56938ba2387044f1ea4e82ea",
+      "sha256": "82d4c4b61643f17746b7684596dfb2c17a8bb2c0d1e326d18dde59c3763aa133",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoKeyValue.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyHealing.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoKeyHealing.js",
+      "sourceSha256": "b7eeccabc55b1603ffdd27501b5057e8e417c777a4b9925e5fb7be4afbd96246",
+      "sha256": "838a558b639e88de43612545347a99e89d2addbda39458aba698d8e5059cf60d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoKeyHealing.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmplifier.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMostimaAmplifier.js",
+      "sourceSha256": "9689701726f14176ffadaad489cb2667f9ee3f72c4e405747aafa72527e12d77",
+      "sha256": "fbb29a8862039d4dd5e4ccd77c6302accf533afc4e026003732599c18deb2d33",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMostimaAmplifier.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFarming.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoPrecisionFarming.js",
+      "sourceSha256": "17d15d846ccb3186eeebedc754eb4930b9d63f621ac9e9070af062202c7d79a6",
+      "sha256": "4d65de7b86073c6fdef3a46c0cf1b06de0f8bf35b2f380cfa0189d901699c786",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoPrecisionFarming.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRewardPackage.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoRewardPackage.js",
+      "sourceSha256": "aa34c3539c55619a78d5b511b2406a1fe72ac0b2b53c833d8be3ec43d64d3fd2",
+      "sha256": "44957788687388bb08d02a1d61b706db267223f7026c88a2a3131524a8c0362b",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoRewardPackage.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetiredFrontline.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoRetiredFrontline.js",
+      "sourceSha256": "ba5022e0fcf2d2cab9df611f4e6b272aa8867f26d314d0e3bd07217e09d488cc",
+      "sha256": "d80274a2ac40997776c57a08fa8d9133775bb7f0131b4d6019ae38e5de93ae94",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoRetiredFrontline.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingChoice.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoHealingChoice.js",
+      "sourceSha256": "51f2c578cd221525d139171a0be0f77ddde5f4f10139a9ebbf4694d035cacdd0",
+      "sha256": "8a77d002a3521d84a7f5da70373e894bb85b46916841ca36b33611c3d9e959bc",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoHealingChoice.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteBond.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEliteBond.js",
+      "sourceSha256": "a34c89ac9ec0f996e39587118ab675f4b2d19920d6c03cfe1ec67a0f7264cf36",
+      "sha256": "a34c89ac9ec0f996e39587118ab675f4b2d19920d6c03cfe1ec67a0f7264cf36",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEliteBond.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDuplicateGrowth.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoDuplicateGrowth.js",
+      "sourceSha256": "35931377b421b2ae1bc36a3fdae32a0580ff80c918b08284db3bf9771b27f355",
+      "sha256": "f39f14d6ca143e84e7f99c44fa59fbcdcde3397da16ebcbf03eb1665dcfc0c2d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoDuplicateGrowth.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNoTippiTin.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoNoTippiTin.js",
+      "sourceSha256": "d9ab97139b2f7c24a3b5ae82b55286000c9c310b7b39f3676b810817cf19a4c7",
+      "sha256": "d9ab97139b2f7c24a3b5ae82b55286000c9c310b7b39f3676b810817cf19a4c7",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoNoTippiTin.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionReserve.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoPrecisionReserve.js",
+      "sourceSha256": "6d2c784d78f3ee80d3b9ac235c051f5ee9f2562cd59cf51655ceed57e2f33294",
+      "sha256": "6d2c784d78f3ee80d3b9ac235c051f5ee9f2562cd59cf51655ceed57e2f33294",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoPrecisionReserve.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFallback.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoPrecisionFallback.js",
+      "sourceSha256": "6346cb828556af015fc017573f0367a9baa22c0a3134264712ecdd8bfd52aa3f",
+      "sha256": "6346cb828556af015fc017573f0367a9baa22c0a3134264712ecdd8bfd52aa3f",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoPrecisionFallback.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14Transfer.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoR14Transfer.js",
+      "sourceSha256": "4ca1303e15aad288424f063d177036e0499c17cbe0b0afa6d454aca5495fe7c3",
+      "sha256": "a017fc35eda90c01f8535bd1ba85864249a0a71dc77c0aa754009835d138c376",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoR14Transfer.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossEscort.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoBossEscort.js",
+      "sourceSha256": "d16bdc4ef12e6170534c7f7c9bf412e304365e1f2a8f90df0bac5c0b65fda671",
+      "sha256": "bc306e40a3c5665e2f8e685d41f70095a6097db30dda1dfb71fd4bd71aef0e38",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoBossEscort.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMatureFive.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMatureFive.js",
+      "sourceSha256": "dba915c9684453aa87f5a25e96ff1949774416f7aadbd5027abee95f02de37d7",
+      "sha256": "55adc33352fd91e503e017e71168aee848e34dc0be3acb0aa442cce08855d951",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMatureFive.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTempo.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEarlyTempo.js",
+      "sourceSha256": "3d6712d9fa06e5d026fed4f655774f6d76ec9a392e047c666554af17432ab517",
+      "sha256": "761e012dcee063d0cff58c6e94e53bd0310ac3704a8068ee392d9c6a19dcc3ff",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEarlyTempo.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTwo.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEarlyTwo.js",
+      "sourceSha256": "295f1a7c35348a5466ffa40b33fafab2fa2e9160ca449ad907d5cc8e292fd6bc",
+      "sha256": "295f1a7c35348a5466ffa40b33fafab2fa2e9160ca449ad907d5cc8e292fd6bc",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEarlyTwo.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyThree.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEarlyThree.js",
+      "sourceSha256": "fa1e7ed51de5ca671faf84ace8fa1dfbe87766ae21538300bacf5307eb727a43",
+      "sha256": "d23f3ff4d108005058ece4d234e40bb64057d54d7a912d581d608f2a44dd1d62",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEarlyThree.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoIncomeDoll.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoIncomeDoll.js",
+      "sourceSha256": "af35bf1478c9545524c9861dcc79afe01dc88fa3640c414c399db7ef207e4e97",
+      "sha256": "321ed182846dc2be1197beff83a70e2fcfa7bc909580f89099919f38bb487ada",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoIncomeDoll.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoWindowRefinement.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoWindowRefinement.js",
+      "sourceSha256": "8acea80646cb95fb4b1e4bf01817615cdb7ee0a3dd5844317531e7b5e98a3394",
+      "sha256": "5a14dbf67f639b9e51959f333812c8120f37ee0b18192171519e997cfab55e12",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoWindowRefinement.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoStealthWave.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoStealthWave.js",
+      "sourceSha256": "119b5fcfc25ea3e390a7c91e0f897b404d426d3569b3f0bc1d3a423065920948",
+      "sha256": "01ebc670609aaffba0e0746e19c794a458b09a90655b3090a5397823eb3d6f58",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoStealthWave.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinalSwap.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoFinalSwap.js",
+      "sourceSha256": "49e843d5aa99f22b979c6cf032f7a05f94320198fd1f96034ebbbb4462b5ea92",
+      "sha256": "568c1d56492cab93a4f9016c75d534a6d6601924ffddba072f3756f607d536a9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFinalSwap.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEnemyTypes.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEnemyTypes.js",
+      "sourceSha256": "da345c16913ee31edfa672d88252256e658414bc77518b83094636ad1dd43bba",
+      "sha256": "5f4718cd3eb9619abecac15bd33fb473d6273d9d5b67eccedf0997afaa0cc4ae",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEnemyTypes.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDifficultyVision.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoDifficultyVision.js",
+      "sourceSha256": "add54b88c0ccfd94c2680d965cf6fa8d9dfbaeb2d74413ec1c1e4f5ae5daf558",
+      "sha256": "add54b88c0ccfd94c2680d965cf6fa8d9dfbaeb2d74413ec1c1e4f5ae5daf558",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoDifficultyVision.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmmo.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoMostimaAmmo.js",
+      "sourceSha256": "29e77bd2f147060ba3aefe3a754581c4afca434da5602e13ff826c56bfd762d9",
+      "sha256": "01e7daceb0cfa0296eea877cf8e5d405cca02ffede55466585b6b187a1b492a6",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMostimaAmmo.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossFormation.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoBossFormation.js",
+      "sourceSha256": "8d70c49c8bd00055ea339f06982969e6bd23f0f502276365a9181f96ee41759f",
+      "sha256": "5b87a10c0a4053f0168f531f1cba0336e5c7dad9c8afa398864082bbde0536ea",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoBossFormation.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopSafety.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopSafety.js",
+      "sourceSha256": "be036a81a281baad95aeb876f6823bfffbd09d899d37099365f1c3fcf21710a0",
+      "sha256": "15d07eed5ac1f7fba5a480a961a56537abf7e371978cf02efd4043b8e7573917",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopSafety.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBoss.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopBoss.js",
+      "sourceSha256": "6df87b2d2da096521dbc208547984a77bd2cc4d03c9a2ade4f9510b99626573c",
+      "sha256": "458c51e41566c3d3d8fde019bf2a87dc6346cd6ed84f34189fd103d52f8ba4c0",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopBoss.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFactors.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopFactors.js",
+      "sourceSha256": "2fbfc950f5e2f9b88c5d13ef0c0e8c5f042720304509cab991290153f014650f",
+      "sha256": "a0abc07f6d02920d5eeed6efe07eaec1bdaef23a2bd5e4b32ccd73e351309509",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopFactors.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLastHealing.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoLastHealing.js",
+      "sourceSha256": "01e3728de3df852cf8e1dd5592428389b92c8ab33a2b95f55c1bca9ec35cc693",
+      "sha256": "01e3728de3df852cf8e1dd5592428389b92c8ab33a2b95f55c1bca9ec35cc693",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoLastHealing.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingDelivery.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoHealingDelivery.js",
+      "sourceSha256": "47d74f70ac6a0d7c1acbfe9127624f05229735b942db9b66d29192f978b52e8b",
+      "sha256": "28200c472c7bda1b200d1bdaa231e0fe0bd3ac373d8265b7e665cfe9964c3cb9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoHealingDelivery.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEmergencyRoster.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoEmergencyRoster.js",
+      "sourceSha256": "38b86a01ce13d1434c86388db32ecd53dd125b73cc46d02d434247419021d2ff",
+      "sha256": "3278dde612a612410dfb1835990c5fde386a3ebc7aa24afbab898855aef83c84",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEmergencyRoster.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSpecial.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopBossSpecial.js",
+      "sourceSha256": "75be42ee94fe96a1762a7c764f44c88e7326fd8723f869c0bfd68ff4665a5a02",
+      "sha256": "7d1391094fb0c440c4062ed21ca9e8eb0dfa9d100accd69bb180112ecf5bfe22",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopBossSpecial.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWindow.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopWindow.js",
+      "sourceSha256": "3b4e9c6a45ebe8a39ae3e9b69eb0f5610e0619e49719028eb652d521dad81737",
+      "sha256": "6a010009bceeba6053f6d97c9a33e51d82110959a2cb4af85896d54c63f9772d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopWindow.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRoles.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopRoles.js",
+      "sourceSha256": "c8152b55d1599c38d2ea87c7950c805271a50d1114d4dff8958c882a36925675",
+      "sha256": "fcd1fddb11d730a6c133a450cc9de8f2e3ee6c5bf960206e167f7e6652ea006e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopRoles.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUpgrade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopUpgrade.js",
+      "sourceSha256": "27ca8efef1bb9e43833e2951392fda9c28cc930914a83720cfa6af20bf468764",
+      "sha256": "1361f3bc267cc16af7d4946c4d4ba5cb47b87c888224b27498aeb6be0e37af5e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopUpgrade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopProgression.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopProgression.js",
+      "sourceSha256": "0a9b03436a988b466e40ae8cc067d0aa3eddeb2dd330e5539a81f821478e26fa",
+      "sha256": "7bcb3aa3a93d6565e92e126ded66a13a695addc2f5117a2e8ca5779e04f2cc96",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopProgression.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFiveGate.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopFiveGate.js",
+      "sourceSha256": "72ed0046ce0a0c94485f1298710f98bd9c0db87f40aa2ae858821fbe0dbbbf21",
+      "sha256": "72ed0046ce0a0c94485f1298710f98bd9c0db87f40aa2ae858821fbe0dbbbf21",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopFiveGate.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopDevelopment.js",
+      "sourceSha256": "e1869b68db8831957d782dcd576c09eacd18364d984f60fbecaeaa6f381330f6",
+      "sha256": "abc6c3d301927efb8ca2fabbb3647d6a5a9d4f6bbcc009fd6d35f2b17f48149d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopVisionTrade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopVisionTrade.js",
+      "sourceSha256": "cc337ac0e50d19dff4e9aa41a7ee4243cb504669f0dd86520409b27862140306",
+      "sha256": "cc337ac0e50d19dff4e9aa41a7ee4243cb504669f0dd86520409b27862140306",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopVisionTrade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketValue.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopMarketValue.js",
+      "sourceSha256": "2b9bcd04dec30cf404bc6a7524c72b96eff827e2ca0a164a4b982d6c87047db7",
+      "sha256": "5c23c7ae85bb25c87ce8fe37749f3ba2dac04f586143f329470ab9f440cde548",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopMarketValue.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRescue.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopRescue.js",
+      "sourceSha256": "2dddd71704399791b4c2bc4538c07d0fec22de69ef920d1bd0b564f738ee84fe",
+      "sha256": "3df1abd5177cfae8e9927ce4a8fdc541e6ce4ec0ee439696713311b9a6155967",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopRescue.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSelf.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopBossSelf.js",
+      "sourceSha256": "3b117b63ff5d42b50cd9a301def54e003292d3c1766b8fb0ab313c8f2f30ce2a",
+      "sha256": "1175c5b951967973655f022f651ef79d6344b2c1e418b77b6c17914a59d72f97",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopBossSelf.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botRaidPositioning.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botRaidPositioning.js",
+      "sourceSha256": "6aadd81a227ba86652567a3c536458825250c9ff9030bdd5e127b76c57756a1e",
+      "sha256": "a3ffc51f66bf0cf0856815e99d4cf5fdcdda00f3ca94b6c316fb6f47745d80cd",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botRaidPositioning.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botSavings.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botSavings.js",
+      "sourceSha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0",
+      "sha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botSavings.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botInvestorEconomy.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botInvestorEconomy.js",
+      "sourceSha256": "428cf4a0dd48333b43283372878fb2dacc0235fa127a14db19eaa5b2a51bddbe",
+      "sha256": "ec1c728e1c32b4ed07629f6983dea29af458283b22a508e9afb10bd2014a71d9",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botInvestorEconomy.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botLateranoDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botLateranoDevelopment.js",
+      "sourceSha256": "f8a6bf852e6f2178660a099d41074715dc86d5a438aaee5a8ed40a71762e594e",
+      "sha256": "7551e44f09fdd7e56823ef35cf057b0c4eef29fb0bfdba46ec597d489f1a6793",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botLateranoDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoRetention.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoRetention.js",
+      "sourceSha256": "3c151f1f0b3364a9eb562ec74f39c30cbec26502ccde75749472d20daa922aca",
+      "sha256": "39c0c511473768dcd2c9493db8f7266681f0ced9dbb53142d12304f7930cec40",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoRetention.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoOpening.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoOpening.js",
+      "sourceSha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8",
+      "sha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoOpening.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMap02.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoMap02.js",
+      "sourceSha256": "22ddcdf16e4972c0a4064561de9cdfcefb962984e20f85435949e4fe3a973f09",
+      "sha256": "9a053d047ca3df90706d688e1b12a8455e7dbeb19afe65caa7d383b5b873f26e",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMap02.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoMapLines.js",
+      "sourceSha256": "516c7d65ed74f73d8461ace4ade28459d906466c191a77002fdadaeb7da3d990",
+      "sha256": "e4768d7a8a82dedbe15d558fb7b91ce078e1052d4bf37827dca758e32c62c348",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMapLines.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "sourceSha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded",
+      "sha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoGiftGate.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoSkillful.js",
+      "sourceSha256": "6ffc9bd4ac48511d121af342408b38c3d02508c2354f24317c5d8df07423f3a6",
+      "sha256": "17ec04a1a09c1b8d3e3a869b08c78bb9fa0943a95c0a485f0b4d7e9ca649e328",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSkillful.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFinale.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoFinale.js",
+      "sourceSha256": "bc69813ff54ef286f0a28be0bbe8425a2ed83b1ef52a31e6e980145d1c6a96f4",
+      "sha256": "ed43b58c5c97f5d601c00160ecc2b9822f56492cfeb8980e490c5c197db4cdd4",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFinale.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTeam.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoTeam.js",
+      "sourceSha256": "3239387ef2d8ab9e678cf57f77345da5aeae6e68198c5521c538ff6338e1d341",
+      "sha256": "ba571ba8de59c2d917fa85e5e2023827b6ef484c9cb982937820acc05f3ddec3",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoTeam.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoPromotion.js",
+      "sourceSha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80",
+      "sha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoPromotion.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "sourceSha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905",
+      "sha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoArchettoBlade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoSixReady.js",
+      "sourceSha256": "ff108f77ef890bab2b11edb7ae849065848f9b6b82114b803c1ee0e680e69dcd",
+      "sha256": "4346bcadfe0a136edc5b9c482e85b74f12b99684c4a266452696d0804704024d",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSixReady.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "sourceSha256": "f89c151495170250fea7a112c2ef42c806add44697840825ebf8454dd0378c26",
+      "sha256": "fd64a322ab421e62a4766998e19ee174b1a99047dfe8d816d46514d74327336a",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoMedicChain.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "sourceSha256": "e4082e4e41c53fc7918f34bc417dad5793c991268881a6ed92291679a9a4ff2b",
+      "sha256": "35a406d1557eb3d769d8efe87c9cebcb40ad926a3566e71a2590054809aac2d4",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSingleSkill.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoFastFour.js",
+      "sourceSha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404",
+      "sha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFastFour.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "sourceSha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95",
+      "sha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoEliteCap.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "sourceSha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017",
+      "sha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFourDevelopment.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoProtection.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoProtection.js",
+      "sourceSha256": "04a4fc54c7e87122b0076edcc4e5bdea4d0df334cd5f735f4518131ade4612c7",
+      "sha256": "8185d96635d15b9d138c594db331144ed2246ea8e671df757d8b487a81066357",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoProtection.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "sourceSha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7",
+      "sha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoReducedSwift.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "sourceSha256": "b0424e3a339fe216ca7c5d5e51f2a04f41a4c58523b330cbc12a90d80a93315e",
+      "sha256": "299dd5c171e755b86bec54987db0ac4ea3d497b68fec068a156e025c592e45b5",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoLocalProtection.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "sourceSha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192",
+      "sha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoFourLimit.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoApproach.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoApproach.js",
+      "sourceSha256": "d3ed8ca0f1a8f911d377b0fac7854b258deefd625ab6b455891b739b4faae61d",
+      "sha256": "a50b2b92d53c511db381faa34185be6c45d87b4daa35314169dea182b2e899b5",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoApproach.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "sourceSha256": "3c7eb2183020501679eeda095cb028fe3ee51b9101ae5ac7fed6e5516abd2335",
+      "sha256": "aab2da082a6938a4b0e1decdccc01cf8d4643f34960741959c4a4bb77d4c1431",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoContactTeam.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "sourceSha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22",
+      "sha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoUpgradeReserve.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "sourceSha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657",
+      "sha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoNativePairs.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "sourceSha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce",
+      "sha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoR14EliteHold.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "sourceSha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9",
+      "sha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoR14PairHold.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "sourceSha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c",
+      "sha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoVisionTrade.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "sourceSha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7",
+      "sha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7",
+      "modified": false,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoSupportSingles.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWithdrawalPackage.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopWithdrawalPackage.js",
+      "sourceSha256": "092da0b56f7bcec6f3551bed8196ae0d6796ef638d8d39e6ad10a91ad92b9b3a",
+      "sha256": "5fb5f6028f45a72d4f261a5fbdcf2e316fd47db7c660a4eba4712e71c9f81dcc",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopWithdrawalPackage.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "sourceSha256": "fd6c4a7b0c83f37c6a1cba0406c8ddf9804a5b4441f1d4b91a7640e0c874240c",
+      "sha256": "db77ae3faa78530c35cdfa4977cf363dff59354dd479f88fa01e73b4597e0650",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoContactRepair.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionValue.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoVisionValue.js",
+      "sourceSha256": "95e95eaa984349a2fc6704ce3748c5d8be615fbd2f195d269ae0e5c334778ce2",
+      "sha256": "e928762700860e0fb4fda727302716f59107198dddc26278d87ba7b10e4bf291",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoVisionValue.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketRepair.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/arturia72/policy/server/match/botStrategies/lateranoCoopMarketRepair.js",
+      "sourceSha256": "2621d4754399c6917b6261749f551d48a5c3e14b58961201db16475df22643aa",
+      "sha256": "7bdc5723842a610c444f253a79466e5827544aaad5045a45202875271b5f15ce",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoCoopMarketRepair.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "server/match/lavinia72/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "sourceSha256": "fd6c4a7b0c83f37c6a1cba0406c8ddf9804a5b4441f1d4b91a7640e0c874240c",
+      "sha256": "db77ae3faa78530c35cdfa4977cf363dff59354dd479f88fa01e73b4597e0650",
+      "modified": true,
+      "upstreamPath": "policy/server/match/botStrategies/lateranoContactRepair.js"
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/LICENSE",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "arturia/LICENSE",
+      "sourceSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/NOTICE",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "arturia/NOTICE",
+      "sourceSha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814",
+      "sha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/arturia/UPSTREAM72.json",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "arturia/UPSTREAM72.json",
+      "sourceSha256": "315940722ef39e0846b481c60bd6b7ce69e4b0fda58917445b6bf378fef62602",
+      "sha256": "315940722ef39e0846b481c60bd6b7ce69e4b0fda58917445b6bf378fef62602",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/LICENSE",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "lavinia/LICENSE",
+      "sourceSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/NOTICE",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "lavinia/NOTICE",
+      "sourceSha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814",
+      "sha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/vendor/lavinia/UPSTREAM72.json",
+      "source": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e",
+      "sourcePath": "lavinia/UPSTREAM72.json",
+      "sourceSha256": "bc5ff16aa6f8e521f7d137383724885bd69bae05cbef68aacb3788fdff945e2f",
+      "sha256": "bc5ff16aa6f8e521f7d137383724885bd69bae05cbef68aacb3788fdff945e2f",
+      "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/support/sargon-cash.js",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/support/sargon-cash.js",
+      "sourceSha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b",
+      "sha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b",
+      "modified": false
+    }
+  ],
+  "hostImports": [
+    {
+      "file": "server/match/bondsMeta.js",
+      "sha256": "e705d81848c1bbba102b4e160d46cf26cc94af3d8186fa94419f73710d6d472a"
+    },
+    {
+      "file": "server/match/board.js",
+      "sha256": "80cef04c104c0a79dae318555dc36501896f590e1ef587f1cd09dc434721e4f8"
+    },
+    {
+      "file": "server/match/bot.js",
+      "sha256": "37c714cca41da69db449a78351ebb3797ba975d6605dc8bee387477e922f9f60"
+    },
+    {
+      "file": "server/sim/dir.js",
+      "sha256": "2eff762512dfd5960f37e9cdf45bf1e635a11d8a69216602ab4c27ed5172e0ae"
+    },
+    {
+      "file": "shared/constants.js",
+      "sha256": "07fde1a795941c4ee70e6662b3f51c24bbf159a89855d381578e88f0dbcf324a"
+    },
+    {
+      "file": "server/sim/content/garrisons/meta.js",
+      "sha256": "7d042b3dfa33b1a28a5437a2a4718a4496508554739774c6b31ce152c4fbf164"
+    },
+    {
+      "file": "server/sim/Battle.js",
+      "sha256": "686d177cd0f9092be6822ea7f2ed4b9b17d60cb83e24e9c288317fee47fde31e"
+    },
+    {
+      "file": "server/sim/rehearsal.js",
+      "sha256": "1167076c03d7fff61ebe890780d6b071aa475eb181aa066b9ced6babdae3ff40"
+    },
+    {
+      "file": "server/match/choices.js",
+      "sha256": "1aa7ff5bb44cf3bac4592572d3ffbdb7542cb802f9763dc02d95d50e292d1d4f"
+    },
+    {
+      "file": "server/match/preview.js",
+      "sha256": "31846fa7eb8ce60cfb9c3798e506d0ae40e0b3dd2072595ff5011f16df52cd2c"
+    },
+    {
+      "file": "server/match/finalAssault.js",
+      "sha256": "e32e4a86880fe295af4d09c97fd08d631a24b292f2896be3dc4435fc6592544f"
+    },
+    {
+      "file": "server/match/waves.js",
+      "sha256": "9d6dbdb198695a0d6295011668a14650cd1d8f9101e9b633c547b46440bafc9f"
+    },
+    {
+      "file": "server/sim/rng.js",
+      "sha256": "e5f41d979aeed27d0375488c21f1dc717498ba4222f8a4452dc03b979e00fc5d"
+    },
+    {
+      "file": "server/sim/body.js",
+      "sha256": "9ead5ce410648d694820c3c42e4c3d135fdf0887096a375185e4cf70f5937e07"
+    },
+    {
+      "file": "server/sim/content/bosses.js",
+      "sha256": "31d4229f6da9fa1d1c63afabce1d9c476f86420d2e5a36b55424ad0f9e06ddd5"
+    },
+    {
+      "file": "server/sim/constants.js",
+      "sha256": "ce1afca545ab83d26f320ce184ed91551d9764dc4b931614a435070cf61b1abe"
+    },
+    {
+      "file": "shared/protocol.js",
+      "sha256": "5424a27ca1c6970d87400ba510109ec72411ec456b903418755828182851d55d"
+    },
+    {
+      "file": "server/match/gamedata.js",
+      "sha256": "f93d2c3cff9680d7414ab03691ef76f24f0012b133f919bf7ac247a7bc5a25b3"
+    },
+    {
+      "file": "server/sim/damage.js",
+      "sha256": "ae64cbdc4e77188713674f67ed01e876dad27582c5e40f3dbc389c4b59b61a9a"
+    },
+    {
+      "file": "server/sim/content/enemies.js",
+      "sha256": "bcee76e390c76265de17b5692787d318174001b65518e33efcb8d056b45e0fc3"
+    },
+    {
+      "file": "shared/loadoutRecord.js",
+      "sha256": "2a3a5df882511f55a4db4c55e6ae5137dd4cf2407295bbd72c8147b44d3506c9"
+    },
+    {
+      "file": "server/match/effectsMeta.js",
+      "sha256": "9db2fb586afd937fcdabf85d40c30a04e45237f9a3e75a3da1fb8efaa562f23e"
+    },
+    {
+      "file": "server/match/builtinMeta.js",
+      "sha256": "8350b5d572bccfa970af40b9dbe2cd21092ee01ed9e48adef22e173d3c150116"
+    },
+    {
+      "file": "server/sim/content/index.js",
+      "sha256": "d4baec82d6b48a26ce79e79fb713848deaf1d6385c01bc28a1a52253bc7aabc9"
+    },
+    {
+      "file": "server/sim/professions.js",
+      "sha256": "e9a197d33cb745635615f80a50ae89d3f27d1a05eb172d74d224dcb293ce62c7"
+    },
+    {
+      "file": "server/sim/grid.js",
+      "sha256": "5791f7b17b97cf3e33085043958213e9d147704dd988b92ff46c4513a5aaeb41"
+    },
+    {
+      "file": "server/sim/content/devices.js",
+      "sha256": "5f167a3bd0b94a4255e0115d2c9b08ac5a909e1092dddf18d1a2d741a64172e9"
+    },
+    {
+      "file": "server/sim/targeting.js",
+      "sha256": "ae6ea4294a46c130c7dd4eab18e13e074bcb4164299a1c61af37a403090e723c"
+    },
+    {
+      "file": "server/sim/content/enemies/archetypes.js",
+      "sha256": "79dfae53adc6da33b60896a9686f02f70e0f2e78d3f585fe3347ef608abbd7d8"
+    },
+    {
+      "file": "server/data.js",
+      "sha256": "030d278120bfd8535a3b444e68587d4093d54e8ceebd806199087800887b19ad"
+    }
+  ],
+  "verifiedHosts": [
+    {
+      "version": "0.3.1",
+      "repository": "sganggs/Stronghold-Protocol",
+      "commit": "b3deebdae4a92642c007d217a1a4573e5d3612c5"
+    },
+    {
+      "version": "0.3.3",
+      "repository": "sganggs/Stronghold-Protocol",
+      "commit": "f07b8965061bbc311ad7aa815879b09264a1e47d"
+    }
+  ]
+}

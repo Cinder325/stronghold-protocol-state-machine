@@ -1,0 +1,53 @@
+name: Source and integration checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: Original host ${{ matrix.host.version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        host:
+          - version: '0.3.1'
+            commit: b3deebdae4a92642c007d217a1a4573e5d3612c5
+          - version: '0.3.3'
+            commit: f07b8965061bbc311ad7aa815879b09264a1e47d
+    steps:
+      - name: Check out addon source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified public ref
+        with:
+          path: addon
+          persist-credentials: false
+      - name: Check out supported upstream
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: sganggs/Stronghold-Protocol
+          ref: ${{ matrix.host.commit }}
+          path: _host
+          persist-credentials: false
+      - name: Use Node.js 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4, verified public ref
+        with:
+          node-version: '22'
+      - name: Install only upstream dependencies
+        working-directory: _host
+        run: npm ci --ignore-scripts
+      - name: Publication privacy and size audit
+        working-directory: addon
+        run: node scripts/audit-release.mjs
+      - name: Supported host integration
+        working-directory: addon
+        env:
+          SP_HOST_ROOT: ../_host
+        run: node scripts/verify-host.mjs --host ../_host
+      - name: Unit, installer and installed-native-host tests
+        working-directory: addon
+        env:
+          SP_HOST_ROOT: ../_host
+        run: npm test

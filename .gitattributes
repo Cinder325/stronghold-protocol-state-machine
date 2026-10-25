@@ -1,0 +1,22 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+# Manifests verify the exact installed/source bytes. Do not rewrite those at checkout.
+runtime/** -text whitespace=cr-at-eol
+shared/** -text
+*.patch -text
+*.diff -text
+LICENSE -text whitespace=cr-at-eol
+NOTICE -text
+**/LICENSE -text whitespace=cr-at-eol
+**/NOTICE -text
+# Retain the supplier's original final blank line without rewriting hash-pinned bytes.
+runtime/server/match/routeAI/vendor/*/policy/server/match/botStrategies/lateranoContactRepair.js whitespace=-blank-at-eof,cr-at-eol

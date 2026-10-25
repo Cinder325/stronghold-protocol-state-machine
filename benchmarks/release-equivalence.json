@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "kind": "settings-only-release-equivalence",
+  "benchmarkManifestSha256": "34d38e887eae24789df48f6fe3afb7c8e106cab7bc10aa5c6ef183539b3d63dc",
+  "releaseManifestSha256": "9348e783fd605964f23c55ff225f1ae551e0c046097705fadcf7b0c40d48e173",
+  "evaluatorSha256": "50b2067c8df6c47572d70fd6eb6f3e4ff46c1809859200ec5bba92805ad47570",
+  "completeGamesNotRerunAfterSettings": true,
+  "unchangedPayloads": 213,
+  "unchangedDecisionPayloads": 213,
+  "unchangedDecisionPayloadsDigest": "1c13fcff95bba5bc024f43a0e070a01caa366316a4c15dff496bbbc051f0c045",
+  "changedPayloads": [
+    {
+      "target": "public/js/routeAI.js",
+      "beforeSha256": "fc3efc5d10721dbb2d2430e8495e324fea347de1d11dbca7baafc788466d2255",
+      "sha256": "21bdb1de1880d0f29089ba4d5a3c95be2c286291546d3ea6499ef7bdf982ac07"
+    },
+    {
+      "target": "server/match/routeAI/testBans.js",
+      "beforeSha256": "410d342f9de33bf8e15819b441009043f6d7dad966122b645e9c451cd9523707",
+      "sha256": "14051cc7ff290c0f7da430261090bfc67313cd8f6dfc2c0d9063f08e8c4cc05b"
+    },
+    {
+      "target": "server/routeLobby.js",
+      "beforeSha256": "b679c89b9367a73ebbe548227cf5370ab4d110c985d22f25aa8d5f8ec2b59c4a",
+      "sha256": "6d806c35b9e2e9ff461c2736de4702ae81019fd06c7fb60d796a3e539bc1aeec"
+    }
+  ],
+  "addedPayloads": [
+    {
+      "target": "public/js/routeBanMemory.js",
+      "sha256": "bb907b1f69fc1a753d5dcd2264954a8ca9e2d1ce671e4520254bae1c395d9cca"
+    }
+  ],
+  "changedHostPatchTargets": [
+    "public/i18n/en.json",
+    "public/i18n/ja.json",
+    "public/i18n/ko.json",
+    "public/i18n/zh-TW.json",
+    "server/lobby.js",
+    "shared/protocol.js"
+  ],
+  "nativeDrawChecks": [
+    {
+      "version": "0.3.1",
+      "seedsChecked": 266,
+      "legacyAndExplicitDefaultDrawsIdentical": true,
+      "drawnStaticOffBannedAndRngCompared": true,
+      "disabledExactlyNative": true,
+      "impossibleSelectionRejectedBeforeRng": true
+    },
+    {
+      "version": "0.3.3",
+      "seedsChecked": 266,
+      "legacyAndExplicitDefaultDrawsIdentical": true,
+      "drawnStaticOffBannedAndRngCompared": true,
+      "disabledExactlyNative": true,
+      "impossibleSelectionRejectedBeforeRng": true
+    }
+  ],
+  "scope": "Historical ten-game and functional-Worker source fingerprints are preserved. Decision policies and execution transport are byte-identical. Only lobby, client settings and configurable native ban filtering changed; this is not a new ten-game run or a performance claim."
+}

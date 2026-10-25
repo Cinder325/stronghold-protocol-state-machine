@@ -1,0 +1,1586 @@
+{
+  "schema": 1,
+  "id": "stronghold-state-machine",
+  "version": "0.1.0",
+  "host": {
+    "packageName": "stronghold-protocol-alliance",
+    "versions": [
+      "0.3.1",
+      "0.3.3"
+    ],
+    "checks": [
+      {
+        "path": "server/match/bondsMeta.js",
+        "sha256": [
+          "e705d81848c1bbba102b4e160d46cf26cc94af3d8186fa94419f73710d6d472a"
+        ]
+      },
+      {
+        "path": "server/match/board.js",
+        "sha256": [
+          "80cef04c104c0a79dae318555dc36501896f590e1ef587f1cd09dc434721e4f8"
+        ]
+      },
+      {
+        "path": "server/sim/dir.js",
+        "sha256": [
+          "2eff762512dfd5960f37e9cdf45bf1e635a11d8a69216602ab4c27ed5172e0ae"
+        ]
+      },
+      {
+        "path": "shared/constants.js",
+        "sha256": [
+          "07fde1a795941c4ee70e6662b3f51c24bbf159a89855d381578e88f0dbcf324a",
+          "37073d6a2b7cab3bc97190b6828d854c98776a9c4d0bad3de708bce82a336fd3"
+        ]
+      },
+      {
+        "path": "server/sim/content/garrisons/meta.js",
+        "sha256": [
+          "7d042b3dfa33b1a28a5437a2a4718a4496508554739774c6b31ce152c4fbf164",
+          "545d67e4d5e598440485118251630562b6cfed359d76d081ceb52930e7fb9d81"
+        ]
+      },
+      {
+        "path": "server/sim/Battle.js",
+        "sha256": [
+          "686d177cd0f9092be6822ea7f2ed4b9b17d60cb83e24e9c288317fee47fde31e",
+          "2ba42014c62d63cac377a434c6387ba2e4eaed030d56cbe058a1d5b539b9e86f"
+        ]
+      },
+      {
+        "path": "server/sim/rehearsal.js",
+        "sha256": [
+          "1167076c03d7fff61ebe890780d6b071aa475eb181aa066b9ced6babdae3ff40",
+          "87e7e861e92f38e7d9a21897a2a5ccfb64e82e742cf435495e0a35bf1f20e599"
+        ]
+      },
+      {
+        "path": "server/match/choices.js",
+        "sha256": [
+          "1aa7ff5bb44cf3bac4592572d3ffbdb7542cb802f9763dc02d95d50e292d1d4f"
+        ]
+      },
+      {
+        "path": "server/match/preview.js",
+        "sha256": [
+          "31846fa7eb8ce60cfb9c3798e506d0ae40e0b3dd2072595ff5011f16df52cd2c",
+          "5d53686831050788e6e1056dad622611a7be35581e351e6609634ae3e9879f32"
+        ]
+      },
+      {
+        "path": "server/match/finalAssault.js",
+        "sha256": [
+          "e32e4a86880fe295af4d09c97fd08d631a24b292f2896be3dc4435fc6592544f",
+          "a3cb1b2fecca01b69a5dab706889a04345a61564580671b286728a69b570b580"
+        ]
+      },
+      {
+        "path": "server/match/waves.js",
+        "sha256": [
+          "9d6dbdb198695a0d6295011668a14650cd1d8f9101e9b633c547b46440bafc9f"
+        ]
+      },
+      {
+        "path": "server/sim/rng.js",
+        "sha256": [
+          "e5f41d979aeed27d0375488c21f1dc717498ba4222f8a4452dc03b979e00fc5d"
+        ]
+      },
+      {
+        "path": "server/sim/body.js",
+        "sha256": [
+          "9ead5ce410648d694820c3c42e4c3d135fdf0887096a375185e4cf70f5937e07"
+        ]
+      },
+      {
+        "path": "server/sim/content/bosses.js",
+        "sha256": [
+          "31d4229f6da9fa1d1c63afabce1d9c476f86420d2e5a36b55424ad0f9e06ddd5",
+          "8ca31864059df59313f589b055f3008f5b6df7100d94e54e0500317dab7a8121"
+        ]
+      },
+      {
+        "path": "server/sim/constants.js",
+        "sha256": [
+          "ce1afca545ab83d26f320ce184ed91551d9764dc4b931614a435070cf61b1abe",
+          "86fca2c202df17a44df982902d519d4f90a10ee2405e4abfaa451cc5b9ec377c"
+        ]
+      },
+      {
+        "path": "server/match/gamedata.js",
+        "sha256": [
+          "f93d2c3cff9680d7414ab03691ef76f24f0012b133f919bf7ac247a7bc5a25b3"
+        ]
+      },
+      {
+        "path": "server/sim/content/enemies.js",
+        "sha256": [
+          "bcee76e390c76265de17b5692787d318174001b65518e33efcb8d056b45e0fc3",
+          "7ec4451d7f431087c1e30de101d41ec6063debca2a2dd5e8703c666626060e81"
+        ]
+      },
+      {
+        "path": "shared/loadoutRecord.js",
+        "sha256": [
+          "2a3a5df882511f55a4db4c55e6ae5137dd4cf2407295bbd72c8147b44d3506c9"
+        ]
+      },
+      {
+        "path": "server/match/effectsMeta.js",
+        "sha256": [
+          "9db2fb586afd937fcdabf85d40c30a04e45237f9a3e75a3da1fb8efaa562f23e",
+          "60d6382bf7eac56c3efb056670c05810f99fd8f1061ea00eaa199bdd7ea4f4a4"
+        ]
+      },
+      {
+        "path": "server/match/builtinMeta.js",
+        "sha256": [
+          "8350b5d572bccfa970af40b9dbe2cd21092ee01ed9e48adef22e173d3c150116",
+          "b9c6f4665e33a3e386302f815907dc85a8e63d757a215555bc3c07645edde7a8"
+        ]
+      },
+      {
+        "path": "server/sim/content/index.js",
+        "sha256": [
+          "d4baec82d6b48a26ce79e79fb713848deaf1d6385c01bc28a1a52253bc7aabc9",
+          "afca32d16436244f1e53c5fd9bb18f51e5924e5773cd0442a121e0f883e3088a"
+        ]
+      },
+      {
+        "path": "server/sim/professions.js",
+        "sha256": [
+          "e9a197d33cb745635615f80a50ae89d3f27d1a05eb172d74d224dcb293ce62c7",
+          "aa01fe81925e57831f7649e360e3e3c902052b8daac9fd97b642d537b65be0d5"
+        ]
+      },
+      {
+        "path": "server/sim/grid.js",
+        "sha256": [
+          "5791f7b17b97cf3e33085043958213e9d147704dd988b92ff46c4513a5aaeb41"
+        ]
+      },
+      {
+        "path": "server/sim/content/devices.js",
+        "sha256": [
+          "5f167a3bd0b94a4255e0115d2c9b08ac5a909e1092dddf18d1a2d741a64172e9",
+          "d2d1c5fbc4f303838a6a3da32988de28c7de05bc6e437ec1a7231295bb986ef0"
+        ]
+      },
+      {
+        "path": "server/sim/targeting.js",
+        "sha256": [
+          "ae6ea4294a46c130c7dd4eab18e13e074bcb4164299a1c61af37a403090e723c",
+          "d82dc1e0fcabdcacc03be694c560f3fb5c4c068001ec0263ebdcf59b126eb4ec"
+        ]
+      },
+      {
+        "path": "server/sim/content/enemies/archetypes.js",
+        "sha256": [
+          "79dfae53adc6da33b60896a9686f02f70e0f2e78d3f585fe3347ef608abbd7d8",
+          "d03a7605f41a5c75f4beeed7eaffef9e137a648cedae9707069c094441bf2c60"
+        ]
+      },
+      {
+        "path": "server/data.js",
+        "sha256": [
+          "030d278120bfd8535a3b444e68587d4093d54e8ceebd806199087800887b19ad",
+          "30016b217e2182aac6152a5e955587af5c367e72a276c9b992a2d6aaed054c72"
+        ]
+      }
+    ]
+  },
+  "files": [
+    {
+      "source": "runtime/public/js/routeAI.js",
+      "target": "public/js/routeAI.js",
+      "sha256": "21bdb1de1880d0f29089ba4d5a3c95be2c286291546d3ea6499ef7bdf982ac07"
+    },
+    {
+      "source": "runtime/public/js/routeBanMemory.js",
+      "target": "public/js/routeBanMemory.js",
+      "sha256": "bb907b1f69fc1a753d5dcd2264954a8ca9e2d1ce671e4520254bae1c395d9cca"
+    },
+    {
+      "source": "runtime/server/match/routeAI/driver.js",
+      "target": "server/match/routeAI/driver.js",
+      "sha256": "d861c7464fd7bcb7f35c64902639cf62e47ccf053482190a1ac27306500f54be"
+    },
+    {
+      "source": "runtime/server/match/routeAI/engine.js",
+      "target": "server/match/routeAI/engine.js",
+      "sha256": "8338bc798d613f7a85eb441510b6ec9b6bb99d047bde295f6a6c1d25de3a8974"
+    },
+    {
+      "source": "runtime/server/match/routeAI/index.js",
+      "target": "server/match/routeAI/index.js",
+      "sha256": "81f5cd94765132ef98eb907b39d99b44d6e8ac816d60af4f5c27724c8b32bba0"
+    },
+    {
+      "source": "runtime/server/match/routeAI/nativeDamage.js",
+      "target": "server/match/routeAI/nativeDamage.js",
+      "sha256": "19212cdc99e9cf4282c9048e74426ee970dbee42f9d529a3c279b9b50e62e654"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag.mjs",
+      "target": "server/match/routeAI/policies/kjerag.mjs",
+      "sha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon.mjs",
+      "target": "server/match/routeAI/policies/sargon.mjs",
+      "sha256": "0f0711d220da8f63816909650f7cb212735e0a9d3b37ca93ed8047573564c922"
+    },
+    {
+      "source": "runtime/server/match/routeAI/routes.js",
+      "target": "server/match/routeAI/routes.js",
+      "sha256": "983bc033f8a0530d8ce66ea729fad77ead70ce5a6aeb21f1ab06d2eaba73525e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/cashFinish102.js",
+      "target": "server/match/routeAI/support/cashFinish102.js",
+      "sha256": "bf3a71141c68785c57e938942f98b298c57664227440d8e22b1dbfecad1be4d0"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/eliteBoss72.js",
+      "target": "server/match/routeAI/support/eliteBoss72.js",
+      "sha256": "522c43de42cc8501f5f0fceb7cdb862276997ca22520b22ba84ff99d6d19a081"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-boss57.mjs",
+      "target": "server/match/routeAI/support/kjerag-boss57.mjs",
+      "sha256": "7a59d74bb07993c9f22862b43630c0d3d42ca708fb81d7a1c9dcd1342cedadb8"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-bounty47.mjs",
+      "target": "server/match/routeAI/support/kjerag-bounty47.mjs",
+      "sha256": "81dcb4ae5b971d1b78d6fd42a557502cc0d028112fd3eabf6dc6fa4a59d2863a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-formation57.mjs",
+      "target": "server/match/routeAI/support/kjerag-formation57.mjs",
+      "sha256": "b9ec34263f5f84210323fa4585658414b4368c73067d286c301feead8d8ebf00"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-opening47.mjs",
+      "target": "server/match/routeAI/support/kjerag-opening47.mjs",
+      "sha256": "b731565c06f33952b7373c6a3e9aef6648d21d6a679dea6cf32f4a7bee3802fd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-placement100.mjs",
+      "target": "server/match/routeAI/support/kjerag-placement100.mjs",
+      "sha256": "ff43a38c0504b679b8d798d7ba7490ad79ab6ac4c19ef2d9926fe329a55a1a69"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-prep48.mjs",
+      "target": "server/match/routeAI/support/kjerag-prep48.mjs",
+      "sha256": "688dce2be136557a80fe1dc94cc10bf8bd12ef0fe67a7c1cded15530c8231a8e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-preview48.mjs",
+      "target": "server/match/routeAI/support/kjerag-preview48.mjs",
+      "sha256": "e6e784c46e3e70ec1478210c24269e7430ec93051568b49a696bad63191608b3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-projection56.mjs",
+      "target": "server/match/routeAI/support/kjerag-projection56.mjs",
+      "sha256": "65e24252952b095c134a608e3e821ca563a6755f634e0cf4f68c53b47459717a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-reserve47.mjs",
+      "target": "server/match/routeAI/support/kjerag-reserve47.mjs",
+      "sha256": "6f521709ff6663c34b2749c8864fe1bd2c12db56b9c08263b61674174085f30d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-room103.mjs",
+      "target": "server/match/routeAI/support/kjerag-room103.mjs",
+      "sha256": "587e1d41c5100b1197f48b27620d1e390e16956fc6278517bc240b0ec908069e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-roster47.mjs",
+      "target": "server/match/routeAI/support/kjerag-roster47.mjs",
+      "sha256": "29cd96b2c11e54421d612f4a999eb7acb07a40244b48d0ade06c4b41b5862fa7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/kjerag-search52.mjs",
+      "target": "server/match/routeAI/support/kjerag-search52.mjs",
+      "sha256": "d51579dfa51faa2b4ef91e3a00d1114e8a80eb956f9e02e1dbc327534fbe96bc"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/layerForecast.js",
+      "target": "server/match/routeAI/support/layerForecast.js",
+      "sha256": "5ae1da53fc0257d751b692178373da9011dc10090511c65fd7bc38b90dfebb9b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/roster-restoration100.mjs",
+      "target": "server/match/routeAI/support/roster-restoration100.mjs",
+      "sha256": "9ec35d34eda2e793233e0ff2c936c95cf1b4c30a755366d155a7281aad8dda34"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/sargon-cash.js",
+      "target": "server/match/routeAI/support/sargon-cash.js",
+      "sha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/sargon-mechanics58.mjs",
+      "target": "server/match/routeAI/support/sargon-mechanics58.mjs",
+      "sha256": "e4d44e59c9f6dafd8bbad61a136730be95c16276132da93389d114977b90f251"
+    },
+    {
+      "source": "runtime/server/match/routeAI/support/sargon-synergy73.mjs",
+      "target": "server/match/routeAI/support/sargon-synergy73.mjs",
+      "sha256": "a5bc88375c0f3fdd2c49e91af86f61dbd6d7f98b7ef31254b1b49422a477efb3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/testBans.js",
+      "target": "server/match/routeAI/testBans.js",
+      "sha256": "14051cc7ff290c0f7da430261090bfc67313cd8f6dfc2c0d9063f08e8c4cc05b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/transport.js",
+      "target": "server/match/routeAI/transport.js",
+      "sha256": "0a1feee815e5e4684530824ac775cb0bcc4ffbad35ef1d2809e4a899d482e2b3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/LICENSE",
+      "target": "server/match/routeAI/vendor/arturia/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/NOTICE",
+      "target": "server/match/routeAI/vendor/arturia/NOTICE",
+      "sha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botBossRehearsal.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botBossRehearsal.js",
+      "sha256": "d2c8a0e9028ae5c79732eaf4854a59c9a5eacbacc5e2460fb2303bdc1b3f0e62"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botCoreStrategies.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botCoreStrategies.js",
+      "sha256": "8747282ebf91b28eb04a8bf93864dc4c2fb073632e724ea88e93b4d69f5a7946"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botDevelopment.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botDevelopment.js",
+      "sha256": "44a46f8fe241876574bb8ff4781ca5cd860b41c9f2c74029e0cfdbfdcb40b318"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botEconomy.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botEconomy.js",
+      "sha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botFireControl.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botFireControl.js",
+      "sha256": "559489f29efb024e0ab087eba43b8bcea59402e013200442aedb5ce05bca215e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botForecast.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botForecast.js",
+      "sha256": "c764c4880815ea3ae6b6a9d3bbb12e9e47014fc25ed38cdcc1e12ffc499b2dec"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botInvestorEconomy.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botInvestorEconomy.js",
+      "sha256": "ec1c728e1c32b4ed07629f6983dea29af458283b22a508e9afb10bd2014a71d9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botLateranoDevelopment.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botLateranoDevelopment.js",
+      "sha256": "ed0f6515780daeb14e7f9449c10455b267001989592d3f48a89735607922b1ad"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botPositioning.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botPositioning.js",
+      "sha256": "b900209b6363fbd63e23b7244ca856fb7f1e450ce5a4b87fac3d33173bf28fbd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botRaidPositioning.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botRaidPositioning.js",
+      "sha256": "a3ffc51f66bf0cf0856815e99d4cf5fdcdda00f3ca94b6c316fb6f47745d80cd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botSavings.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botSavings.js",
+      "sha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/laterano.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/laterano.js",
+      "sha256": "8a8c8f1af737d383d49a1346bf81590f197982a4c0bfedd2da2f340cbbe9bcb7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoApproach.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoApproach.js",
+      "sha256": "a50b2b92d53c511db381faa34185be6c45d87b4daa35314169dea182b2e899b5"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "sha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossEscort.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossEscort.js",
+      "sha256": "bc306e40a3c5665e2f8e685d41f70095a6097db30dda1dfb71fd4bd71aef0e38"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossFormation.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoBossFormation.js",
+      "sha256": "5b87a10c0a4053f0168f531f1cba0336e5c7dad9c8afa398864082bbde0536ea"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "sha256": "db77ae3faa78530c35cdfa4977cf363dff59354dd479f88fa01e73b4597e0650"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "sha256": "aab2da082a6938a4b0e1decdccc01cf8d4643f34960741959c4a4bb77d4c1431"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoControlBoss.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoControlBoss.js",
+      "sha256": "8db36e9aeeeb0044eeb006caf61ca7d38b6953ccc57ab5e83cce9cb524ab3439"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopAtomicWindow.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopAtomicWindow.js",
+      "sha256": "2ec4315739971ccf8f566e696fe8b37ea24a1968628fa00a9d34e0a11594c86f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBoss.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBoss.js",
+      "sha256": "458c51e41566c3d3d8fde019bf2a87dc6346cd6ed84f34189fd103d52f8ba4c0"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossExchange.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossExchange.js",
+      "sha256": "c83a6190a8998c7eca1ca782488b8c1c2e4790de3c1ea6d087009ba937d2ee71"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSelf.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSelf.js",
+      "sha256": "1175c5b951967973655f022f651ef79d6344b2c1e418b77b6c17914a59d72f97"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSpecial.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopBossSpecial.js",
+      "sha256": "7d1391094fb0c440c4062ed21ca9e8eb0dfa9d100accd69bb180112ecf5bfe22"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopDevelopment.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopDevelopment.js",
+      "sha256": "abc6c3d301927efb8ca2fabbb3647d6a5a9d4f6bbcc009fd6d35f2b17f48149d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFactors.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFactors.js",
+      "sha256": "a0abc07f6d02920d5eeed6efe07eaec1bdaef23a2bd5e4b32ccd73e351309509"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFailureFactors.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFailureFactors.js",
+      "sha256": "b1bf2866205d8d950fdc32c90bb6e22d35ca4207cfe4e581ede2daccf45edaa1"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFiveGate.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopFiveGate.js",
+      "sha256": "72ed0046ce0a0c94485f1298710f98bd9c0db87f40aa2ae858821fbe0dbbbf21"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopLateEconomy.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopLateEconomy.js",
+      "sha256": "a50bb82f9fc8a594aeab0378ab6abe7fea226c1fb9cf384a64e1dadddb3c8910"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketRepair.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketRepair.js",
+      "sha256": "7bdc5723842a610c444f253a79466e5827544aaad5045a45202875271b5f15ce"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketValue.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopMarketValue.js",
+      "sha256": "5c23c7ae85bb25c87ce8fe37749f3ba2dac04f586143f329470ab9f440cde548"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopNormalExchange.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopNormalExchange.js",
+      "sha256": "7fbff838525bc68dfe61b38f5f133d33af59a90863e6b77fba8f877700b48d80"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopProgression.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopProgression.js",
+      "sha256": "7bcb3aa3a93d6565e92e126ded66a13a695addc2f5117a2e8ca5779e04f2cc96"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopQuintusLocal.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopQuintusLocal.js",
+      "sha256": "35452c7764fe3769f2c612d296c16b244dd7b8bac4a60189c862633ffd78cd38"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRecruitRecovery.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRecruitRecovery.js",
+      "sha256": "986ee422b1ccb909a6d9e3afea18f1a83e342920fb483caa9032245fa3c84a7d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRegressionFactors.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRegressionFactors.js",
+      "sha256": "3a1e7b1dc641648d742a52ee9149f1a234cfa1978a8a7da4ab7e2af52bf725b2"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRescue.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRescue.js",
+      "sha256": "3df1abd5177cfae8e9927ce4a8fdc541e6ce4ec0ee439696713311b9a6155967"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopReserveRepair.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopReserveRepair.js",
+      "sha256": "3045f245ac9380d45545eb31da0ebe10be3a1cd71c51e18ab4f9317687582412"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRoles.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopRoles.js",
+      "sha256": "fcd1fddb11d730a6c133a450cc9de8f2e3ee6c5bf960206e167f7e6652ea006e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopSafety.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopSafety.js",
+      "sha256": "15d07eed5ac1f7fba5a480a961a56537abf7e371978cf02efd4043b8e7573917"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopTeamWindow.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopTeamWindow.js",
+      "sha256": "fa51be2592aedbde716f47c755d4a04f4b553eddb0cdba3396a7cd4bf5c6fdd9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnitePath.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnitePath.js",
+      "sha256": "4428348b409bf8c3f56fc3995fdc8fbcb3074e9db5289893b1564376e7daccd3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnusedFactors.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUnusedFactors.js",
+      "sha256": "c173bdf1b43eac64603fe8b51d895f2325b0c1f315cae6e8df6af0090e0a3559"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUpgrade.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopUpgrade.js",
+      "sha256": "1361f3bc267cc16af7d4946c4d4ba5cb47b87c888224b27498aeb6be0e37af5e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopVisionTrade.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopVisionTrade.js",
+      "sha256": "cc337ac0e50d19dff4e9aa41a7ee4243cb504669f0dd86520409b27862140306"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWindow.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWindow.js",
+      "sha256": "6a010009bceeba6053f6d97c9a33e51d82110959a2cb4af85896d54c63f9772d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWithdrawalPackage.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoCoopWithdrawalPackage.js",
+      "sha256": "5fb5f6028f45a72d4f261a5fbdcf2e316fd47db7c660a4eba4712e71c9f81dcc"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDifficultyVision.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDifficultyVision.js",
+      "sha256": "add54b88c0ccfd94c2680d965cf6fa8d9dfbaeb2d74413ec1c1e4f5ae5daf558"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDuplicateGrowth.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoDuplicateGrowth.js",
+      "sha256": "f39f14d6ca143e84e7f99c44fa59fbcdcde3397da16ebcbf03eb1665dcfc0c2d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTempo.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTempo.js",
+      "sha256": "761e012dcee063d0cff58c6e94e53bd0310ac3704a8068ee392d9c6a19dcc3ff"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyThree.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyThree.js",
+      "sha256": "d23f3ff4d108005058ece4d234e40bb64057d54d7a912d581d608f2a44dd1d62"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTwo.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEarlyTwo.js",
+      "sha256": "295f1a7c35348a5466ffa40b33fafab2fa2e9160ca449ad907d5cc8e292fd6bc"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteBond.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteBond.js",
+      "sha256": "a34c89ac9ec0f996e39587118ab675f4b2d19920d6c03cfe1ec67a0f7264cf36"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "sha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEmergencyRoster.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEmergencyRoster.js",
+      "sha256": "3278dde612a612410dfb1835990c5fde386a3ebc7aa24afbab898855aef83c84"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEnemyTypes.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEnemyTypes.js",
+      "sha256": "5f4718cd3eb9619abecac15bd33fb473d6273d9d5b67eccedf0997afaa0cc4ae"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "sha256": "3d1880a20121c69f0aa9fd24e2231532ccbaee1330bc07706a7e74f3e52947da"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "sha256": "ea9e591769978d0484b933a5e437fae2d5a2972c5eea9d14689824a19bd49abf"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "sha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinale.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinale.js",
+      "sha256": "ed43b58c5c97f5d601c00160ecc2b9822f56492cfeb8980e490c5c197db4cdd4"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinalSwap.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFinalSwap.js",
+      "sha256": "568c1d56492cab93a4f9016c75d534a6d6601924ffddba072f3756f607d536a9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFocused.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFocused.js",
+      "sha256": "eacb9b037d3707e246238e1074faaea6a254fccdb7b9f47db8ed4a7a7519cbd3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoForecast.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoForecast.js",
+      "sha256": "c04e78eefd0bb088b27af1df9d9296dbd1da35c65bc0f0ca01bd5b956805498f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "sha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "sha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "sha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingChoice.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingChoice.js",
+      "sha256": "8a77d002a3521d84a7f5da70373e894bb85b46916841ca36b33611c3d9e959bc"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingDelivery.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoHealingDelivery.js",
+      "sha256": "28200c472c7bda1b200d1bdaa231e0fe0bd3ac373d8265b7e665cfe9964c3cb9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoIncomeDoll.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoIncomeDoll.js",
+      "sha256": "321ed182846dc2be1197beff83a70e2fcfa7bc909580f89099919f38bb487ada"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyHealing.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyHealing.js",
+      "sha256": "838a558b639e88de43612545347a99e89d2addbda39458aba698d8e5059cf60d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyLiquidity.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyLiquidity.js",
+      "sha256": "54a8e757eb97fe20a9ee042c3e72f2f2cd1468054a76bca47d1014c1e7fcf389"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyValue.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoKeyValue.js",
+      "sha256": "82d4c4b61643f17746b7684596dfb2c17a8bb2c0d1e326d18dde59c3763aa133"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLastHealing.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLastHealing.js",
+      "sha256": "01e3728de3df852cf8e1dd5592428389b92c8ab33a2b95f55c1bca9ec35cc693"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLionSpread.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLionSpread.js",
+      "sha256": "8931a1232b45f583e3018189d509211a862f86f8f6ed46c471c725432d66b2fd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "sha256": "299dd5c171e755b86bec54987db0ac4ea3d497b68fec068a156e025c592e45b5"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMap02.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMap02.js",
+      "sha256": "9a053d047ca3df90706d688e1b12a8455e7dbeb19afe65caa7d383b5b873f26e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "sha256": "e4768d7a8a82dedbe15d558fb7b91ce078e1052d4bf37827dca758e32c62c348"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMatureFive.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMatureFive.js",
+      "sha256": "55adc33352fd91e503e017e71168aee848e34dc0be3acb0aa442cce08855d951"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "sha256": "fd64a322ab421e62a4766998e19ee174b1a99047dfe8d816d46514d74327336a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMergeOrder.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMergeOrder.js",
+      "sha256": "cfa46aedb59573c775ab576339e4e45cece9503e832fbc1e605daa39c593c5e6"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMobileBoss.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMobileBoss.js",
+      "sha256": "634d19860971fd46dc8f487ca14e652384b0f82b9c8e2c50474673303cc264ec"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmmo.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmmo.js",
+      "sha256": "01e7daceb0cfa0296eea877cf8e5d405cca02ffede55466585b6b187a1b492a6"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmplifier.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoMostimaAmplifier.js",
+      "sha256": "fbb29a8862039d4dd5e4ccd77c6302accf533afc4e026003732599c18deb2d33"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "sha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNoTippiTin.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoNoTippiTin.js",
+      "sha256": "d9ab97139b2f7c24a3b5ae82b55286000c9c310b7b39f3676b810817cf19a4c7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoObserved.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoObserved.js",
+      "sha256": "e6bbb42b7bc23f90e9800aacfc0b2c2eec1489f97d3fa6e6ef195a6e1c14cfb6"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoOpening.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoOpening.js",
+      "sha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFallback.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFallback.js",
+      "sha256": "6346cb828556af015fc017573f0367a9baa22c0a3134264712ecdd8bfd52aa3f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFarming.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionFarming.js",
+      "sha256": "4d65de7b86073c6fdef3a46c0cf1b06de0f8bf35b2f380cfa0189d901699c786"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionReserve.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPrecisionReserve.js",
+      "sha256": "6d2c784d78f3ee80d3b9ac235c051f5ee9f2562cd59cf51655ceed57e2f33294"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "sha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoProtection.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoProtection.js",
+      "sha256": "8185d96635d15b9d138c594db331144ed2246ea8e671df757d8b487a81066357"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "sha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "sha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14Transfer.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoR14Transfer.js",
+      "sha256": "a017fc35eda90c01f8535bd1ba85864249a0a71dc77c0aa754009835d138c376"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "sha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetention.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetention.js",
+      "sha256": "39c0c511473768dcd2c9493db8f7266681f0ced9dbb53142d12304f7930cec40"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetiredFrontline.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRetiredFrontline.js",
+      "sha256": "d80274a2ac40997776c57a08fa8d9133775bb7f0131b4d6019ae38e5de93ae94"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRewardPackage.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoRewardPackage.js",
+      "sha256": "44957788687388bb08d02a1d61b706db267223f7026c88a2a3131524a8c0362b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSami.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSami.js",
+      "sha256": "dce056e85acc2e7cf441a8f3fa65163355bf187820c20660ea7437e7a467487c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "sha256": "35a406d1557eb3d769d8efe87c9cebcb40ad926a3566e71a2590054809aac2d4"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "sha256": "4346bcadfe0a136edc5b9c482e85b74f12b99684c4a266452696d0804704024d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "sha256": "17ec04a1a09c1b8d3e3a869b08c78bb9fa0943a95c0a485f0b4d7e9ca649e328"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoStealthWave.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoStealthWave.js",
+      "sha256": "01ebc670609aaffba0e0746e19c794a458b09a90655b3090a5397823eb3d6f58"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "sha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTactics.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTactics.js",
+      "sha256": "c869bd4b45acaea17c668911107752880aaa862cb959990cfb330e8a421d3cf3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTeam.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoTeam.js",
+      "sha256": "ba571ba8de59c2d917fa85e5e2023827b6ef484c9cb982937820acc05f3ddec3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "sha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "sha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionValue.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoVisionValue.js",
+      "sha256": "e928762700860e0fb4fda727302716f59107198dddc26278d87ba7b10e4bf291"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoWindowRefinement.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/lateranoWindowRefinement.js",
+      "sha256": "5a14dbf67f639b9e51959f333812c8120f37ee0b18192171519e997cfab55e12"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusa.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusa.js",
+      "sha256": "db77e873a986ecd5a46b5a103e692edc50d970e0dac3f80990e465e1bb2ef415"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "sha256": "9a52322193c0a2a535ad7c05ac828c976ff2f31a8d1fdd045ecabadc37b107d7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaBoss.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaBoss.js",
+      "sha256": "def5efd57a7fc680b615d2dc33f95749e8d1f9411e285d2f656516e875b0559c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "sha256": "f5b678ede1419a7129643ffa8ce85e393ff5e324a2686130ed0a9adf142cfc90"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "sha256": "b4ce4b392ed37c543752c22248deb005f27939f7d1c3ae24fcaf3b0ffc6456c2"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaKeyValue.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaKeyValue.js",
+      "sha256": "fb4c5f9abaf00eeb14fd11ab99fed018874da5137fd9db8604bab8699cb97dc3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLargeBodyCoverage.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLargeBodyCoverage.js",
+      "sha256": "f06b9e51e1b8f27ee8ebe7fce8057f40b57fae101197f81350b9c59f32be1da8"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "sha256": "0a9bdd74924d1116ebf02e29f2821d70a1feff5ba5fa662f63668c9b965a8373"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "sha256": "d8538cc290b5e56610f946d5314e1c8ae53b9410ef3f50b7a0db86a5af4fafd9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/policy/server/match/botStrategy.js",
+      "target": "server/match/routeAI/vendor/arturia/policy/server/match/botStrategy.js",
+      "sha256": "2572b457dc979489cae9fa3db28d405a78945f7319741033e6ba000e4110542b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/runtime.js",
+      "target": "server/match/routeAI/vendor/arturia/runtime.js",
+      "sha256": "5cf61f8438288531559bd88626ca8c8db84b4db46694e8a410645f53168df17a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/arturia/UPSTREAM72.json",
+      "target": "server/match/routeAI/vendor/arturia/UPSTREAM72.json",
+      "sha256": "315940722ef39e0846b481c60bd6b7ce69e4b0fda58917445b6bf378fef62602"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/LICENSE",
+      "target": "server/match/routeAI/vendor/lavinia/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/NOTICE",
+      "target": "server/match/routeAI/vendor/lavinia/NOTICE",
+      "sha256": "d85b672d3fca987652fe6cd84a5bd4c33045fb2a21d444d8e0099d6e05592814"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botBossRehearsal.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botBossRehearsal.js",
+      "sha256": "d2c8a0e9028ae5c79732eaf4854a59c9a5eacbacc5e2460fb2303bdc1b3f0e62"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botCoreStrategies.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botCoreStrategies.js",
+      "sha256": "abf6c23f582abe6af6c25342ecd65c5e03ec07b299e23aa3469af739e30e1b1b"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botDevelopment.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botDevelopment.js",
+      "sha256": "b548c5c8e9f392e9ce80584435dfd63574caa65f0b538704342d2d4c3084021e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botEconomy.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botEconomy.js",
+      "sha256": "1d2afee5e38808738047551358eeb419e73c0818a40ca07648e2eb8f69938a53"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botFireControl.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botFireControl.js",
+      "sha256": "559489f29efb024e0ab087eba43b8bcea59402e013200442aedb5ce05bca215e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botForecast.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botForecast.js",
+      "sha256": "46e8e4474af02a5561631ec8dd48c18f034edd58e04227f313d8089454dad749"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botInvestorEconomy.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botInvestorEconomy.js",
+      "sha256": "ec1c728e1c32b4ed07629f6983dea29af458283b22a508e9afb10bd2014a71d9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botLateranoDevelopment.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botLateranoDevelopment.js",
+      "sha256": "7551e44f09fdd7e56823ef35cf057b0c4eef29fb0bfdba46ec597d489f1a6793"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botPositioning.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botPositioning.js",
+      "sha256": "b900209b6363fbd63e23b7244ca856fb7f1e450ce5a4b87fac3d33173bf28fbd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botRaidPositioning.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botRaidPositioning.js",
+      "sha256": "a3ffc51f66bf0cf0856815e99d4cf5fdcdda00f3ca94b6c316fb6f47745d80cd"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botSavings.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botSavings.js",
+      "sha256": "ecd3eb64e2391474d92609df10f349763d678a629dbd1bc4490eb2ed6064a0e0"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/laterano.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/laterano.js",
+      "sha256": "8a8c8f1af737d383d49a1346bf81590f197982a4c0bfedd2da2f340cbbe9bcb7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoApproach.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoApproach.js",
+      "sha256": "a50b2b92d53c511db381faa34185be6c45d87b4daa35314169dea182b2e899b5"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoArchettoBlade.js",
+      "sha256": "6d0c72fa60b15c6c2119f037088a79dfef4a6de83a60d52638a4d605761ef905"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactRepair.js",
+      "sha256": "db77ae3faa78530c35cdfa4977cf363dff59354dd479f88fa01e73b4597e0650"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoContactTeam.js",
+      "sha256": "aab2da082a6938a4b0e1decdccc01cf8d4643f34960741959c4a4bb77d4c1431"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEliteCap.js",
+      "sha256": "d2e8c5374fcc5799c7b39d98d117dfb21347d1404d223fe45e1ecfcf754d5b95"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoEngagement.js",
+      "sha256": "3d1880a20121c69f0aa9fd24e2231532ccbaee1330bc07706a7e74f3e52947da"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoExperiments.js",
+      "sha256": "cfe1d001e039e9cbe3389c980e02e11667fa8e761420f0800d92efc08ef5d4e3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFastFour.js",
+      "sha256": "988fccc992fed88587dea1ce3484396b9af829ce455888492a08bff749bd6404"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFinale.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFinale.js",
+      "sha256": "ed43b58c5c97f5d601c00160ecc2b9822f56492cfeb8980e490c5c197db4cdd4"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFocused.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFocused.js",
+      "sha256": "eacb9b037d3707e246238e1074faaea6a254fccdb7b9f47db8ed4a7a7519cbd3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoForecast.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoForecast.js",
+      "sha256": "c04e78eefd0bb088b27af1df9d9296dbd1da35c65bc0f0ca01bd5b956805498f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourDevelopment.js",
+      "sha256": "9aad9d5841a79a1715354ec3e2a6eccb48fc06d4f700030811487a4bade82017"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoFourLimit.js",
+      "sha256": "5da449bbf32d4b3f5fcaced20964c023eb63a787af51980f87e5f0f0367a4192"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoGiftGate.js",
+      "sha256": "e116a3c40aedc3a6db3f83c935acb20022597fd06b35b343e99ef890eff8fded"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoLocalProtection.js",
+      "sha256": "299dd5c171e755b86bec54987db0ac4ea3d497b68fec068a156e025c592e45b5"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMap02.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMap02.js",
+      "sha256": "9a053d047ca3df90706d688e1b12a8455e7dbeb19afe65caa7d383b5b873f26e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMapLines.js",
+      "sha256": "e4768d7a8a82dedbe15d558fb7b91ce078e1052d4bf37827dca758e32c62c348"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoMedicChain.js",
+      "sha256": "fd64a322ab421e62a4766998e19ee174b1a99047dfe8d816d46514d74327336a"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoNativePairs.js",
+      "sha256": "f0c3b55c63183a907fd7e6b356700ccb2cf4791f742d31d2ec8e97ec2e7d2657"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoObserved.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoObserved.js",
+      "sha256": "e6bbb42b7bc23f90e9800aacfc0b2c2eec1489f97d3fa6e6ef195a6e1c14cfb6"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoOpening.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoOpening.js",
+      "sha256": "5a1a9d6cf153dc7a8204a5f2ed510a11be80f3d6f334509778ff6906f179c3a8"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoPromotion.js",
+      "sha256": "bf99ec33498443a761148a914174d1a0ba3964abdbb9659cd858fdd8dabe4d80"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoProtection.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoProtection.js",
+      "sha256": "8185d96635d15b9d138c594db331144ed2246ea8e671df757d8b487a81066357"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14EliteHold.js",
+      "sha256": "c4239f034d93d44b4dcd0d033783d4269d08af4094956a353d8a735fdcef58ce"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoR14PairHold.js",
+      "sha256": "68a02a5eafd8f697d19bb4d8340a43db5714d0e3e14200c1b214151e7a5864a9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoReducedSwift.js",
+      "sha256": "2fa3e916690066bdb8fa9bba7ac35837ea382c38d791ff327534b106e0d334f7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoRetention.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoRetention.js",
+      "sha256": "39c0c511473768dcd2c9493db8f7266681f0ced9dbb53142d12304f7930cec40"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSami.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSami.js",
+      "sha256": "dce056e85acc2e7cf441a8f3fa65163355bf187820c20660ea7437e7a467487c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSingleSkill.js",
+      "sha256": "35a406d1557eb3d769d8efe87c9cebcb40ad926a3566e71a2590054809aac2d4"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSixReady.js",
+      "sha256": "4346bcadfe0a136edc5b9c482e85b74f12b99684c4a266452696d0804704024d"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSkillful.js",
+      "sha256": "17ec04a1a09c1b8d3e3a869b08c78bb9fa0943a95c0a485f0b4d7e9ca649e328"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoSupportSingles.js",
+      "sha256": "07b1395165aa69089762d37678f9e65b3bf473ea86aace05763725e4472a39d7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTactics.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTactics.js",
+      "sha256": "c869bd4b45acaea17c668911107752880aaa862cb959990cfb330e8a421d3cf3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTeam.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoTeam.js",
+      "sha256": "ba571ba8de59c2d917fa85e5e2023827b6ef484c9cb982937820acc05f3ddec3"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoUpgradeReserve.js",
+      "sha256": "a90f04a5422d6f7bda0af120ffe35ba6cdcf4b03e39d9229b912610df0a81d22"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/lateranoVisionTrade.js",
+      "sha256": "b9ab404b48ec88c1bbb141266d0d6f3c6e348933208116840d7f6bfdc5b8347c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusa.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusa.js",
+      "sha256": "db77e873a986ecd5a46b5a103e692edc50d970e0dac3f80990e465e1bb2ef415"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaAromaFixed.js",
+      "sha256": "9a52322193c0a2a535ad7c05ac828c976ff2f31a8d1fdd045ecabadc37b107d7"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaBoss.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaBoss.js",
+      "sha256": "def5efd57a7fc680b615d2dc33f95749e8d1f9411e285d2f656516e875b0559c"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaDraftSafety.js",
+      "sha256": "f5b678ede1419a7129643ffa8ce85e393ff5e324a2686130ed0a9adf142cfc90"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaFocusedDraft.js",
+      "sha256": "b4ce4b392ed37c543752c22248deb005f27939f7d1c3ae24fcaf3b0ffc6456c2"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaLucienRight.js",
+      "sha256": "0a9bdd74924d1116ebf02e29f2821d70a1feff5ba5fa662f63668c9b965a8373"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategies/siracusaMobileArcane.js",
+      "sha256": "d8538cc290b5e56610f946d5314e1c8ae53b9410ef3f50b7a0db86a5af4fafd9"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/policy/server/match/botStrategy.js",
+      "target": "server/match/routeAI/vendor/lavinia/policy/server/match/botStrategy.js",
+      "sha256": "d2b0127c7675ec4ace416a23d3999d0a93f4c985e631538a419a66235d464482"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/runtime.js",
+      "target": "server/match/routeAI/vendor/lavinia/runtime.js",
+      "sha256": "106b6b557eff8c59b812b7eeca91ace1eea36e93d1622a49141c87ef18ed7e80"
+    },
+    {
+      "source": "runtime/server/match/routeAI/vendor/lavinia/UPSTREAM72.json",
+      "target": "server/match/routeAI/vendor/lavinia/UPSTREAM72.json",
+      "sha256": "bc5ff16aa6f8e521f7d137383724885bd69bae05cbef68aacb3788fdff945e2f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/worker.js",
+      "target": "server/match/routeAI/worker.js",
+      "sha256": "0065f4dd6c3c2adc1d85232e8a88a2ba5b9ad4a4dcd2c83045976434b34c44b1"
+    },
+    {
+      "source": "runtime/server/routeLobby.js",
+      "target": "server/routeLobby.js",
+      "sha256": "6d806c35b9e2e9ff461c2736de4702ae81019fd06c7fb60d796a3e539bc1aeec"
+    }
+  ],
+  "patches": [
+    {
+      "target": "server/match/bot.js",
+      "sha256": [
+        "37c714cca41da69db449a78351ebb3797ba975d6605dc8bee387477e922f9f60",
+        "968bdf540ffd29f52efd7e4587ae67704aef452ae455492f902230014c31e841"
+      ],
+      "replacements": [
+        {
+          "find": "import { ASPD_MIN }",
+          "replace": "import {isUnifiedBot,pickBand as routePickBand,pickCard as routePickCard} from './routeAI/index.js';\nimport { ASPD_MIN }"
+        },
+        {
+          "find": "export function botPickBand(m, ps) {",
+          "replace": "export function botPickBand(m, ps) {\n  if(isUnifiedBot(m,ps))return routePickBand(m,ps);"
+        },
+        {
+          "find": "export function botPickCard(m, ps, cards, available) {",
+          "replace": "export function botPickCard(m, ps, cards, available) {\n  if(isUnifiedBot(m,ps)){const picked=routePickCard(m,ps,cards,available);if(picked!=null)return picked;}"
+        },
+        {
+          "find": "export class LayoutPlan extends Map {",
+          "replace": "export function layoutValue(m,ps,pieces,plan,params=LAYOUT_PARAMS){const model=fieldModel(m,ps),layout=new Layout(model,params);for(const p of pieces){const key=plan.get(p.uid);if(!key)continue;const rec=rangeRec(ps,chessRec(m,p.id,ps));if(rec){const [r,c]=parseKey(key);layout.units.push(unitOf(rec,key,r,c,plan.dirs?.get(p.uid)||pieceDir(p),model));}}return layout.value();}\n\nexport class LayoutPlan extends Map {"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/prep.js",
+      "sha256": [
+        "70056313d4fea66bb74e87a2daa43b497ae589ec11aadd6ff31527de783789b7",
+        "1ab4b3e28990dbf5700ee2dfb9746f036e5b6aedee1b28750fd0920157ca94b9"
+      ],
+      "replacements": [
+        {
+          "find": "import { PHASE }",
+          "replace": "import {startPrep as startRoutePrep,cancelBots as cancelRouteBots} from '../routeAI/index.js';\nimport { PHASE }"
+        },
+        {
+          "find": "  scheduleBotPrep(ps, i = 0) {",
+          "replace": "  scheduleBotPrep(ps, i = 0) {\n    if(startRoutePrep(this,ps,i))return;"
+        },
+        {
+          "find": "  endPrep() {\n    if (this.phase !== PHASE.PREP) return;",
+          "replace": "  endPrep() {\n    if (this.phase !== PHASE.PREP) return;\n    cancelRouteBots(this);"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/phases.js",
+      "sha256": [
+        "5319e4936c4fb0231cfb3150fe59edd7bea4873ba9a7f8193018f4d2c5f47996",
+        "7074f6ca4152095b901f75a90b25ab9a354fcca69ec16a88f3bb5adf95cd0ae4"
+      ],
+      "replacements": [
+        {
+          "find": "import { PHASE, ERR }",
+          "replace": "import {isUnifiedBot} from '../routeAI/index.js';\nimport { PHASE, ERR }"
+        },
+        {
+          "find": "    const token = this._turnToken;\n    this.later(0, () => {",
+          "replace": "    const token = this._turnToken;\n    const routeSeat=this.players.get(this.draftTurn());\n    const delay=isUnifiedBot(this,routeSeat)?Math.max(0,Math.min(5000,this.opts.routeAIIntervalMs||0)):0;\n    this.later(delay, () => {"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/spDraft.js",
+      "sha256": [
+        "02fe5ab934998fefc7af30ae17b455404abed08fb480e459d41f6422dee945f8",
+        "9ee2e981fd199198c8e4047d60658df3fd4dc717303fc1513a5141565c2a1b00"
+      ],
+      "replacements": [
+        {
+          "find": "import { PHASE, ERR }",
+          "replace": "import {isUnifiedBot} from '../routeAI/index.js';\nimport { PHASE, ERR }"
+        },
+        {
+          "find": "    const token = this._turnToken;\n    this.later(this.scaled(DELAYS.BOT_ACTION), () => {",
+          "replace": "    const token = this._turnToken;\n    const routeSeat=this.players.get(this.spTurn());\n    const delay=isUnifiedBot(this,routeSeat)?Math.max(0,Math.min(5000,this.opts.routeAIIntervalMs||0)):this.scaled(DELAYS.BOT_ACTION);\n    this.later(delay, () => {"
+        }
+      ]
+    },
+    {
+      "target": "server/match/Match.js",
+      "sha256": [
+        "ead93482ea6124c9b39e1ddb1a6cec2ceb46b10f5f465a28a76c9b37fe154138",
+        "561ae48b5690c73bc0b52f7216bd165db25f25929234b372443c1c3d5b9335f0"
+      ],
+      "replacements": [
+        {
+          "find": "import { SharedPool, SharedItemPool, drawDisabledBonds } from './pool.js';",
+          "replace": "import { SharedPool, SharedItemPool, drawDisabledBonds } from './pool.js';\nimport {selectTestBans} from './routeAI/index.js';"
+        },
+        {
+          "find": "    const bans = drawDisabledBonds(this.gd, this.rngSetup);",
+          "replace": "    const bans = selectTestBans(this.gd, this.rngSetup, this.opts);"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/setupVote.js",
+      "sha256": [
+        "bc642a4e7e73e8781b1e52a61fff28a71af1894ac311b2b4ca894f8970cd3b89",
+        "7e5b114dedf69623586bf089848c812b8690319febe149fe8a72d05f3e7beb2c"
+      ],
+      "replacements": [
+        {
+          "find": "import { drawDisabledBonds, SharedPool } from '../pool.js';",
+          "replace": "import { drawDisabledBonds, SharedPool } from '../pool.js';\nimport {selectTestBans} from '../routeAI/index.js';"
+        },
+        {
+          "find": "      const bans = drawDisabledBonds(this.gd, rng);",
+          "replace": "      const bans = selectTestBans(this.gd, rng, this.opts);"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/platform.js",
+      "sha256": [
+        "1f3c1f9ef4588855eaa54282287cf6e08393b760a551181dcf053269222af58b",
+        "7072251703d08ce6372f1132137a1ddfa4bab49254dee6843704d871acf34dff"
+      ],
+      "replacements": [
+        {
+          "find": "import { PHASE",
+          "replace": "import {cancelBots as cancelRouteBots} from '../routeAI/index.js';\nimport { PHASE"
+        },
+        {
+          "find": "  dispose() {\n    if (this.disposed) return;",
+          "replace": "  dispose() {\n    if (this.disposed) return;\n    cancelRouteBots(this);"
+        }
+      ]
+    },
+    {
+      "target": "server/match/match/settle.js",
+      "sha256": [
+        "1eee7bab1353181ac96c86f940d93417b8e6a90857816c1953b9d53087530047",
+        "bd3ce67a27934b205c2212559595fc3d5c43555ee752bdad81a0f785515b5ede"
+      ],
+      "replacements": [
+        {
+          "find": "import { PHASE",
+          "replace": "import {cancelBots as cancelRouteBots} from '../routeAI/index.js';\nimport { PHASE"
+        },
+        {
+          "find": "    this.offersDispose();\n    this.ended = true;",
+          "replace": "    cancelRouteBots(this);\n    this.offersDispose();\n    this.ended = true;"
+        }
+      ]
+    },
+    {
+      "target": "shared/protocol.js",
+      "sha256": [
+        "5424a27ca1c6970d87400ba510109ec72411ec456b903418755828182851d55d",
+        "e5928e37f59db7994e6b008e938597d7f50ba94190d19d129e30ffdb6a630fe1"
+      ],
+      "replacements": [
+        {
+          "find": "  'room.addBot': {},",
+          "replace": "  'room.addBot': {persona:v=>v==='unified'||v==='vanilla',$optional:['persona']},\n  'room.setRouteTest': {on:isBool},\n  'room.setRouteBans': {on:isBool,requiredBonds:v=>isList(v,64,isId),$optional:['requiredBonds']},\n  'room.setRouteInterval': {intervalMs:v=>isInt(v,0,5000)},"
+        }
+      ]
+    },
+    {
+      "target": "server/lobby.js",
+      "sha256": [
+        "86a7c4edbb597c9cb79165104f8635e5885d9df479b7a469cb9be9bc72e7a977",
+        "69fccd2d7ad1421c28ba4573d0574de3dd488f599743f9d3394cfeaf579e9a9c"
+      ],
+      "replacements": [
+        {
+          "find": "import { randomBytes, randomInt } from 'node:crypto';",
+          "replace": "import { randomBytes, randomInt } from 'node:crypto';\nimport {addRouteBot,setRouteTest,setRouteBans,setRouteInterval,publicRouteRoom,routeMatchOptions,routeSeatIdentity,adaptTestRoom,restoreRouteHost} from './routeLobby.js';"
+        },
+        {
+          "find": "      aiPicksLast: this.aiPicksLast,",
+          "replace": "      aiPicksLast: this.aiPicksLast,\n      ...publicRouteRoom(this),"
+        },
+        {
+          "find": "? { seat: s.seat, playerId: s.playerId, name: s.name, isBot: s.isBot, ready: s.ready, connected: s.connected && !s.left,",
+          "replace": "? { seat: s.seat, playerId: s.playerId, name: s.name, isBot: s.isBot, ready: s.ready, connected: s.connected && !s.left, ...routeSeatIdentity(s),"
+        },
+        {
+          "find": "      case 'room.addBot': return this.addBot(session);",
+          "replace": "      case 'room.addBot': return addRouteBot(this,session,msg);\n      case 'room.setRouteTest': return setRouteTest(this,session,msg);\n      case 'room.setRouteBans': return setRouteBans(this,session,msg);\n      case 'room.setRouteInterval': return setRouteInterval(this,session,msg);"
+        },
+        {
+          "find": "    return this.startMatch(room, key);",
+          "replace": "    const routeReady=adaptTestRoom(this,room,session);\n    if(routeReady.error)return routeReady;\n    return this.startMatch(room, key);"
+        },
+        {
+          "find": "        seat: s.seat, playerId: s.playerId, name: s.name, isBot: s.isBot, connected: s.connected,",
+          "replace": "        seat: s.seat, playerId: s.playerId, name: s.name, isBot: s.isBot, connected: s.connected, ...routeSeatIdentity(s),"
+        },
+        {
+          "find": "        seats,\n        // the spectator seats",
+          "replace": "        seats,\n        ...routeMatchOptions(room),\n        // the spectator seats"
+        },
+        {
+          "find": "      this.disposeMatchCtx(ctx);\n      this.broadcastState(room);",
+          "replace": "      this.disposeMatchCtx(ctx);\n      restoreRouteHost(this,room);\n      this.broadcastState(room);"
+        },
+        {
+          "find": "    room.replay = this.buildReplay(room, ctx);",
+          "replace": "    room.replay = this.buildReplay(room, ctx);\n    restoreRouteHost(this,room);"
+        }
+      ]
+    },
+    {
+      "target": "public/js/screens/room.js",
+      "sha256": [
+        "bff9407a5f1cb074432d69f959b85412a3ff6445edf681f6f10d151fd28bb75a",
+        "6a62fa7b4b323b22ac439d97b7ab4d1d7b3aea67c99eac640234fe6347c1cac1"
+      ],
+      "replacements": [
+        {
+          "find": "import { useEffect,",
+          "replace": "import {RouteOptions,routeAvatar} from '../routeAI.js';\nimport { useEffect,"
+        },
+        {
+          "find": "<${AvatarFrame} size=\"xl\" name=${seat.name} seat=${index} bot=${seat.isBot}",
+          "replace": "<${AvatarFrame} size=\"xl\" src=${routeAvatar(seat)} name=${seat.name} seat=${index} bot=${seat.isBot}"
+        },
+        {
+          "find": "  const [busy, setBusy] = useState(null);",
+          "replace": "  const [routePersona,setRoutePersona]=useState('unified');\n  const [busy, setBusy] = useState(null);"
+        },
+        {
+          "find": "  const addBot = () => run('add', () => net.request('room.addBot', {}));",
+          "replace": "  const addBot = () => run('add', () => net.request('room.addBot', {persona:(room.version&&room.version!=='act2autochess')||room.content?.vanilla===false?'vanilla':routePersona}));"
+        },
+        {
+          "find": "    <${SpectatorBar} facts=${facts}",
+          "replace": "    <${RouteOptions} room=${room} isHost=${facts.isHost} busy=${busy} persona=${routePersona} onPersona=${setRoutePersona} run=${run} />\n    <${SpectatorBar} facts=${facts}"
+        }
+      ]
+    },
+    {
+      "target": "public/js/main.js",
+      "sha256": [
+        "c4eecd02e1430a07747cecb16a315b0b63308a4c0ed62347e45517ceba00bd67",
+        "ea612f3200ee3199ea78738c6579217ed19eba320cc38eb5e4fdf8ceb4d0fec7"
+      ],
+      "replacements": [
+        {
+          "find": "import { RoomScreen, TrustedNotice } from './screens/room.js';",
+          "replace": "import { RoomScreen, TrustedNotice } from './screens/room.js';\nimport {RouteSpeedHUD} from './routeAI.js';"
+        },
+        {
+          "find": "    <${TrustedNotice} />",
+          "replace": "    <${RouteSpeedHUD} />\n    <${TrustedNotice} />"
+        }
+      ]
+    },
+    {
+      "target": "public/i18n/en.json",
+      "sha256": [
+        "4b928e113f4380c85d0ac0ac5e23ee06912ca45df360eca45e91efffed30a19a",
+        "35a8c7b671b1f2c0c2a5ac0c45e7196d516780831f9fa93efed902157d36f7d2"
+      ],
+      "replacements": [
+        {
+          "find": "  \"_meta\": {",
+          "replace": "  \"协同四路线AI设置\": \"Coordinated four-route AI settings\",\n  \"添加队友类型\": \"Teammate AI type\",\n  \"协同四路线AI（推荐）\": \"Coordinated four-route AI (recommended)\",\n  \"原有AI\": \"Original AI\",\n  \"四AI终极模拟测试（房主观战）\": \"Four-AI Abyss test (host spectates)\",\n  \"四席由AI控制，使用原版队友列表切换观察；回合时限仍生效。盟约保护由独立开关控制。\": \"All four seats are AI-controlled. Switch views with the original teammate list; round deadlines still apply. Bond protection has its own switch.\",\n  \"指定盟约不被禁用\": \"Keep selected bonds unbanned\",\n  \"默认关闭；仅记忆勾选项，关闭或重启不会清除。\": \"Off by default. Selections are remembered even after disabling or restarting.\",\n  \"已选择 {n} 个盟约\": \"{n} bonds selected\",\n  \"保留原有禁用数量，只筛选可能出现的组合；选中盟约仍可能因地图或规则不可用。\": \"Preserves native ban counts and selects only possible combinations. Maps or rules may still make selected bonds unavailable.\",\n  \"所选盟约过多，无法按原规则生成禁用位；请减少勾选。\": \"Too many bonds selected for a legal native ban draw. Deselect some bonds.\",\n  \"恢复四路线默认选择\": \"Restore four-route defaults\",\n  \"仅房主可调整\": \"Only the host can change this\",\n  \"AI每步间隔\": \"AI action interval\",\n  \"每步 {n} 秒\": \"{n} seconds per action\",\n  \"协同AI观察设置\": \"Coordinated AI observation settings\",\n  \"协同四路线AI · 点击原版队友栏切换观察对象\": \"Coordinated four-route AI · Select a teammate in the original panel to switch views\",\n  \"拉特兰、谢拉格、萨尔贡、叙拉古；灵巧、精准、迅捷、奥术、远见、奇迹\": \"Laterano, Kjerag, Sargon, Siracusa; Skillful, Precision, Swift, Arcane, Foresight, Miracle\",\n  \"_meta\": {"
+        }
+      ]
+    },
+    {
+      "target": "public/i18n/zh-TW.json",
+      "sha256": [
+        "836fa758d5772a35ee86e281d575cb22218fbe7d0b39d6ee8f8142488bb6e120",
+        "30e1885f86c7e48c3d4ca73a13fc818c4dcaf8dd0e33a5e24fa0777b23428f13"
+      ],
+      "replacements": [
+        {
+          "find": "  \"_meta\": {",
+          "replace": "  \"协同四路线AI设置\": \"協同四路線AI設定\",\n  \"添加队友类型\": \"新增隊友類型\",\n  \"协同四路线AI（推荐）\": \"協同四路線AI（推薦）\",\n  \"原有AI\": \"原有AI\",\n  \"四AI终极模拟测试（房主观战）\": \"四AI終極模擬測試（房主觀戰）\",\n  \"四席由AI控制，使用原版队友列表切换观察；回合时限仍生效。盟约保护由独立开关控制。\": \"四席由AI控制，使用原版隊友列表切換觀察；回合時限仍生效。盟約保護由獨立開關控制。\",\n  \"指定盟约不被禁用\": \"指定盟約不被禁用\",\n  \"默认关闭；仅记忆勾选项，关闭或重启不会清除。\": \"預設關閉；僅記憶勾選項，關閉或重新啟動不會清除。\",\n  \"已选择 {n} 个盟约\": \"已選擇 {n} 個盟約\",\n  \"保留原有禁用数量，只筛选可能出现的组合；选中盟约仍可能因地图或规则不可用。\": \"保留原有禁用數量，只篩選可能出現的組合；選中盟約仍可能因地圖或規則不可用。\",\n  \"所选盟约过多，无法按原规则生成禁用位；请减少勾选。\": \"所選盟約過多，無法依原規則產生禁用位；請減少勾選。\",\n  \"恢复四路线默认选择\": \"恢復四路線預設選擇\",\n  \"仅房主可调整\": \"僅房主可調整\",\n  \"AI每步间隔\": \"AI每步間隔\",\n  \"每步 {n} 秒\": \"每步 {n} 秒\",\n  \"协同AI观察设置\": \"協同AI觀察設定\",\n  \"协同四路线AI · 点击原版队友栏切换观察对象\": \"協同四路線AI · 點選原版隊友欄切換觀察對象\",\n  \"拉特兰、谢拉格、萨尔贡、叙拉古；灵巧、精准、迅捷、奥术、远见、奇迹\": \"拉特蘭、謝拉格、薩爾貢、敘拉古；靈巧、精準、迅捷、奧術、遠見、奇蹟\",\n  \"_meta\": {"
+        }
+      ]
+    },
+    {
+      "target": "public/i18n/ja.json",
+      "sha256": [
+        "c770b5b23a7c0dfefe97e0c4cf3166a65a3cdb86578e1f66930920bcd4eceaad",
+        "8ff60d8c7ee182363e26e9c228e32fb18dad6ff1dbad01da5363c6f4b6394ff2"
+      ],
+      "replacements": [
+        {
+          "find": "  \"_meta\": {",
+          "replace": "  \"协同四路线AI设置\": \"連携4ルートAI設定\",\n  \"添加队友类型\": \"追加するAIの種類\",\n  \"协同四路线AI（推荐）\": \"連携4ルートAI（推奨）\",\n  \"原有AI\": \"既存AI\",\n  \"四AI终极模拟测试（房主观战）\": \"AI4人の終極模擬テスト（ホストは観戦）\",\n  \"四席由AI控制，使用原版队友列表切换观察；回合时限仍生效。盟约保护由独立开关控制。\": \"4席すべてAIです。元の味方リストで観戦対象を切り替えます。ラウンドの制限時間は有効です。盟約の保護は別のスイッチで設定します。\",\n  \"指定盟约不被禁用\": \"選択した盟約を禁止対象から除外\",\n  \"默认关闭；仅记忆勾选项，关闭或重启不会清除。\": \"初期状態はオフです。選択内容はオフにしても再起動しても保持されます。\",\n  \"已选择 {n} 个盟约\": \"選択中の盟約：{n}\",\n  \"保留原有禁用数量，只筛选可能出现的组合；选中盟约仍可能因地图或规则不可用。\": \"元の禁止数を保ち、実現可能な組み合わせだけを選びます。マップやルールによって選択した盟約が使えない場合はあります。\",\n  \"所选盟约过多，无法按原规则生成禁用位；请减少勾选。\": \"選択数が多すぎて元のルールに従う禁止対象を選べません。選択を減らしてください。\",\n  \"恢复四路线默认选择\": \"4ルートの初期選択に戻す\",\n  \"仅房主可调整\": \"ホストのみ変更できます\",\n  \"AI每步间隔\": \"AIの操作間隔\",\n  \"每步 {n} 秒\": \"操作間隔 {n} 秒\",\n  \"协同AI观察设置\": \"連携AIの観戦設定\",\n  \"协同四路线AI · 点击原版队友栏切换观察对象\": \"連携4ルートAI · 元の味方パネルで観戦対象を選択\",\n  \"拉特兰、谢拉格、萨尔贡、叙拉古；灵巧、精准、迅捷、奥术、远见、奇迹\": \"ラテラーノ、イェラグ、サルゴン、シラクーザ；器用、精密、迅速、秘術、先見、奇跡\",\n  \"_meta\": {"
+        }
+      ]
+    },
+    {
+      "target": "public/i18n/ko.json",
+      "sha256": [
+        "342e873a4f8e2938c20ba74bdde3c6588ce169754b86c34398bd84e0d92a998a",
+        "aa77e9abe4ce9460b20b4e944fa38f75987bde8529dbb3f015c68fb4d177b584"
+      ],
+      "replacements": [
+        {
+          "find": "  \"_meta\": {",
+          "replace": "  \"协同四路线AI设置\": \"협동 4경로 AI 설정\",\n  \"添加队友类型\": \"추가할 AI 유형\",\n  \"协同四路线AI（推荐）\": \"협동 4경로 AI (권장)\",\n  \"原有AI\": \"기존 AI\",\n  \"四AI终极模拟测试（房主观战）\": \"AI 4인 최종 모의전 테스트 (방장은 관전)\",\n  \"四席由AI控制，使用原版队友列表切换观察；回合时限仍生效。盟约保护由独立开关控制。\": \"네 자리는 모두 AI이며 기존 팀원 목록으로 관전 대상을 바꿉니다. 라운드 제한 시간은 유지됩니다. 맹약 보호는 별도 스위치로 설정합니다.\",\n  \"指定盟约不被禁用\": \"선택한 맹약 금지 방지\",\n  \"默认关闭；仅记忆勾选项，关闭或重启不会清除。\": \"기본값은 꺼짐입니다. 해제하거나 다시 시작해도 선택 항목은 유지됩니다.\",\n  \"已选择 {n} 个盟约\": \"선택한 맹약 {n}개\",\n  \"保留原有禁用数量，只筛选可能出现的组合；选中盟约仍可能因地图或规则不可用。\": \"원래 금지 수를 유지하며 가능한 조합만 선택합니다. 맵이나 규칙에 따라 선택한 맹약을 사용할 수 없을 수 있습니다.\",\n  \"所选盟约过多，无法按原规则生成禁用位；请减少勾选。\": \"선택한 맹약이 너무 많아 원래 규칙에 맞는 금지 조합을 만들 수 없습니다. 일부 선택을 해제하세요.\",\n  \"恢复四路线默认选择\": \"4경로 기본 선택 복원\",\n  \"仅房主可调整\": \"방장만 변경할 수 있습니다\",\n  \"AI每步间隔\": \"AI 행동 간격\",\n  \"每步 {n} 秒\": \"행동당 {n}초\",\n  \"协同AI观察设置\": \"협동 AI 관전 설정\",\n  \"协同四路线AI · 点击原版队友栏切换观察对象\": \"협동 4경로 AI · 기존 팀원 패널에서 관전 대상 선택\",\n  \"拉特兰、谢拉格、萨尔贡、叙拉古；灵巧、精准、迅捷、奥术、远见、奇迹\": \"라테라노, 쉐라그, 사르곤, 시라쿠사; 기교, 정밀, 신속, 비술, 선견, 기적\",\n  \"_meta\": {"
+        }
+      ]
+    }
+  ]
+}
