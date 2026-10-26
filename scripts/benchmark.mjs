@@ -101,6 +101,12 @@ export async function runGame({host,seed,expectedHostDigest=null,onProgress=()=>
      match:{public:this.publicView(),private:ps.privateView(),result:null,battle:null}});
     const handle=intent=>{assert(ACTIONS.has(intent.t),'Policy attempted an unsupported action');return this._handle(ps,intent);};
     const result=runRoute(this,ps,{observe,handle});
+    if(!result?.completion?.ready||!ps.ready){
+     const view=ps.privateView(),state=result?.completion?.restoration;
+     onProgress({event:'prep-blocked',seed,round,route:routeFor(this,ps).id,blocked:!!result?.completion?.blocked,
+      pendingMembers:state?.pending?.length||0,missingMembers:state?.missingSelected?.length||0,
+      pendingTemp:view.temp.filter(Boolean).length,rewardPending:!!view.shop.rewardOffer,choicePending:!!view.personalChoice});
+    }
     assert(result?.completion?.ready&&ps.ready,'Policy failed to reach Ready');
     onProgress({event:'prep',seed,round,route:routeFor(this,ps).id});
    });
@@ -127,6 +133,7 @@ export async function runGame({host,seed,expectedHostDigest=null,onProgress=()=>
   while(!m.ended&&steps++<3000000){
    assert(sched.runNext(),'Native scheduler exhausted');
    assert.equal(sched.errors.length,0,'Native callback failed');
+   assert.equal(m.errorCount,0,'Match callback failed');
    for(const p of m.order)if(!p.alive&&!eliminated.has(p.playerId)){eliminated.add(p.playerId);report.eliminations.push({route:routeFor(m,p).id,round:m.round});}
    if(steps%100===0)await new Promise(resolve=>setImmediate(resolve));
   }

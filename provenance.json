@@ -19,9 +19,9 @@
       "source": "local-policy",
       "sourcePath": "tools/sargon-controller100.mjs",
       "sourceSha256": "a257f94f54de891994bd6169c1948cbbfdaeebc110aa4bcebfc38d5fe1fe54d7",
-      "sha256": "0f0711d220da8f63816909650f7cb212735e0a9d3b37ca93ed8047573564c922",
+      "sha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
       "modified": true,
-      "modification": "2026-10-25: native legal hand-capacity and end-of-prep cash repair"
+      "modification": "2026-10-26: confirm real hand room after native overflow refill; bounded pending-offer completion before Ready."
     },
     {
       "file": "runtime/server/match/routeAI/vendor/arturia/runtime.js",
@@ -151,8 +151,9 @@
       "source": "local-policy",
       "sourcePath": "tools/roster-restoration100.mjs",
       "sourceSha256": "ecf612d1814f90ffa28042736923f2c107f7ad9d4342a14acd4cbc45f0995b73",
-      "sha256": "9ec35d34eda2e793233e0ff2c936c95cf1b4c30a755366d155a7281aad8dda34",
-      "modified": true
+      "sha256": "04d851e105741bc77a72cf33a9979452415ff0c4186d36e9eeedf26d8cb02530",
+      "modified": true,
+      "modification": "2026-10-26: only the current roster blocks readiness; historical withdrawn reserves remain sale-protected."
     },
     {
       "file": "runtime/server/match/routeAI/support/kjerag-formation57.mjs",

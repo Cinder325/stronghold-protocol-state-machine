@@ -31,6 +31,17 @@ test('dry run validates without writing; install is idempotent; uninstall restor
   assert.equal(uninstallAddon(f).status,'not-installed');assert(!fs.existsSync(path.join(f.target,'.stronghold-state-machine-install')));
 });
 
+test('a same-version new revision can safely uninstall the old receipt before installing its changed payload',t=>{
+  const f=fixture(t);assert.equal(installAddon(f).status,'installed');
+  const next='export const run = () => false;\n';put(f.root,'runtime/route.mjs',next);f.manifest.files[0].sha256=sha(next);f.save();
+  assert.throws(()=>installAddon(f),/different addon revision/);
+  assert.equal(uninstallAddon({...f,dryRun:true}).status,'ready-to-uninstall');
+  assert.equal(read(f.target,'server/match/routeAI/runtime.mjs'),f.payload);
+  assert.equal(uninstallAddon(f).status,'uninstalled');assert.equal(read(f.target,'server/lobby.js'),f.original);
+  assert.equal(read(f.target,'data/keep.json'),'{"native":true}\n');
+  assert.equal(installAddon(f).status,'installed');assert.equal(read(f.target,'server/match/routeAI/runtime.mjs'),next);
+});
+
 test('unknown upstream, duplicate anchors, unsupported versions and corrupted payload refuse before mutation',t=>{
   const f=fixture(t);put(f.target,'server/lobby.js',f.original+'// local');assert.throws(()=>installAddon(f),/locally edited upstream/);assert(!fs.existsSync(path.join(f.target,'server/match/routeAI/runtime.mjs')));
   put(f.target,'server/lobby.js',f.original);f.manifest.patches[0].replacements[0].find='export';f.manifest.patches[0].replacements[0].replace='// export';put(f.target,'server/lobby.js',f.original+f.original);f.manifest.patches[0].sha256=[sha(f.original+f.original)];f.save();assert.throws(()=>installAddon(f),/exactly once/);

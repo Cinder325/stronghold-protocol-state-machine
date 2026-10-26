@@ -1,6 +1,7 @@
 name: Source and integration checks
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
 permissions:
@@ -9,7 +10,7 @@ jobs:
   verify:
     name: Original host ${{ matrix.host.version }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
@@ -35,6 +36,9 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4, verified public ref
         with:
           node-version: '22'
+      - name: Keep a clean source copy for patch-anchor checks
+        working-directory: _host
+        run: git worktree add --detach ../_pristine HEAD
       - name: Install only upstream dependencies
         working-directory: _host
         run: npm ci --ignore-scripts
@@ -50,4 +54,8 @@ jobs:
         working-directory: addon
         env:
           SP_HOST_ROOT: ../_host
+          SP_UPSTREAM_ROOT: ../_pristine
         run: npm test
+      - name: Full native regression for reported Sargon seeds
+        working-directory: addon
+        run: node scripts/benchmark.mjs --host ../_host --out ../sargon-ready-${{ matrix.host.version }}.json --seeds 111013,111018

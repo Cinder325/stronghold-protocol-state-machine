@@ -2,6 +2,7 @@
 // Modified 2026-10-25: import adaptation and teammate-only integration; see provenance.json.
 // Experimental local Sargon FSM. [ASSUMED] priorities, never game rules.
 // Only current visible assets are scored; every mutation is a native intent.
+// Modified 2026-10-26: confirm hand capacity, finish queued rewards and restore cross-terrain replacements before Ready.
 import {computeBonds,pieceBonds} from "../../bondsMeta.js";
 import {planLayout,createRehearsal,LAYOUT_PARAMS} from "../../bot.js";
 import {botPickCard} from "../../bot.js";
@@ -280,11 +281,26 @@ export function runSargonPrep58(m,ps,{observe,handle,policy=DEFAULT_SARGON58,not
   return riskCache.get(key);
  };
  const capacity=()=>{
-  let p=observe().match.private;if(p.hand.some(u=>u==null))return true;layout(false);p=observe().match.private;
-  if(p.hand.some(u=>u==null))return true;
-  if(guard.status().pending.length||guard.status().missingSelected.length)return false;
-  const surplus=capacitySale67(gd,p,{round,excluded:saleExclusions()});
-  return !!surplus&&act({t:'g.sell',uid:surplus.uid},'capacity-non-key');
+  // Native recompute automatically fills freed slots from temp. A successful
+  // sale/equip/deployment is not proof that the regular hand now has room.
+  for(let attempt=0;attempt<20;attempt++){
+   let p=observe().match.private;if(p.hand.some(u=>u==null))return true;
+   const equip=equipStep58(gd,p,{round,excluded:saleExclusions(),canRelease:uid=>guard.canSell(uid),allowRecruit:false,allowRewards:false});
+   if(equip){if(!act(equip,'capacity-use-owned-equipment'))return false;continue;}
+   layout(false);p=observe().match.private;if(p.hand.some(u=>u==null))return true;
+   // Missing selected bodies stay in saleExclusions through the guard. They
+   // must not prevent releasing an unrelated bench spare for a hand buffer.
+   const surplus=capacitySale67(gd,p,{round,excluded:saleExclusions()});
+   if(!surplus||!act({t:'g.sell',uid:surplus.uid},'capacity-non-key'))return false;
+  }
+  return observe().match.private.hand.some(u=>u==null);
+ };
+ const claimReward=()=>{
+  if(!capacity())return false;
+  const fresh=observe().match.private,offer=fresh.shop.rewardOffer;if(!offer)return true;
+  const offers=offer.slots.map((s,idx)=>({s,idx,...buyValue58(gd,fresh,s,{round,reward:true})}))
+   .filter(o=>o.s&&!o.s.sold&&o.s.price<=fresh.funds).sort((a,b)=>b.group-a.group||b.score-a.score||a.idx-b.idx);
+  return !!offers.length&&act({t:'g.reward',idx:offers[0].idx},'native-free-choice');
  };
  for(let step=0;step<policy.maxSteps;step++){
   const p=observe().match.private,key=JSON.stringify([p.funds,p.shop,p.board,p.hand,p.temp,p.personalChoice]);
@@ -293,10 +309,7 @@ export function runSargonPrep58(m,ps,{observe,handle,policy=DEFAULT_SARGON58,not
    const idx=choice.index??botPickCard(m,ps,p.personalChoice.cards,p.personalChoice.cards.map((_,i)=>i));
    if(!act({t:'g.choice',idx,choiceId:p.personalChoice.id},'choose-native-offer'))break;continue;}
   if(p.shop.rewardOffer){
-   if(!capacity()){stopReason='reward-capacity';break;}
-   const fresh=observe().match.private,offers=fresh.shop.rewardOffer.slots.map((s,idx)=>({s,idx,...buyValue58(gd,fresh,s,{round,reward:true})}))
-    .filter(o=>o.s&&!o.s.sold&&o.s.price<=fresh.funds).sort((a,b)=>b.group-a.group||b.score-a.score||a.idx-b.idx);
-   if(!offers.length||!act({t:'g.reward',idx:offers[0].idx},'native-free-choice'))break;continue;
+   if(!claimReward()){stopReason='reward-capacity-or-choice';break;}continue;
   }
   const equip=equipStep58(gd,p,{round,excluded:saleExclusions(),canRelease:uid=>guard.canSell(uid)});if(equip){if(!act(equip,'resolve-equipment'))break;continue;}
   const target=policy.upgradeRounds.reduce((lv,r,i)=>r>0&&round>=r?Math.max(lv,i):lv,1);
@@ -402,14 +415,35 @@ export function runSargonPrep58(m,ps,{observe,handle,policy=DEFAULT_SARGON58,not
   finalLayout=layout(true);
  }};
  // Rescue due temp into real hand space, with the same protected-sale invariant.
- for(let n=0;n<40;n++){
+ const rescueDue=()=>{for(let n=0;n<40;n++){
   const p=observe().match.private,due=p.temp.filter(u=>u&&u.kind!=='token'&&(!ps.tempDue||ps.tempDue(u)<=ps.prepsEnded));if(!due.length)break;
   const equip=equipStep58(gd,p,{round,excluded:saleExclusions(),canRelease:uid=>guard.canSell(uid),allowRecruit:false,allowRewards:false});if(equip&&due.some(u=>u.uid===equip.itemUid)){if(!act(equip,'consume-due-item'))break;continue;}
   const free=p.hand.findIndex(u=>u==null);if(free>=0){if(!act({t:'g.move',uid:due[0].uid,to:{area:'hand',idx:free}},'rescue-due-card'))break;continue;}
   const disposable=capacitySale67(gd,p,{round,excluded:saleExclusions()});
   if(disposable){if(!act({t:'g.sell',uid:disposable.uid},'rescue-release-non-key'))break;continue;}break;
+ }};
+ const finishRestoration=()=>{for(let pass=0;pass<4;pass++){
+  rescueDue();const state=guard.status();
+  if(state.pending.length||state.missingSelected.length){
+   if(!capacity())break;
+   finalLayout=layout(true);
+  }
+  finishCash();const remaining=guard.status();
+  if(!remaining.pending.length&&!remaining.missingSelected.length)break;
+ }};
+ finishRestoration();
+ // Shopping/action bounds and later cash repairs can leave or create offers.
+ // Complete them against fresh state, then restore/rescue again; do not force
+ // Ready past missing selected bodies, due overflow or an unresolved choice.
+ for(let n=0;n<20;n++){
+  const p=observe().match.private;
+  if(p.personalChoice){const choice=selectBounty47(m,ps,p.personalChoice.cards,p.personalChoice.cards.map((_,i)=>i),{note});
+   const idx=choice.index??botPickCard(m,ps,p.personalChoice.cards,p.personalChoice.cards.map((_,i)=>i));
+   if(!act({t:'g.choice',idx,choiceId:p.personalChoice.id},'finish-pending-choice'))break;
+  }else if(p.shop.rewardOffer){if(!claimReward()){stopReason='final-reward-capacity-or-choice';break;}}
+  else break;
+  finalLayout=layout(true);finishRestoration();
  }
- finishCash();
  const p=observe().match.private,unresolved=p.temp.filter(u=>u&&u.kind!=='token'&&(!ps.tempDue||ps.tempDue(u)<=ps.prepsEnded));
  const restoration=guard.status(),blocked=unresolved.length>0||!!p.personalChoice||!!p.shop.rewardOffer
   ||restoration.pending.length>0||restoration.missingSelected.length>0,ready=!blocked&&act({t:'g.ready',ready:true},'ready');

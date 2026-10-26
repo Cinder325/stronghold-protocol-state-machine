@@ -1,0 +1,2880 @@
+{
+  "schema": 1,
+  "addonVersion": "0.1.0",
+  "upstream": {
+    "version": "0.3.1",
+    "commit": "b3deebdae4a92642c007d217a1a4573e5d3612c5"
+  },
+  "manifestSha256": "0c2dfddf3a3e0cb31fe7614271cfbd03de5ae98c621ed3c99ac38c1cfed333a9",
+  "evaluatorSha256": "dc7d24a05ae75bad7ffa730323530bf8b5a762e15e9557d5be4a80c0db82b4e0",
+  "hostSourceDigest": "28c231b553ce8fe68801f2f93edf391f96f63ca33dc0f1237325f0db23c72b6c",
+  "mode": "coop",
+  "difficulty": "ABYSS",
+  "content": "full",
+  "players": 4,
+  "seeds": [
+    111013,
+    111018
+  ],
+  "complete": true,
+  "scheduling": "Native BOT_ACTION plus seat BOT_STAGGER; in-process deterministic policy execution; not a worker-latency benchmark.",
+  "conditions": {
+    "requiredBonds": [
+      "arcaneShip",
+      "kjeragShip",
+      "lateranoShip",
+      "miraShip",
+      "preciShip",
+      "sargonShip",
+      "siracusaShip",
+      "skillfulShip",
+      "swiftShip",
+      "visiShip"
+    ],
+    "banSampling": "Native distribution conditioned on declared kept bonds; unchanged native core/addon ban counts.",
+    "nativeBattleRules": true,
+    "noResourceGrants": true,
+    "noBalanceOverrides": true,
+    "noHumanTraces": true,
+    "cohort": "Seeds fixed before this evaluation. All outcomes, including failure to enter R15, are retained."
+  },
+  "layerCohort": "Raw persistent layers of every native bond, including zero and inactive bonds. Means use routes alive at entry to the corresponding team-cleared boss round; sample counts are explicit. Eliminated or never-entered routes are not zero-imputed.",
+  "games": [
+    {
+      "seed": 111013,
+      "stageId": "act2autochess_m01",
+      "bossId": "boss_3",
+      "hiddenBossId": "boss_8",
+      "drawnBans": [
+        "deputShip",
+        "egirShip",
+        "indomShip",
+        "raidShip",
+        "soloShip",
+        "victoriaShip",
+        "yanShip"
+      ],
+      "assignments": [
+        {
+          "seat": 0,
+          "route": "laterano"
+        },
+        {
+          "seat": 1,
+          "route": "kjerag"
+        },
+        {
+          "seat": 2,
+          "route": "sargon"
+        },
+        {
+          "seat": 3,
+          "route": "siracusa"
+        }
+      ],
+      "bossRounds": [
+        {
+          "round": 14,
+          "hidden": false,
+          "cleared": true,
+          "teamLpAtEntry": 84,
+          "players": [
+            {
+              "route": "laterano",
+              "aliveAtEntry": true,
+              "lp": 24,
+              "bandId": "band_paganini",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 130,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 18,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 626,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 6,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 6,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 189,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 41,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 174,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 24
+            },
+            {
+              "route": "kjerag",
+              "aliveAtEntry": true,
+              "lp": 21,
+              "bandId": "band_sciurus",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 22,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 2,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 34,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 365,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 20,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 110,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 8,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 34,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 21
+            },
+            {
+              "route": "sargon",
+              "aliveAtEntry": true,
+              "lp": 22,
+              "bandId": "band_pepe",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 19,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 302,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 5,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 15,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 22
+            },
+            {
+              "route": "siracusa",
+              "aliveAtEntry": true,
+              "lp": 17,
+              "bandId": "band_chiave",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 12,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 8,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 68,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 292,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 136,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 17
+            }
+          ],
+          "teamLpAtEnd": 84,
+          "bossRemainingHp": 0
+        },
+        {
+          "round": 15,
+          "hidden": true,
+          "cleared": true,
+          "teamLpAtEntry": 84,
+          "players": [
+            {
+              "route": "laterano",
+              "aliveAtEntry": true,
+              "lp": 24,
+              "bandId": "band_paganini",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 152,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 18,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 638,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 8,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 6,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 215,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 41,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 174,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 24
+            },
+            {
+              "route": "kjerag",
+              "aliveAtEntry": true,
+              "lp": 21,
+              "bandId": "band_sciurus",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 32,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 2,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 34,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 379,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 20,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 132,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 34,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 21
+            },
+            {
+              "route": "sargon",
+              "aliveAtEntry": true,
+              "lp": 22,
+              "bandId": "band_pepe",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 14,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 24,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 302,
+                  "count": 7,
+                  "active": true,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 5,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 20,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 22
+            },
+            {
+              "route": "siracusa",
+              "aliveAtEntry": true,
+              "lp": 17,
+              "bandId": "band_chiave",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 12,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 8,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 76,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 352,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 5,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 156,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 17
+            }
+          ],
+          "teamLpAtEnd": 84,
+          "bossRemainingHp": 0
+        }
+      ],
+      "eliminations": [],
+      "outcome": {
+        "victory": true,
+        "hiddenReached": true,
+        "hiddenCleared": true,
+        "reason": "victory"
+      },
+      "validation": {
+        "matchErrors": 0,
+        "simErrors": 0,
+        "metaErrors": 0,
+        "schedulerErrors": 0,
+        "auditViolations": 0
+      },
+      "finalPlayers": [
+        {
+          "route": "laterano",
+          "alive": true,
+          "lp": 24
+        },
+        {
+          "route": "kjerag",
+          "alive": true,
+          "lp": 21
+        },
+        {
+          "route": "sargon",
+          "alive": true,
+          "lp": 22
+        },
+        {
+          "route": "siracusa",
+          "alive": true,
+          "lp": 17
+        }
+      ],
+      "bondIds": [
+        "arcaneShip",
+        "deputShip",
+        "egirShip",
+        "emptyShip",
+        "indomShip",
+        "investShip",
+        "kazimierzShip",
+        "kjeragShip",
+        "lateranoShip",
+        "maniShip",
+        "miraShip",
+        "preciShip",
+        "raidShip",
+        "sargonShip",
+        "siracusaShip",
+        "skillfulShip",
+        "soloShip",
+        "steadShip",
+        "suntShip",
+        "swiftShip",
+        "victoriaShip",
+        "visiShip",
+        "yanShip"
+      ]
+    },
+    {
+      "seed": 111018,
+      "stageId": "act1autochess_m03",
+      "bossId": "boss_6",
+      "hiddenBossId": "boss_8",
+      "drawnBans": [
+        "deputShip",
+        "egirShip",
+        "raidShip",
+        "soloShip",
+        "steadShip",
+        "victoriaShip",
+        "yanShip"
+      ],
+      "assignments": [
+        {
+          "seat": 0,
+          "route": "laterano"
+        },
+        {
+          "seat": 1,
+          "route": "kjerag"
+        },
+        {
+          "seat": 2,
+          "route": "sargon"
+        },
+        {
+          "seat": 3,
+          "route": "siracusa"
+        }
+      ],
+      "bossRounds": [
+        {
+          "round": 14,
+          "hidden": false,
+          "cleared": true,
+          "teamLpAtEntry": 31,
+          "players": [
+            {
+              "route": "laterano",
+              "aliveAtEntry": true,
+              "lp": 11,
+              "bandId": "band_paganini",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 6,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 2,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 9,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 170,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": true,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 110,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 12,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 17,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 18,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 11
+            },
+            {
+              "route": "kjerag",
+              "aliveAtEntry": true,
+              "lp": 13,
+              "bandId": "band_sciurus",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 30,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 407,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 61,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 198,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 6,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 13
+            },
+            {
+              "route": "sargon",
+              "aliveAtEntry": true,
+              "lp": 4,
+              "bandId": "band_pepe",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 2,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 2,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 8,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 119,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 298,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 4
+            },
+            {
+              "route": "siracusa",
+              "aliveAtEntry": true,
+              "lp": 3,
+              "bandId": "band_chiave",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 1,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 402,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 98,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 3
+            }
+          ],
+          "teamLpAtEnd": 31,
+          "bossRemainingHp": 0
+        },
+        {
+          "round": 15,
+          "hidden": true,
+          "cleared": true,
+          "teamLpAtEntry": 31,
+          "players": [
+            {
+              "route": "laterano",
+              "aliveAtEntry": true,
+              "lp": 11,
+              "bandId": "band_paganini",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 10,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 2,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 9,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 170,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 114,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 12,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 17,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 20,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 9
+            },
+            {
+              "route": "kjerag",
+              "aliveAtEntry": true,
+              "lp": 13,
+              "bandId": "band_sciurus",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 10,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 30,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 4,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 447,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 81,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 214,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 6,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 12,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 4,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 11
+            },
+            {
+              "route": "sargon",
+              "aliveAtEntry": true,
+              "lp": 4,
+              "bandId": "band_pepe",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 2,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 2,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 10,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 8,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 119,
+                  "count": 3,
+                  "active": true,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 298,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 4,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 10,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 3
+            },
+            {
+              "route": "siracusa",
+              "aliveAtEntry": true,
+              "lp": 3,
+              "bandId": "band_chiave",
+              "bonds": {
+                "arcaneShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "deputShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "egirShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "emptyShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "indomShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "investShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kazimierzShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "kjeragShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "lateranoShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "maniShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "miraShip": {
+                  "layers": 1,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "preciShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "raidShip": {
+                  "layers": 0,
+                  "count": 1,
+                  "active": false,
+                  "modeOff": false
+                },
+                "sargonShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "siracusaShip": {
+                  "layers": 478,
+                  "count": 6,
+                  "active": true,
+                  "modeOff": false
+                },
+                "skillfulShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "soloShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "steadShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "suntShip": {
+                  "layers": 0,
+                  "count": 5,
+                  "active": true,
+                  "modeOff": false
+                },
+                "swiftShip": {
+                  "layers": 120,
+                  "count": 2,
+                  "active": true,
+                  "modeOff": false
+                },
+                "victoriaShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "visiShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                },
+                "yanShip": {
+                  "layers": 0,
+                  "count": 0,
+                  "active": false,
+                  "modeOff": false
+                }
+              },
+              "lpAtEnd": 3
+            }
+          ],
+          "teamLpAtEnd": 26,
+          "bossRemainingHp": 0
+        }
+      ],
+      "eliminations": [],
+      "outcome": {
+        "victory": true,
+        "hiddenReached": true,
+        "hiddenCleared": true,
+        "reason": "victory"
+      },
+      "validation": {
+        "matchErrors": 0,
+        "simErrors": 0,
+        "metaErrors": 0,
+        "schedulerErrors": 0,
+        "auditViolations": 0
+      },
+      "finalPlayers": [
+        {
+          "route": "laterano",
+          "alive": true,
+          "lp": 9
+        },
+        {
+          "route": "kjerag",
+          "alive": true,
+          "lp": 11
+        },
+        {
+          "route": "sargon",
+          "alive": true,
+          "lp": 3
+        },
+        {
+          "route": "siracusa",
+          "alive": true,
+          "lp": 3
+        }
+      ],
+      "bondIds": [
+        "arcaneShip",
+        "deputShip",
+        "egirShip",
+        "emptyShip",
+        "indomShip",
+        "investShip",
+        "kazimierzShip",
+        "kjeragShip",
+        "lateranoShip",
+        "maniShip",
+        "miraShip",
+        "preciShip",
+        "raidShip",
+        "sargonShip",
+        "siracusaShip",
+        "skillfulShip",
+        "soloShip",
+        "steadShip",
+        "suntShip",
+        "swiftShip",
+        "victoriaShip",
+        "visiShip",
+        "yanShip"
+      ]
+    }
+  ],
+  "summary": {
+    "round14": {
+      "entered": 2,
+      "cleared": 2,
+      "totalGames": 2,
+      "clearRateAllGames": 1,
+      "clearRateAmongEntered": 1,
+      "routes": {
+        "laterano": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 68,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 8,
+            "kjeragShip": 13.5,
+            "lateranoShip": 398,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 58,
+            "raidShip": 0,
+            "sargonShip": 3,
+            "siracusaShip": 0,
+            "skillfulShip": 100.5,
+            "soloShip": 0,
+            "steadShip": 22.5,
+            "suntShip": 0,
+            "swiftShip": 15.5,
+            "victoriaShip": 0,
+            "visiShip": 96,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 5.5
+        },
+        "kjerag": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 11,
+            "deputShip": 15,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 19,
+            "kjeragShip": 386,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 40.5,
+            "raidShip": 0,
+            "sargonShip": 0,
+            "siracusaShip": 0,
+            "skillfulShip": 154,
+            "soloShip": 3,
+            "steadShip": 6,
+            "suntShip": 0,
+            "swiftShip": 19,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4.5
+        },
+        "sargon": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 8,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 5,
+            "kjeragShip": 6,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 69,
+            "raidShip": 0,
+            "sargonShip": 300,
+            "siracusaShip": 0,
+            "skillfulShip": 0,
+            "soloShip": 0,
+            "steadShip": 2,
+            "suntShip": 0,
+            "swiftShip": 12.5,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4
+        },
+        "siracusa": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 5,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 6,
+            "kjeragShip": 4,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 34.5,
+            "preciShip": 0,
+            "raidShip": 0,
+            "sargonShip": 0,
+            "siracusaShip": 347,
+            "skillfulShip": 0,
+            "soloShip": 2,
+            "steadShip": 0,
+            "suntShip": 0,
+            "swiftShip": 117,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4
+        }
+      }
+    },
+    "round15": {
+      "entered": 2,
+      "cleared": 2,
+      "totalGames": 2,
+      "clearRateAllGames": 1,
+      "clearRateAmongEntered": 1,
+      "routes": {
+        "laterano": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 81,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 8,
+            "kjeragShip": 13.5,
+            "lateranoShip": 404,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 61,
+            "raidShip": 0,
+            "sargonShip": 3,
+            "siracusaShip": 0,
+            "skillfulShip": 113.5,
+            "soloShip": 0,
+            "steadShip": 22.5,
+            "suntShip": 0,
+            "swiftShip": 15.5,
+            "victoriaShip": 0,
+            "visiShip": 97,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 5
+        },
+        "kjerag": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 21,
+            "deputShip": 15,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 19,
+            "kjeragShip": 413,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 50.5,
+            "raidShip": 0,
+            "sargonShip": 0,
+            "siracusaShip": 0,
+            "skillfulShip": 173,
+            "soloShip": 3,
+            "steadShip": 11,
+            "suntShip": 0,
+            "swiftShip": 19,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4.5
+        },
+        "sargon": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 8,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 5,
+            "kjeragShip": 6,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 0,
+            "preciShip": 71.5,
+            "raidShip": 0,
+            "sargonShip": 300,
+            "siracusaShip": 0,
+            "skillfulShip": 0,
+            "soloShip": 0,
+            "steadShip": 2,
+            "suntShip": 0,
+            "swiftShip": 15,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4
+        },
+        "siracusa": {
+          "samples": 2,
+          "meanLayers": {
+            "arcaneShip": 5,
+            "deputShip": 0,
+            "egirShip": 0,
+            "emptyShip": 0,
+            "indomShip": 0,
+            "investShip": 0,
+            "kazimierzShip": 6,
+            "kjeragShip": 4,
+            "lateranoShip": 5,
+            "maniShip": 0,
+            "miraShip": 38.5,
+            "preciShip": 0,
+            "raidShip": 0,
+            "sargonShip": 0,
+            "siracusaShip": 415,
+            "skillfulShip": 0,
+            "soloShip": 2,
+            "steadShip": 0,
+            "suntShip": 0,
+            "swiftShip": 138,
+            "victoriaShip": 0,
+            "visiShip": 0,
+            "yanShip": 0
+          },
+          "meanActiveBonds": 4
+        }
+      }
+    }
+  }
+}

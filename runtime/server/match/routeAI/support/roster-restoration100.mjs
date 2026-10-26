@@ -3,6 +3,8 @@
 // AI-only preparation guard. Native move/sell validation remains unchanged.
 // Reserve intended and temporarily withdrawn bodies until restoration, even if
 // a later intermediate roster score changes while that body is in the hand.
+// Modified 2026-10-26: readiness follows the current roster; historical withdrawn
+// reserves stay sale-protected but are not an extra mandatory deployment.
 import {applyPlacement47} from "./kjerag-placement100.mjs";
 
 const owned=p=>[...p.board,...p.hand,...p.temp].filter(u=>u?.kind==='chess');
@@ -33,7 +35,7 @@ export function createRosterGuard69({observe,keyOf=()=>false}={}){
   },
   protectedUids,
   canSell(uid){return !protectedUids().has(uid);},
-  status(){const p=sync();return {pending:[...pending],missingSelected:[...selected]
+  status(){const p=sync();return {pending:[...pending].filter(uid=>selected.has(uid)),missingSelected:[...selected]
    .filter(uid=>owned(p).some(u=>u.uid===uid)&&!p.board.some(u=>u.uid===uid))};},
  };
 }

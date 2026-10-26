@@ -22,6 +22,8 @@ node scripts/verify-host.mjs --host ../Stronghold-Protocol
 
 完整宿主集成测试使用环境变量 `SP_HOST_ROOT` 指向已安装扩展的原版测试副本。可选 `SP_UPSTREAM_ROOT` 指向未安装的原始副本以核对唯一补丁锚点。
 
+2026-10-26准备就绪修复的两个报告种子、原生溢出/奖励回归和同版本更新步骤见[修复说明](READY-HOTFIX.md)。CI分别在两个受支持宿主上检查完整回归对局，不把针对性种子的胜负并入历史十局统计。
+
 PowerShell 示例：
 
 ```powershell

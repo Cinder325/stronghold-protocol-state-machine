@@ -229,7 +229,7 @@
     {
       "source": "runtime/server/match/routeAI/policies/sargon.mjs",
       "target": "server/match/routeAI/policies/sargon.mjs",
-      "sha256": "0f0711d220da8f63816909650f7cb212735e0a9d3b37ca93ed8047573564c922"
+      "sha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d"
     },
     {
       "source": "runtime/server/match/routeAI/routes.js",
@@ -314,7 +314,7 @@
     {
       "source": "runtime/server/match/routeAI/support/roster-restoration100.mjs",
       "target": "server/match/routeAI/support/roster-restoration100.mjs",
-      "sha256": "9ec35d34eda2e793233e0ff2c936c95cf1b4c30a755366d155a7281aad8dda34"
+      "sha256": "04d851e105741bc77a72cf33a9979452415ff0c4186d36e9eeedf26d8cb02530"
     },
     {
       "source": "runtime/server/match/routeAI/support/sargon-cash.js",
