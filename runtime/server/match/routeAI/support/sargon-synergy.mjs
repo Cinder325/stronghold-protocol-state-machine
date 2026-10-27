@@ -5,7 +5,7 @@
 import {LayoutPlan} from "../../bot.js";
 import {canPlace,placeClass,parseKey} from "../../board.js";
 import {rotateOffset} from "../../../sim/dir.js";
-import {sargonChargeHost58,sargonTraits58} from "./sargon-mechanics58.mjs";
+import {sargonChargeHost58,sargonTraits58} from "./sargon-mechanics.mjs";
 const copy=p=>{const q=new LayoutPlan(p);q.dirs=new Map(p.dirs||[]);return q;};
 export function relationPlans73(ps,chosen,seed,{maxCandidates=5}={}){
  const gd=ps.gd,map=ps.deployMap(),out=[];

@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "purpose": "Behavior-preserving refactor regression; not a new win-rate study",
+  "date": "2026-10-27",
+  "baselineCommit": "fbc7ffc90662236827f874a5e0ab57b1e8278a65",
+  "upstream": {
+    "version": "0.3.3",
+    "commit": "f07b8965061bbc311ad7aa815879b09264a1e47d"
+  },
+  "seeds": [
+    111013,
+    111018
+  ],
+  "evaluatorSha256": "dc7d24a05ae75bad7ffa730323530bf8b5a762e15e9557d5be4a80c0db82b4e0",
+  "baselineManifestSha256": "0c2dfddf3a3e0cb31fe7614271cfbd03de5ae98c621ed3c99ac38c1cfed333a9",
+  "refactoredManifestSha256": "b7d5b389828fee2ce6840670a29f72276e1f8067d3bf480d81b6cecd8c67f1fa",
+  "unchangedDeclarations": 69,
+  "publicPolicyExportsUnchanged": true,
+  "nativeGameReportsByteEquivalent": true,
+  "summaryEqual": true,
+  "fullActionTraceCompared": false,
+  "rngSnapshotsCompared": false,
+  "comparisonScope": "All native benchmark game report fields: stage, bosses, drawn bans, assignments, boss entry LP and layers, eliminations, outcomes, validation and final player state. Source/manifest hashes intentionally differ.",
+  "games": [
+    {
+      "seed": 111013,
+      "sha256": "da068c352094f54e37b333c6f7441f72a45acdfb2a2150f0e765bd0fdd23ae7d",
+      "round14": true,
+      "round15": true,
+      "validation": {
+        "matchErrors": 0,
+        "simErrors": 0,
+        "metaErrors": 0,
+        "schedulerErrors": 0,
+        "auditViolations": 0
+      }
+    },
+    {
+      "seed": 111018,
+      "sha256": "dfb088acd1df3bc583be318655b5eb2694639cd2da0daa6c7b01fe4d59f94cd9",
+      "round14": true,
+      "round15": true,
+      "validation": {
+        "matchErrors": 0,
+        "simErrors": 0,
+        "metaErrors": 0,
+        "schedulerErrors": 0,
+        "auditViolations": 0
+      }
+    }
+  ],
+  "limitations": "Two fixed regression seeds do not establish general strategy strength. Existing historical ten-game results and CI evaluation scope are unchanged."
+}

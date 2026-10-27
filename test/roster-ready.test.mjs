@@ -6,7 +6,7 @@ import {pathToFileURL} from 'node:url';
 
 const host=process.env.SP_HOST_ROOT;
 async function fixture(){
- const {createRosterGuard69}=await import(pathToFileURL(path.resolve(host,'server/match/routeAI/support/roster-restoration100.mjs')));
+ const {createRosterGuard69}=await import(pathToFileURL(path.resolve(host,'server/match/routeAI/support/roster-restoration.mjs')));
  const a={uid:1,kind:'chess'},b={uid:2,kind:'chess'},c={uid:3,kind:'chess'};
  let p={board:[a,b],hand:[],temp:[]};
  const guard=createRosterGuard69({observe:()=>({match:{private:p}}),keyOf:u=>u.uid===a.uid});

@@ -8,13 +8,13 @@ import { computeBonds, pieceBonds } from "../../bondsMeta.js";
 import { canPlace, legalTiles, parseKey, placeClass } from "../../board.js";
 import { LayoutPlan, LAYOUT_PARAMS, fieldModel, layoutValue, planLayout, rangeRec, rangeTiles } from "../../bot.js";
 import { previewPlayer } from "../../preview.js";
-import {projectPrepEnd48} from "./kjerag-prep48.mjs";
+import {projectPrepEnd48} from "./kjerag-preparation.mjs";
 import { bossFieldPlacement, bossPoolHp, SharedBossPool } from "../../finalAssault.js";
 import { bountySpawns } from "../../waves.js";
 import { deriveSeed } from "../../../sim/rng.js";
 import { bodyInRange } from "../../../sim/body.js";
 import { SELF_BOUND } from "../../../sim/content/bosses.js";
-import {bossFormationProposals57,healingCoverage57,chooseBossCandidate57} from "./kjerag-formation57.mjs";
+import {bossFormationProposals57,healingCoverage57,chooseBossCandidate57} from "./healing-coverage.mjs";
 
 const STREAMS = ['rngSetup', 'rngShop', 'rngWaves', 'rngDraft', 'rngBots', 'rngMeta'];
 const DIRECTIONS = ['RIGHT', 'UP', 'DOWN', 'LEFT'];

@@ -5,8 +5,8 @@ import * as arturia from './vendor/arturia/runtime.js';
 import * as lavinia from './vendor/lavinia/runtime.js';
 import * as arturiaPolicy from './vendor/arturia/policy/server/match/botDevelopment.js';
 import * as laviniaPolicy from './vendor/lavinia/policy/server/match/botDevelopment.js';
-import {cashFinishSteps102} from './support/cashFinish102.js';
-import {repairBossJob72} from './support/eliteBoss72.js';
+import {cashFinishSteps102} from './support/cash-finish.js';
+import {repairBossJob72} from './support/elite-boss-repair.js';
 import {routeFor,isUnifiedBot} from './routes.js';
 const finish=it=>{let s;do{s=it.next();}while(!s.done);return s.value;};
 export function runRoute(m,ps,{observe,handle,note=()=>{}}){

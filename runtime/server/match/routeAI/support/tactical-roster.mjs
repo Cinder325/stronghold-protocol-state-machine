@@ -8,7 +8,7 @@ import { createRehearsal, LayoutPlan, LAYOUT_PARAMS, planLayout } from "../../bo
 import assert from 'node:assert/strict';
 import {forecastLayerGains} from "./layerForecast.js";
 import {rotateOffset} from "../../../sim/dir.js";
-import {normalPreviewOptions48} from "./kjerag-preview48.mjs";
+import {normalPreviewOptions48} from "./wave-preview.mjs";
 
 const K = 'kjeragShip', SKILL = 'skillfulShip';
 const WHITE = 'chess_char_4_21_a', ARCHE = 'chess_char_3_21_a', HALO = 'chess_char_6_16_a';

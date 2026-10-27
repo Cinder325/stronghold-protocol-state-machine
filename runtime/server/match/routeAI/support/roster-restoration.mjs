@@ -5,7 +5,7 @@
 // a later intermediate roster score changes while that body is in the hand.
 // Modified 2026-10-26: readiness follows the current roster; historical withdrawn
 // reserves stay sale-protected but are not an extra mandatory deployment.
-import {applyPlacement47} from "./kjerag-placement100.mjs";
+import {applyPlacement47} from "./kjerag-placement.mjs";
 
 const owned=p=>[...p.board,...p.hand,...p.temp].filter(u=>u?.kind==='chess');
 export function createRosterGuard69({observe,keyOf=()=>false}={}){

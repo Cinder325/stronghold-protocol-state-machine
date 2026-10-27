@@ -209,7 +209,7 @@
     {
       "source": "runtime/server/match/routeAI/engine.js",
       "target": "server/match/routeAI/engine.js",
-      "sha256": "8338bc798d613f7a85eb441510b6ec9b6bb99d047bde295f6a6c1d25de3a8974"
+      "sha256": "26832f738e7a96a29c1cd7ec6f93983181e9984cbe3479faa524c7d0de7f8621"
     },
     {
       "source": "runtime/server/match/routeAI/index.js",
@@ -224,12 +224,12 @@
     {
       "source": "runtime/server/match/routeAI/policies/kjerag.mjs",
       "target": "server/match/routeAI/policies/kjerag.mjs",
-      "sha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a"
+      "sha256": "244b87a75f140f4068a1cb9f211df1511aff6950ebba070ba306e74d6e103214"
     },
     {
       "source": "runtime/server/match/routeAI/policies/sargon.mjs",
       "target": "server/match/routeAI/policies/sargon.mjs",
-      "sha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d"
+      "sha256": "5210e90c81329a04ad4508db6769fa44ce3661f2a8eae493f7b4b6d9cbfef3a5"
     },
     {
       "source": "runtime/server/match/routeAI/routes.js",
@@ -237,74 +237,74 @@
       "sha256": "983bc033f8a0530d8ce66ea729fad77ead70ce5a6aeb21f1ab06d2eaba73525e"
     },
     {
-      "source": "runtime/server/match/routeAI/support/cashFinish102.js",
-      "target": "server/match/routeAI/support/cashFinish102.js",
+      "source": "runtime/server/match/routeAI/support/cash-finish.js",
+      "target": "server/match/routeAI/support/cash-finish.js",
       "sha256": "bf3a71141c68785c57e938942f98b298c57664227440d8e22b1dbfecad1be4d0"
     },
     {
-      "source": "runtime/server/match/routeAI/support/eliteBoss72.js",
-      "target": "server/match/routeAI/support/eliteBoss72.js",
-      "sha256": "522c43de42cc8501f5f0fceb7cdb862276997ca22520b22ba84ff99d6d19a081"
+      "source": "runtime/server/match/routeAI/support/elite-boss-repair.js",
+      "target": "server/match/routeAI/support/elite-boss-repair.js",
+      "sha256": "65aa7453b600209d467f2a21090ca455ce25a31a9b82ec36810eaa4a58e8be5b"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-boss57.mjs",
-      "target": "server/match/routeAI/support/kjerag-boss57.mjs",
-      "sha256": "7a59d74bb07993c9f22862b43630c0d3d42ca708fb81d7a1c9dcd1342cedadb8"
+      "source": "runtime/server/match/routeAI/support/boss-planning.mjs",
+      "target": "server/match/routeAI/support/boss-planning.mjs",
+      "sha256": "8bc618c66776b949da5fe770cb2a69fdb2c46d7ab82ad4775696d92b3bb1f26d"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-bounty47.mjs",
-      "target": "server/match/routeAI/support/kjerag-bounty47.mjs",
-      "sha256": "81dcb4ae5b971d1b78d6fd42a557502cc0d028112fd3eabf6dc6fa4a59d2863a"
+      "source": "runtime/server/match/routeAI/support/bounty-selection.mjs",
+      "target": "server/match/routeAI/support/bounty-selection.mjs",
+      "sha256": "343f5e6144081c08aa0265c15bf7d14b9056b1aa60295be4136e67bdd33552a7"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-formation57.mjs",
-      "target": "server/match/routeAI/support/kjerag-formation57.mjs",
+      "source": "runtime/server/match/routeAI/support/healing-coverage.mjs",
+      "target": "server/match/routeAI/support/healing-coverage.mjs",
       "sha256": "b9ec34263f5f84210323fa4585658414b4368c73067d286c301feead8d8ebf00"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-opening47.mjs",
-      "target": "server/match/routeAI/support/kjerag-opening47.mjs",
+      "source": "runtime/server/match/routeAI/support/kjerag-opening.mjs",
+      "target": "server/match/routeAI/support/kjerag-opening.mjs",
       "sha256": "b731565c06f33952b7373c6a3e9aef6648d21d6a679dea6cf32f4a7bee3802fd"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-placement100.mjs",
-      "target": "server/match/routeAI/support/kjerag-placement100.mjs",
+      "source": "runtime/server/match/routeAI/support/kjerag-placement.mjs",
+      "target": "server/match/routeAI/support/kjerag-placement.mjs",
       "sha256": "ff43a38c0504b679b8d798d7ba7490ad79ab6ac4c19ef2d9926fe329a55a1a69"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-prep48.mjs",
-      "target": "server/match/routeAI/support/kjerag-prep48.mjs",
+      "source": "runtime/server/match/routeAI/support/kjerag-preparation.mjs",
+      "target": "server/match/routeAI/support/kjerag-preparation.mjs",
       "sha256": "688dce2be136557a80fe1dc94cc10bf8bd12ef0fe67a7c1cded15530c8231a8e"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-preview48.mjs",
-      "target": "server/match/routeAI/support/kjerag-preview48.mjs",
-      "sha256": "e6e784c46e3e70ec1478210c24269e7430ec93051568b49a696bad63191608b3"
+      "source": "runtime/server/match/routeAI/support/wave-preview.mjs",
+      "target": "server/match/routeAI/support/wave-preview.mjs",
+      "sha256": "60472302f46536b8ed3b13fd5cb563f64683771622b3b439b6d4e1010a8b363e"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-projection56.mjs",
-      "target": "server/match/routeAI/support/kjerag-projection56.mjs",
+      "source": "runtime/server/match/routeAI/support/promotion-projection.mjs",
+      "target": "server/match/routeAI/support/promotion-projection.mjs",
       "sha256": "65e24252952b095c134a608e3e821ca563a6755f634e0cf4f68c53b47459717a"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-reserve47.mjs",
-      "target": "server/match/routeAI/support/kjerag-reserve47.mjs",
+      "source": "runtime/server/match/routeAI/support/shop-reservation.mjs",
+      "target": "server/match/routeAI/support/shop-reservation.mjs",
       "sha256": "6f521709ff6663c34b2749c8864fe1bd2c12db56b9c08263b61674174085f30d"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-room103.mjs",
-      "target": "server/match/routeAI/support/kjerag-room103.mjs",
+      "source": "runtime/server/match/routeAI/support/purchase-capacity.mjs",
+      "target": "server/match/routeAI/support/purchase-capacity.mjs",
       "sha256": "587e1d41c5100b1197f48b27620d1e390e16956fc6278517bc240b0ec908069e"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-roster47.mjs",
-      "target": "server/match/routeAI/support/kjerag-roster47.mjs",
-      "sha256": "29cd96b2c11e54421d612f4a999eb7acb07a40244b48d0ade06c4b41b5862fa7"
+      "source": "runtime/server/match/routeAI/support/tactical-roster.mjs",
+      "target": "server/match/routeAI/support/tactical-roster.mjs",
+      "sha256": "705d3536d014dd18373af5dc7337b7d786459065648c6c4b08e00fd2bf92fef7"
     },
     {
-      "source": "runtime/server/match/routeAI/support/kjerag-search52.mjs",
-      "target": "server/match/routeAI/support/kjerag-search52.mjs",
-      "sha256": "d51579dfa51faa2b4ef91e3a00d1114e8a80eb956f9e02e1dbc327534fbe96bc"
+      "source": "runtime/server/match/routeAI/support/wave-search.mjs",
+      "target": "server/match/routeAI/support/wave-search.mjs",
+      "sha256": "6dc9a8ce99ed6c81aa01eaba93e47d67791f3b78fa15151e1614a54726a2f22d"
     },
     {
       "source": "runtime/server/match/routeAI/support/layerForecast.js",
@@ -312,9 +312,9 @@
       "sha256": "5ae1da53fc0257d751b692178373da9011dc10090511c65fd7bc38b90dfebb9b"
     },
     {
-      "source": "runtime/server/match/routeAI/support/roster-restoration100.mjs",
-      "target": "server/match/routeAI/support/roster-restoration100.mjs",
-      "sha256": "04d851e105741bc77a72cf33a9979452415ff0c4186d36e9eeedf26d8cb02530"
+      "source": "runtime/server/match/routeAI/support/roster-restoration.mjs",
+      "target": "server/match/routeAI/support/roster-restoration.mjs",
+      "sha256": "8129efff3e3568c2bc9a1a982c4f7243035f6fb8e0d424e511e7699758f2fe26"
     },
     {
       "source": "runtime/server/match/routeAI/support/sargon-cash.js",
@@ -322,14 +322,14 @@
       "sha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b"
     },
     {
-      "source": "runtime/server/match/routeAI/support/sargon-mechanics58.mjs",
-      "target": "server/match/routeAI/support/sargon-mechanics58.mjs",
+      "source": "runtime/server/match/routeAI/support/sargon-mechanics.mjs",
+      "target": "server/match/routeAI/support/sargon-mechanics.mjs",
       "sha256": "e4d44e59c9f6dafd8bbad61a136730be95c16276132da93389d114977b90f251"
     },
     {
-      "source": "runtime/server/match/routeAI/support/sargon-synergy73.mjs",
-      "target": "server/match/routeAI/support/sargon-synergy73.mjs",
-      "sha256": "a5bc88375c0f3fdd2c49e91af86f61dbd6d7f98b7ef31254b1b49422a477efb3"
+      "source": "runtime/server/match/routeAI/support/sargon-synergy.mjs",
+      "target": "server/match/routeAI/support/sargon-synergy.mjs",
+      "sha256": "3f29f51115dd7278a764fdd1e9060a46f71be72d254a375737488b2948cdeb8b"
     },
     {
       "source": "runtime/server/match/routeAI/testBans.js",
@@ -1275,6 +1275,76 @@
       "source": "runtime/server/routeLobby.js",
       "target": "server/routeLobby.js",
       "sha256": "6d806c35b9e2e9ff461c2736de4702ae81019fd06c7fb60d796a3e539bc1aeec"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/model.mjs",
+      "target": "server/match/routeAI/policies/kjerag/model.mjs",
+      "sha256": "4028ea72d15f808d9fd0799318d5fe16d1cf2c581a9230fa68b9cda22fa705fe"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/prep.mjs",
+      "target": "server/match/routeAI/policies/kjerag/prep.mjs",
+      "sha256": "48689e6d2e2b83e19f6d46b63566b5d0cf0cf55c11be9ef9c76e4fb9ef6b234f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/economy.mjs",
+      "target": "server/match/routeAI/policies/kjerag/economy.mjs",
+      "sha256": "2f713cc36a6ef300690051129c02f3b71f774330b57df4a3fbbf10507d119b95"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/roster.mjs",
+      "target": "server/match/routeAI/policies/kjerag/roster.mjs",
+      "sha256": "f7de3c2ca4c738867e089438e249b07ee31b305bd129738d0971518486d20938"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/procurement.mjs",
+      "target": "server/match/routeAI/policies/kjerag/procurement.mjs",
+      "sha256": "a2c24a3b5d7310288179189321661e433cd861b24ab88755347d4094036b0168"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/formation.mjs",
+      "target": "server/match/routeAI/policies/kjerag/formation.mjs",
+      "sha256": "8e28ffcffc0e3eca10fe95c3e80a7914ec001ebf2f47f71daea2c97b0d9f213e"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/equipment.mjs",
+      "target": "server/match/routeAI/policies/kjerag/equipment.mjs",
+      "sha256": "757b2cc803a7c8ca41553d104c44413ba7b48c7e85d27e091b1684ff5f36e0ab"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/kjerag/overflow.mjs",
+      "target": "server/match/routeAI/policies/kjerag/overflow.mjs",
+      "sha256": "a0932d05ec4989d4296bc093b5f5955f6c5a667e555f1a6a10b60022f81ff163"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/model.mjs",
+      "target": "server/match/routeAI/policies/sargon/model.mjs",
+      "sha256": "7fbbdccddbea2448d69f9a26ba7abf7127f77cba4c8e20ceb57ddb90749065f1"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/roster.mjs",
+      "target": "server/match/routeAI/policies/sargon/roster.mjs",
+      "sha256": "d351b00261b9e9af8ea01eaacddc795b0b5a8069421d60b46f41666f24364663"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/procurement.mjs",
+      "target": "server/match/routeAI/policies/sargon/procurement.mjs",
+      "sha256": "63bf8c4c3cbc4acae1da454faa4dd69d8af4f9c67d335008f96e74697978c26f"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/equipment.mjs",
+      "target": "server/match/routeAI/policies/sargon/equipment.mjs",
+      "sha256": "b3bfac60c1e49ba27f242ebbd6d750af1064498c9fcc6c0bd26d6310618b1634"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/formation.mjs",
+      "target": "server/match/routeAI/policies/sargon/formation.mjs",
+      "sha256": "2377d391b37c014d491bb9e4a7415b65fbcd643f7fa4c4df97833f9cfb28b302"
+    },
+    {
+      "source": "runtime/server/match/routeAI/policies/sargon/prep.mjs",
+      "target": "server/match/routeAI/policies/sargon/prep.mjs",
+      "sha256": "d75b3a1cc6b8797ed78eb74b88a93ac44faa3df83a96cacadd8f7d8b9f621dfe"
     }
   ],
   "patches": [

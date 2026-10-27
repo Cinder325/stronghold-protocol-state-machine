@@ -11,17 +11,18 @@
       "source": "local-policy",
       "sourcePath": "tools/kjerag-controller103.mjs",
       "sourceSha256": "2abaca663e62f9d15fbcfd71f3e267224564e57015c68ab5969b2b5e1bfd3787",
-      "sha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
-      "modified": true
+      "sha256": "244b87a75f140f4068a1cb9f211df1511aff6950ebba070ba306e74d6e103214",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
       "file": "runtime/server/match/routeAI/policies/sargon.mjs",
       "source": "local-policy",
       "sourcePath": "tools/sargon-controller100.mjs",
       "sourceSha256": "a257f94f54de891994bd6169c1948cbbfdaeebc110aa4bcebfc38d5fe1fe54d7",
-      "sha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "5210e90c81329a04ad4508db6769fa44ce3661f2a8eae493f7b4b6d9cbfef3a5",
       "modified": true,
-      "modification": "2026-10-26: confirm real hand room after native overflow refill; bounded pending-offer completion before Ready."
+      "modification": "2026-10-26: confirm real hand room after native overflow refill; bounded pending-offer completion before Ready.; 2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
       "file": "runtime/server/match/routeAI/vendor/arturia/runtime.js",
@@ -42,7 +43,7 @@
       "derivedFrom": "Stronghold-Protocol-AI@4115c0f228e5c38eae4bf88b24b50ae5c57e4d9e"
     },
     {
-      "file": "runtime/server/match/routeAI/support/cashFinish102.js",
+      "file": "runtime/server/match/routeAI/support/cash-finish.js",
       "source": "local-policy",
       "sourcePath": "server/match/cashFinish102.js",
       "sourceSha256": "f9f21187de95b57fbcfa215a4ed2a32cc10fe5051496fb93b107af8016344512",
@@ -51,15 +52,16 @@
       "modification": "2026-10-25: native legal hand-capacity and end-of-prep cash repair"
     },
     {
-      "file": "runtime/server/match/routeAI/support/eliteBoss72.js",
+      "file": "runtime/server/match/routeAI/support/elite-boss-repair.js",
       "source": "local-policy",
       "sourcePath": "server/match/eliteBoss72.js",
       "sourceSha256": "e2985456dd9ca809a1a7bf09eeb4a79a5430e5fa132498b94b8c9292038cd135",
-      "sha256": "522c43de42cc8501f5f0fceb7cdb862276997ca22520b22ba84ff99d6d19a081",
-      "modified": true
+      "sha256": "65aa7453b600209d467f2a21090ca455ce25a31a9b82ec36810eaa4a58e8be5b",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved.; 2026-10-27: semantic support filename/import rename only."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-room103.mjs",
+      "file": "runtime/server/match/routeAI/support/purchase-capacity.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-room103.mjs",
       "sourceSha256": "587e1d41c5100b1197f48b27620d1e390e16956fc6278517bc240b0ec908069e",
@@ -67,7 +69,7 @@
       "modified": false
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-placement100.mjs",
+      "file": "runtime/server/match/routeAI/support/kjerag-placement.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-placement100.mjs",
       "sourceSha256": "58b8716b4015c7f0af9569962bdf09822fb0485e7731c9eb0626e7f21132d0a2",
@@ -83,15 +85,16 @@
       "modified": true
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-roster47.mjs",
+      "file": "runtime/server/match/routeAI/support/tactical-roster.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-roster47.mjs",
       "sourceSha256": "7b687257480c8575973ed99c296a0011d108f4adf3b1208c04550d0c4efc124a",
-      "sha256": "29cd96b2c11e54421d612f4a999eb7acb07a40244b48d0ade06c4b41b5862fa7",
-      "modified": true
+      "sha256": "705d3536d014dd18373af5dc7337b7d786459065648c6c4b08e00fd2bf92fef7",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-opening47.mjs",
+      "file": "runtime/server/match/routeAI/support/kjerag-opening.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-opening47.mjs",
       "sourceSha256": "b731565c06f33952b7373c6a3e9aef6648d21d6a679dea6cf32f4a7bee3802fd",
@@ -99,7 +102,7 @@
       "modified": false
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-reserve47.mjs",
+      "file": "runtime/server/match/routeAI/support/shop-reservation.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-reserve47.mjs",
       "sourceSha256": "6f521709ff6663c34b2749c8864fe1bd2c12db56b9c08263b61674174085f30d",
@@ -107,23 +110,25 @@
       "modified": false
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-bounty47.mjs",
+      "file": "runtime/server/match/routeAI/support/bounty-selection.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-bounty47.mjs",
       "sourceSha256": "8602004513bd7f2e53bf177cc3ca5d934fc2b12e45138b6f590c683d390c4eef",
-      "sha256": "81dcb4ae5b971d1b78d6fd42a557502cc0d028112fd3eabf6dc6fa4a59d2863a",
-      "modified": true
+      "sha256": "343f5e6144081c08aa0265c15bf7d14b9056b1aa60295be4136e67bdd33552a7",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-boss57.mjs",
+      "file": "runtime/server/match/routeAI/support/boss-planning.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-boss57.mjs",
       "sourceSha256": "231a3994117e138fec1209967787cfceb5a1e4870564e83808d834064064e9bf",
-      "sha256": "7a59d74bb07993c9f22862b43630c0d3d42ca708fb81d7a1c9dcd1342cedadb8",
-      "modified": true
+      "sha256": "8bc618c66776b949da5fe770cb2a69fdb2c46d7ab82ad4775696d92b3bb1f26d",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-projection56.mjs",
+      "file": "runtime/server/match/routeAI/support/promotion-projection.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-projection56.mjs",
       "sourceSha256": "65e24252952b095c134a608e3e821ca563a6755f634e0cf4f68c53b47459717a",
@@ -131,32 +136,34 @@
       "modified": false
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-search52.mjs",
+      "file": "runtime/server/match/routeAI/support/wave-search.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-search52.mjs",
       "sourceSha256": "298a6e2d5a2a094de569d5a1451ef0f856f1fde6272891d698f656ba2f00c84b",
-      "sha256": "d51579dfa51faa2b4ef91e3a00d1114e8a80eb956f9e02e1dbc327534fbe96bc",
-      "modified": true
+      "sha256": "6dc9a8ce99ed6c81aa01eaba93e47d67791f3b78fa15151e1614a54726a2f22d",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-preview48.mjs",
+      "file": "runtime/server/match/routeAI/support/wave-preview.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-preview48.mjs",
       "sourceSha256": "586c063f439b6d411ecded4407b419336629f8e5380cc491c4d719119071e34c",
-      "sha256": "e6e784c46e3e70ec1478210c24269e7430ec93051568b49a696bad63191608b3",
-      "modified": true
+      "sha256": "60472302f46536b8ed3b13fd5cb563f64683771622b3b439b6d4e1010a8b363e",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/roster-restoration100.mjs",
+      "file": "runtime/server/match/routeAI/support/roster-restoration.mjs",
       "source": "local-policy",
       "sourcePath": "tools/roster-restoration100.mjs",
       "sourceSha256": "ecf612d1814f90ffa28042736923f2c107f7ad9d4342a14acd4cbc45f0995b73",
-      "sha256": "04d851e105741bc77a72cf33a9979452415ff0c4186d36e9eeedf26d8cb02530",
+      "sha256": "8129efff3e3568c2bc9a1a982c4f7243035f6fb8e0d424e511e7699758f2fe26",
       "modified": true,
-      "modification": "2026-10-26: only the current roster blocks readiness; historical withdrawn reserves remain sale-protected."
+      "modification": "2026-10-26: only the current roster blocks readiness; historical withdrawn reserves remain sale-protected.; 2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-formation57.mjs",
+      "file": "runtime/server/match/routeAI/support/healing-coverage.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-formation57.mjs",
       "sourceSha256": "f50cef3e3d981dc2e45b41aaeb277745a4b932e3e9679a0a16957f6072b1ee51",
@@ -164,15 +171,16 @@
       "modified": true
     },
     {
-      "file": "runtime/server/match/routeAI/support/sargon-synergy73.mjs",
+      "file": "runtime/server/match/routeAI/support/sargon-synergy.mjs",
       "source": "local-policy",
       "sourcePath": "tools/sargon-synergy73.mjs",
       "sourceSha256": "f1fb12a0070ef8284c43599f0d9277c3fdd5607822cfe7ecb67c96909e94d40b",
-      "sha256": "a5bc88375c0f3fdd2c49e91af86f61dbd6d7f98b7ef31254b1b49422a477efb3",
-      "modified": true
+      "sha256": "3f29f51115dd7278a764fdd1e9060a46f71be72d254a375737488b2948cdeb8b",
+      "modified": true,
+      "modification": "2026-10-27: responsibility-based module extraction or semantic import/path rename only; decision declarations preserved."
     },
     {
-      "file": "runtime/server/match/routeAI/support/sargon-mechanics58.mjs",
+      "file": "runtime/server/match/routeAI/support/sargon-mechanics.mjs",
       "source": "local-policy",
       "sourcePath": "tools/sargon-mechanics58.mjs",
       "sourceSha256": "342c0ed333933704c7056dff7844faa456485977d3c183707293aa32c69375c5",
@@ -198,7 +206,7 @@
       "upstreamPath": "policy/server/match/botDevelopment.js"
     },
     {
-      "file": "runtime/server/match/routeAI/support/kjerag-prep48.mjs",
+      "file": "runtime/server/match/routeAI/support/kjerag-preparation.mjs",
       "source": "local-policy",
       "sourcePath": "tools/kjerag-prep48.mjs",
       "sourceSha256": "26cf3e9ad420a41cc33760b3d80ecad6a7233790bf802963850890f886dcd896",
@@ -1835,6 +1843,132 @@
       "sourceSha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b",
       "sha256": "3024ce3e193cbf7ddaeae9f87475fdb100e70d564bd386670ee42e7181aa560b",
       "modified": false
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/model.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#model",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "4028ea72d15f808d9fd0799318d5fe16d1cf2c581a9230fa68b9cda22fa705fe",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/prep.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#prep",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "48689e6d2e2b83e19f6d46b63566b5d0cf0cf55c11be9ef9c76e4fb9ef6b234f",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/economy.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#economy",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "2f713cc36a6ef300690051129c02f3b71f774330b57df4a3fbbf10507d119b95",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/roster.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#roster",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "f7de3c2ca4c738867e089438e249b07ee31b305bd129738d0971518486d20938",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/procurement.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#procurement",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "a2c24a3b5d7310288179189321661e433cd861b24ab88755347d4094036b0168",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/formation.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#formation",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "8e28ffcffc0e3eca10fe95c3e80a7914ec001ebf2f47f71daea2c97b0d9f213e",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/equipment.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#equipment",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "757b2cc803a7c8ca41553d104c44413ba7b48c7e85d27e091b1684ff5f36e0ab",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/kjerag/overflow.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/kjerag.mjs#overflow",
+      "sourceSha256": "abbf2709206d26503749122e579e523d6d84a909e2293a442e2880b57e7eaf9a",
+      "sha256": "a0932d05ec4989d4296bc093b5f5955f6c5a667e555f1a6a10b60022f81ff163",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/model.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#model",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "7fbbdccddbea2448d69f9a26ba7abf7127f77cba4c8e20ceb57ddb90749065f1",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/roster.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#roster",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "d351b00261b9e9af8ea01eaacddc795b0b5a8069421d60b46f41666f24364663",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/procurement.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#procurement",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "63bf8c4c3cbc4acae1da454faa4dd69d8af4f9c67d335008f96e74697978c26f",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/equipment.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#equipment",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "b3bfac60c1e49ba27f242ebbd6d750af1064498c9fcc6c0bd26d6310618b1634",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/formation.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#formation",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "2377d391b37c014d491bb9e4a7415b65fbcd643f7fa4c4df97833f9cfb28b302",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
+    },
+    {
+      "file": "runtime/server/match/routeAI/policies/sargon/prep.mjs",
+      "source": "local-policy",
+      "sourcePath": "runtime/server/match/routeAI/policies/sargon.mjs#prep",
+      "sourceSha256": "a5cf420f89c169661783fb50ebd5b89a2a27f9e12b0f8a83be03f8c43313214d",
+      "sha256": "d75b3a1cc6b8797ed78eb74b88a93ac44faa3df83a96cacadd8f7d8b9f621dfe",
+      "modified": true,
+      "modification": "2026-10-27: extracted original declaration bodies, unchanged decision logic; semantic module name."
     }
   ],
   "hostImports": [
@@ -1969,6 +2103,63 @@
       "version": "0.3.3",
       "repository": "sganggs/Stronghold-Protocol",
       "commit": "f07b8965061bbc311ad7aa815879b09264a1e47d"
+    }
+  ],
+  "projectFiles": [
+    {
+      "file": "runtime/public/js/routeAI.js",
+      "source": "project-integration",
+      "sha256": "21bdb1de1880d0f29089ba4d5a3c95be2c286291546d3ea6499ef7bdf982ac07"
+    },
+    {
+      "file": "runtime/public/js/routeBanMemory.js",
+      "source": "project-integration",
+      "sha256": "bb907b1f69fc1a753d5dcd2264954a8ca9e2d1ce671e4520254bae1c395d9cca"
+    },
+    {
+      "file": "runtime/server/match/routeAI/driver.js",
+      "source": "project-integration",
+      "sha256": "d861c7464fd7bcb7f35c64902639cf62e47ccf053482190a1ac27306500f54be"
+    },
+    {
+      "file": "runtime/server/match/routeAI/engine.js",
+      "source": "project-integration",
+      "sha256": "26832f738e7a96a29c1cd7ec6f93983181e9984cbe3479faa524c7d0de7f8621"
+    },
+    {
+      "file": "runtime/server/match/routeAI/index.js",
+      "source": "project-integration",
+      "sha256": "81f5cd94765132ef98eb907b39d99b44d6e8ac816d60af4f5c27724c8b32bba0"
+    },
+    {
+      "file": "runtime/server/match/routeAI/nativeDamage.js",
+      "source": "project-integration",
+      "sha256": "19212cdc99e9cf4282c9048e74426ee970dbee42f9d529a3c279b9b50e62e654"
+    },
+    {
+      "file": "runtime/server/match/routeAI/routes.js",
+      "source": "project-integration",
+      "sha256": "983bc033f8a0530d8ce66ea729fad77ead70ce5a6aeb21f1ab06d2eaba73525e"
+    },
+    {
+      "file": "runtime/server/match/routeAI/testBans.js",
+      "source": "project-integration",
+      "sha256": "14051cc7ff290c0f7da430261090bfc67313cd8f6dfc2c0d9063f08e8c4cc05b"
+    },
+    {
+      "file": "runtime/server/match/routeAI/transport.js",
+      "source": "project-integration",
+      "sha256": "0a1feee815e5e4684530824ac775cb0bcc4ffbad35ef1d2809e4a899d482e2b3"
+    },
+    {
+      "file": "runtime/server/match/routeAI/worker.js",
+      "source": "project-integration",
+      "sha256": "0065f4dd6c3c2adc1d85232e8a88a2ba5b9ad4a4dcd2c83045976434b34c44b1"
+    },
+    {
+      "file": "runtime/server/routeLobby.js",
+      "source": "project-integration",
+      "sha256": "6d806c35b9e2e9ff461c2736de4702ae81019fd06c7fb60d796a3e539bc1aeec"
     }
   ]
 }

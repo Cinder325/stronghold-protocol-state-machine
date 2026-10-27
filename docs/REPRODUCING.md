@@ -11,6 +11,8 @@
 
 通过原始源码准备宿主时，运行其正常 `npm ci` 流程以生成浏览器依赖。仅测试服务端时可以遵循 CI 的 `npm ci --ignore-scripts`，但此方式不能据此宣称浏览器已可运行。
 
+无需Git的使用者可从README的固定源码包链接准备同一基线，再用 `install.cmd` 或 `node scripts/setup.mjs` 选择文件夹。引导入口只调用同一安装器的dry-run与正式执行；不自动检出提交、下载依赖或绕过校验。代码职责和旧文件名映射见[CODEMAP.md](CODEMAP.md)。
+
 ## 单元、宿主和界面
 
 ```sh

@@ -55,8 +55,12 @@ checksums of adapted files.
 
 Arknights and its characters, names, game data, portraits, models, graphics,
 music and voices belong to their respective rights holders, including Hypergryph
-and its authorised partners. No game artwork, audio, generated game-data bundle,
-personal save or player recording is distributed here. The addon reuses asset
+and its authorised partners. No standalone game artwork, audio, generated game-data bundle,
+personal save or player recording is distributed here. One reviewed static gameplay
+preview is included at `docs/media/public-addon-preview.webp` solely to illustrate
+the public addon running on the host. Its game imagery remains owned by the respective
+rights holders; this repository grants no standalone game-asset licence. No extracted
+asset pack is included. The addon reuses asset
 identifiers already provided by a separately installed host game.
 
 This is an unofficial, non-commercial fan extension. It is not affiliated with,

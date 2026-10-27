@@ -3,11 +3,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+import {inspectWebP} from './preview-image.mjs';
 
 export const RELEASE_LIMIT_BYTES = 20 * 1024 * 1024;
 export const RELEASE_FILE_LIMIT_BYTES = 2 * 1024 * 1024;
 const ROOT_FILES = new Set([
-  'README.md','LICENSE','NOTICE','NOTICE.md','THIRD-PARTY-NOTICES.md','CONTRIBUTING.md',
+  'README.md','README.en.md','install.cmd','uninstall.cmd','LICENSE','NOTICE','NOTICE.md','THIRD-PARTY-NOTICES.md','CONTRIBUTING.md',
   'SECURITY.md','CHANGELOG.md','.gitignore','.gitattributes','package.json','package-lock.json',
   'addon-manifest.json','provenance.json','RELEASE-MANIFEST.json','RELEASE-READY.json',
 ]);
@@ -73,9 +75,18 @@ export function auditRelease({root=path.resolve(import.meta.dirname,'..'),privat
     if(PRIVATE_PATH_PART.test(norm))fail(norm,'NONPUBLIC_FILE');
     if(!norm.includes('/')&&!ROOT_FILES.has(norm))fail(norm,'ROOT_FILE_NOT_ALLOWLISTED');
     const base=path.posix.basename(norm),ext=path.posix.extname(norm).toLowerCase();
-    if(!EXTENSIONS.has(ext)&&!/^LICENSE(?:[-_.][A-Za-z0-9.-]+)?$|^NOTICE(?:[-_.][A-Za-z0-9.-]+)?$/.test(base)&&!ROOT_FILES.has(norm))fail(norm,'FILE_TYPE_NOT_ALLOWLISTED');
+    if(!EXTENSIONS.has(ext)&&!/^LICENSE(?:[-_.][A-Za-z0-9.-]+)?$|^NOTICE(?:[-_.][A-Za-z0-9.-]+)?$/.test(base)&&!ROOT_FILES.has(norm)&&norm!=='docs/media/public-addon-preview.webp')fail(norm,'FILE_TYPE_NOT_ALLOWLISTED');
     if(stat.size>maxFileBytes){fail(norm,'FILE_EXCEEDS_COMPACT_LIMIT');return;}
     const bytes=fs.readFileSync(file);let text;
+    if(norm==='docs/media/public-addon-preview.webp'){
+      // Exact path, tight size cap, image grammar and reviewed hash. Other images/binaries stay forbidden.
+      try{
+        const receipt=JSON.parse(fs.readFileSync(path.join(root,'docs/media/PREVIEW.json'),'utf8'));
+        if(stat.size>512*1024||receipt.sha256!==createHash('sha256').update(bytes).digest('hex')||receipt.privacyReviewed!==true)throw Error('review');
+        inspectWebP(bytes);
+      }catch{fail(norm,'PREVIEW_IMAGE_REVIEW_FAILED');}
+      return;
+    }
     try {text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);if(bytes.includes(0))throw Error('binary');}
     catch {fail(norm,'NON_TEXT_FILE');return;}
     const expanded=expandedText(text);

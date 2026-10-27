@@ -1,10 +1,28 @@
 # 卫戍协议四路线协同 AI
 
+[English](README.en.md) · [下载扩展](https://github.com/Cinder325/stronghold-protocol-state-machine/releases/latest) · [代码导航](docs/CODEMAP.md)
+
+Four coordinated state-machine teammate AIs for Stronghold Protocol: **Laterano / Kjerag / Sargon / Siracusa**. Lightweight, offline, no extra npm dependencies. [English quick start →](README.en.md)
+
 **v0.1.0 · 非官方、非商业的队友 AI 扩展。** 为 [Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) 的「卫戍协议：盟约」增加一个“协同四路线AI”选项。最多四个实例分别经营拉特兰、谢拉格、萨尔贡、叙拉古，避免重复主路线。使用状态机和有限模拟搜索，不包含神经网络权重。
+
+**2026-10-27 维护整理：**按职责拆分谢拉格/萨尔贡策略、整理17个自有支持文件名，保留原有导出接口和决策正文；新增引导安装、英文简介与实机预览。本次不改变策略参数，也不新增长期策略评估。详见[代码导航](docs/CODEMAP.md)和[维护核验](docs/MAINTENANCE-2026-10-27.md)。
 
 **2026-10-26 同版本修复：**修正萨尔贡腾位后被临时牌自动补满、领取奖励失败后不再就绪的问题，并补齐收尾待选奖励处理；核心牌保护保留。版本号仍为0.1.0，旧提交可追溯。已安装旧包的用户须先卸载已安装修订，再安装新包；新包的卸载器可校验并恢复旧安装记录，先执行dry-run。同版本的不同清单仍会被拒绝直接覆盖。[原因、回归与更新方法](docs/READY-HOTFIX.md)。
 
-本包只提供队友策略、接入补丁、测试模式及复现工具，不包含游戏本体、美术、声音、存档、个人操作轨迹或录制功能。头像引用宿主已有的塑心素材标识。首次版本仍有局限，欢迎通过 Issues 提交可复现问题。
+本包只提供队友策略、接入补丁、测试模式及复现工具，另附一张经过检查的实机预览图；不包含游戏本体、独立美术素材、声音、存档、个人操作轨迹或录制功能。头像引用宿主已有的塑心素材标识。首次版本仍有局限，欢迎通过 Issues 提交可复现问题。
+
+![公开版AI在原版模拟器中的实机运行画面](docs/media/public-addon-preview.webp)
+
+原版0.3.1＋本公开扩展的匿名测试实机画面，使用原版队友栏切换视角。截图只用于说明界面，不代表通关或胜率；不含本地私人四视角录制功能。
+
+## 快速开始（无需操作 Git）
+
+1. 先安装 **Node.js 22+**，按原版说明装好可运行的模拟器。可直接下载已验证的 [0.3.3 源码包](https://github.com/sganggs/Stronghold-Protocol/archive/f07b8965061bbc311ad7aa815879b09264a1e47d.zip)或 [0.3.1 源码包](https://github.com/sganggs/Stronghold-Protocol/archive/b3deebdae4a92642c007d217a1a4573e5d3612c5.zip)，无需自行检出提交。
+2. [下载并解压扩展](https://github.com/Cinder325/stronghold-protocol-state-machine/releases/latest)，关闭游戏服务器。
+3. Windows 双击 **`install.cmd`**，粘贴或拖入游戏文件夹，检查安装计划后确认；其它系统在扩展文件夹运行 `node scripts/setup.mjs`。重新启动游戏、刷新页面，在同盟房间添加“协同四路线AI”。
+
+卸载双击 `uninstall.cmd`，或运行 `node scripts/setup.mjs --action uninstall`。已有旧修订先卸载再装新版。引导入口复用同一套严格校验和可逆安装逻辑；原有命令行方法保留如下。
 
 ## 支持版本
 
@@ -13,7 +31,7 @@
 | 0.3.1 | `b3deebdae4a92642c007d217a1a4573e5d3612c5` | 可逆安装、四路线 Worker 开局、队友/观战接入、浏览器控件 |
 | 0.3.3 | `f07b8965061bbc311ad7aa815879b09264a1e47d` | 上述验证，及下述十局终极模拟 |
 
-2026-10-25 核验时，上游最新正式版为 **0.3.3**。支持原始「盟约」内容；其他历史活动版本、改变玩法的内容插件、已修改的宿主文件及未来版本不在本版兼容承诺内。安装器同时核对版本、源文件哈希和唯一补丁锚点，遇到未知改动会停止，不会整文件覆盖。
+2026-10-25 核验时，上游最新正式版为 **0.3.3**。支持原始「盟约」内容；其他历史活动版本、改变玩法的内容插件、已修改的宿主文件及未来版本不在本版兼容承诺内。安装器同时核对版本、源文件哈希和唯一补丁锚点，遇到未知改动会停止，不会整文件覆盖。**固定提交用于说明验证基线，不要求用户使用Git；下载上面对应的原版源码包即可。**
 
 ## 安装与卸载
 
@@ -156,6 +174,7 @@ node scripts/benchmark.mjs --host ../Stronghold-Protocol --out ./benchmarks/loca
 
 `verify-host` 会向明确指定的兼容宿主安装本扩展，请使用单独的测试副本。benchmark 输出文件必须尚不存在；固定种子和源码摘要在开局前写入，保留每局结果，包括失败和未进入第15轮。它不生成视频或操作录制。涉及宿主的集成测试另见 [复现说明](docs/REPRODUCING.md)。
 
+- [代码导航](docs/CODEMAP.md)：职责模块、共享工具、第三方目录与历史名称映射。
 - [状态机设计](docs/DESIGN.md)：路线分配、资源决策、阵型搜索与宿主边界。
 - [兼容性与发布审查](docs/RELEASE-REVIEW.md)：本次检查范围和未覆盖场景。
 - [安装清单](addon-manifest.json)：安装文件及精确哈希、接入锚点。

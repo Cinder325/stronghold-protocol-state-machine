@@ -10,7 +10,7 @@ import {canPlace,legalTiles,parseKey,placeClass} from "../../board.js";
 import {computeBonds,pieceBonds} from "../../bondsMeta.js";
 import {forecastLayerGains} from "./layerForecast.js";
 import {rotateOffset} from "../../../sim/dir.js";
-import {normalPreviewOptions48} from "./kjerag-preview48.mjs";
+import {normalPreviewOptions48} from "./wave-preview.mjs";
 
 const RNGS=['rngSetup','rngShop','rngWaves','rngDraft','rngBots','rngMeta'];
 const DIRS=['RIGHT','UP','DOWN','LEFT'];

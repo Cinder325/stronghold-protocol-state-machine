@@ -2,7 +2,7 @@
 // Modified 2026-10-25: import adaptation and teammate-only integration; see provenance.json.
 // Preserve the supplier's selected formation as the control for our optional pair-safe boss repair.
 import {LayoutPlan} from "../../bot.js";
-import {planBoss47} from "./kjerag-boss57.mjs";
+import {planBoss47} from "./boss-planning.mjs";
 export function repairBossJob72(m,ps,job){
  if(m.opts?.requireCs||m.opts?.modded||m.wave||![m.gd.bossRound,m.gd.hiddenRound].includes(m.round)||!m.bossGroupOf(ps))return job;
  const chosen=job?.chosen||[...ps.board.values()].filter(u=>u.kind==='chess');if(!chosen.length)return job;

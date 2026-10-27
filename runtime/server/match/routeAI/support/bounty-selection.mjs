@@ -4,7 +4,7 @@
 import {Battle} from "../../../sim/Battle.js";
 import {rehearsalCap} from "../../../sim/rehearsal.js";
 import {bountyBattles} from "../../choices.js";
-import {normalPreviewOptions48} from "./kjerag-preview48.mjs";
+import {normalPreviewOptions48} from "./wave-preview.mjs";
 
 const RNGS=['rngSetup','rngShop','rngWaves','rngDraft','rngBots','rngMeta'];
 const snapshot=(m,ps)=>JSON.stringify({private:ps.privateView(),bounties:ps.bounties,

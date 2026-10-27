@@ -3,7 +3,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
-import {cashFinish102,passiveCarrier102} from '../runtime/server/match/routeAI/support/cashFinish102.js';
+import {cashFinish102,passiveCarrier102} from '../runtime/server/match/routeAI/support/cash-finish.js';
 import {blockedRecruitmentTool} from '../runtime/server/match/routeAI/support/sargon-cash.js';
 
 const host=process.env.SP_HOST_ROOT;

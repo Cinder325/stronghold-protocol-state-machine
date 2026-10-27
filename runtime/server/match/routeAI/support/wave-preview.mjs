@@ -2,7 +2,7 @@
 // Modified 2026-10-25: import adaptation and teammate-only integration; see provenance.json.
 // Research-only preparation projection shared by every current-wave preview.
 // Native rules and real PlayerState remain unchanged; preview fields are never recordings.
-import {projectPrepEnd48} from "./kjerag-prep48.mjs";
+import {projectPrepEnd48} from "./kjerag-preparation.mjs";
 
 export function normalPreviewOptions48(m,ps,{board=ps.board}={}){
   const selected=new Set([...board.values()].map(u=>u.uid)),copy=Object.create(ps);

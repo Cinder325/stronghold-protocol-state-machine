@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "file": "public-addon-preview.webp",
+  "sha256": "94243dc2cd922667235520a7e2fae280398af1f31b7879a6d8cac1b141337835",
+  "bytes": 134666,
+  "width": 1920,
+  "height": 1080,
+  "capturedDate": "2026-10-27",
+  "source": "Original Stronghold-Protocol 0.3.1 with this public addon only",
+  "round": 3,
+  "phase": "COMBAT",
+  "seed": 111005,
+  "intervalMs": 300,
+  "privacyReviewed": true,
+  "metadataRemoved": [
+    "ICCP"
+  ],
+  "privacy": "Separate anonymous profile, game viewport only; no desktop, address bar, account, local path or private replay/recording UI",
+  "rights": "Game imagery belongs to its respective rights holders. Gameplay preview only; no standalone asset licence."
+}
